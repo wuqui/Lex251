@@ -1,0 +1,165 @@
+<style>
+/* Header positioned outside slides but inside reveal */
+.reveal header.slide-header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  height: 50px;
+  background: linear-gradient(135deg, #23373b 0%, #2d4a50 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 2em;
+  font-size: 1.2em;
+  font-weight: 600;
+  z-index: 1000;
+  border-bottom: 2px solid #eb811b;
+  border-radius: 5px;
+}
+
+/* Use CSS content to show headers on specific slides */
+.foo-header header.slide-header:after { 
+  content: "foo"; 
+}
+
+.general-purpose-dictionaries header.slide-header:after { 
+  content: "Types of Dictionaries | General Purpose Dictionaries"; 
+}
+
+.bilingual-and-multilingual-dictionaries header.slide-header:after { 
+  content: "Types of Dictionaries | Bilingual and Multilingual Dictionaries"; 
+}
+
+.specialized-dictionaries header.slide-header:after { 
+  content: "Types of Dictionaries | Specialized Dictionaries"; 
+}
+
+.diachronic-and-synchronic-dictionaries header.slide-header:after { 
+  content: "Types of Dictionaries | Diachronic and Synchronic Dictionaries"; 
+}
+
+.learners-dictionaries header.slide-header:after { 
+  content: "Types of Dictionaries | Learner's Dictionaries"; 
+}
+
+.oxford-english-dictionary-oed header.slide-header:after { 
+  content: "Specific Examples of Dictionaries | Oxford English Dictionary"; 
+}
+
+.wiktionary header.slide-header:after { 
+  content: "Specific Examples of Dictionaries | Wiktionary"; 
+}
+
+.urban-dictionary header.slide-header:after { 
+  content: "Specific Examples of Dictionaries | Urban Dictionary"; 
+}
+
+.other-major-dictionaries header.slide-header:after { 
+  content: "Specific Examples of Dictionaries | Other Major Dictionaries"; 
+}
+
+.applications-in-linguistic-research header.slide-header:after { 
+  content: "Applications in Linguistic Research"; 
+}
+
+/* Adjust slide content to account for header */
+.reveal .slides section {
+  padding-top: 80px !important;
+}
+</style>
+
+<script>
+function addSlideHeaders() {
+  console.log('Adding slide headers...');
+  
+  // Find all level1 sections (H1 sections)
+  const level1Sections = document.querySelectorAll('.reveal .slides > section');
+  console.log('Found', level1Sections.length, 'level1 sections');
+  
+  level1Sections.forEach((level1Section, i) => {
+    // Get the H1 title from this section
+    const h1 = level1Section.querySelector('h1');
+    const sectionTitle = h1 ? h1.textContent.trim() : '';
+    console.log('Section', i, 'title:', sectionTitle);
+    
+    // Find all level2 slides within this section
+    const level2Slides = level1Section.querySelectorAll('section.slide.level2');
+    console.log('Found', level2Slides.length, 'level2 slides in section', i);
+    
+    level2Slides.forEach((slide, j) => {
+      console.log('Processing slide', i, j, 'content:', slide.textContent.substring(0, 30));
+      
+      // Remove existing headers
+      const existingHeader = slide.querySelector('.slide-header');
+      if (existingHeader) {
+        existingHeader.remove();
+      }
+      
+      // Check if this slide has its own H2
+      const h2 = slide.querySelector('h2');
+      const subsectionTitle = h2 ? h2.textContent.trim() : '';
+      
+      // Add header based on what titles we have
+      let headerContent = '';
+      if (subsectionTitle) {
+        // This slide has its own H2, show section + subsection
+        if (sectionTitle && sectionTitle !== subsectionTitle) {
+          headerContent += `<span class="section-title">${sectionTitle}</span>`;
+        }
+        headerContent += `<span class="subsection-title">${subsectionTitle}</span>`;
+      } else if (sectionTitle) {
+        // This slide has no H2, show just the section title
+        headerContent += `<span class="subsection-title">${sectionTitle}</span>`;
+      }
+      
+      if (headerContent) {
+        console.log('Adding header to slide', i, j, ':', headerContent);
+        const header = document.createElement('div');
+        header.className = 'slide-header';
+        header.innerHTML = headerContent;
+        slide.appendChild(header);
+      } else {
+        console.log('No header content for slide', i, j);
+      }
+    });
+  });
+}
+
+// Try multiple approaches to ensure it runs
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(addSlideHeaders, 100);
+});
+
+// Also try when window loads
+window.addEventListener('load', function() {
+  setTimeout(addSlideHeaders, 100);
+});
+
+// And when Reveal.js is ready
+if (typeof Reveal !== 'undefined') {
+  Reveal.on('ready', addSlideHeaders);
+} else {
+  // If Reveal isn't loaded yet, try again later
+  setTimeout(function() {
+    if (typeof Reveal !== 'undefined') {
+      Reveal.on('ready', addSlideHeaders);
+    }
+  }, 500);
+}
+
+// Handle Reveal.js state changes
+if (typeof Reveal !== 'undefined') {
+  Reveal.on('ready', function() {
+    console.log('Reveal.js ready');
+  });
+} else {
+  setTimeout(function() {
+    if (typeof Reveal !== 'undefined') {
+      Reveal.on('ready', function() {
+        console.log('Reveal.js ready (delayed)');
+      });
+    }
+  }, 1000);
+}
+</script> 
