@@ -1,5 +1,5 @@
 ---
-jupyter: qw
+jupyter: python3
 ---
 
 # Input data
