@@ -1,0 +1,14 @@
+::: {.incremental}
+- **Sociolinguistics**: Variation patterns in any linguistic feature
+    - *ain't* vs *am not* across education levels
+- **Historical linguistics**: Change mechanisms across language levels  
+    - COHA collocates of *gay* showing semantic shift over time
+- **Corpus linguistics**: Empirical validation of theoretical claims
+    - word sketch comparison of *bro* vs *brother* in Sketch Engine
+- **Applied linguistics**: Language teaching and lexicography
+    - designing vocabulary lessons using learner’s dictionary entries for *house*, *algorithm*, and *selfie*, comparing definitions and usage examples
+- **Digital humanities**: Text mining and cultural analytics
+    - social network analysis of *hashtag* diffusion on Twitter
+- **Discourse analysis**: Context-meaning relationships
+    - collocation analysis of *problem* across academic vs social media registers
+::: 

@@ -1,0 +1,659 @@
+---
+title: "Lexical Change"
+subtitle: "Seminar 'Lexicology'"
+author: "Quirin Würschinger, LMU Munich"
+date: "2025-07-02"
+date-format: long
+format: 
+  clean-revealjs:
+    slide-number: true
+    slide-level: 0
+    css: ../custom.css
+    height: 800
+    min-scale: 0.2
+    max-scale: 2.0
+---
+
+# Outline
+
+- **Warm-up**: Language evolution in our lifetime
+- **History**: The history of the English vocabulary
+- **Present-Day lexicon**: Borrowing and diversity
+- **Types of lexical change**: An overview
+- **Innovation & attrition**: A closer look
+- **Practice**: Studying lexical attrition with the OED
+- **Summary**: Key takeaways
+
+::: {.notes}
+**8:30 - Session start**
+
+**SESSION TIMING OVERVIEW (90 mins, 8:30-10:00)**
+
+| Section | Content | Time | Format | Cumulative |
+|---|---|---|---|---|
+| **Opening** | Outline & setup | 2 mins | Presentation | 2 mins |
+| **Warm-up** | Language evolution | 5 mins | Pair work + discussion | 7 mins |
+| **History** | English vocabulary development | 20 mins | Presentation + examples | 27 mins |
+| **Present-Day** | Borrowing and diversity | 14 mins | Presentation + examples | 41 mins |
+| **Change Types**| Theory and examples | 10 mins | Interactive presentation | 51 mins |
+| **BREAK** | 5-minute break | 5 mins | Announce around 9:21 | 56 mins |
+| **Practice** | OED lexical attrition study | 30 mins | Hands-on activity | 86 mins |
+| **Summary** | Key takeaways & resources | 4 mins | Wrap-up | 90 mins |
+
+**Key timings:** Break at 9:21 | Practice starts 9:26 | End at 10:00
+:::
+
+___
+
+# Warm-up: Language evolution in our lifetime
+
+::: {.notes}
+**8:32 - Start warm-up (5 mins total)**
+:::
+
+1. Think of **three words** that have emerged or changed meaning during your lifetime
+2. What are the **motivations** behind coining, use, and spread of these words?
+3. Are these **formal** or **semantic** neologisms?
+
+::: {.fragment}
+Examples to consider: *smartphone*, *to google*, *influencer*, *Covid*, *viral*, *streaming*
+:::
+
+::: {.fragment}
+Now, think of words that have **disappeared** from the English vocabulary during your lifetime.
+
+What are the **motivations** behind their disappearance?
+:::
+
+::: {.notes}
+**8:35 - Pair sharing (2 mins)**
+Share findings with class
+:::
+
+___
+
+# The history of the English vocabulary
+
+::: {.notes}
+**8:37 - History section start (20 mins total)**
+:::
+
+## The Indo-European language family
+
+![English as part of the Indo-European family tree](att/indo_european_family.png){width="700"}
+
+::: {.notes}
+**8:38**
+:::
+
+___
+
+## Periods of English
+
+::: {.notes}
+**8:40**
+:::
+
+### Old English (ca. 450–1100)
+
+#### External history
+
+- **410** (traditional date according to Bede's *Historia Ecclesiastica Gentis Anglorum*: 449): Angles, Saxons and Jutes (and some Frisians), speaking varieties of West Germanic languages, conquer the main British Isle → **Germanic Conquest**
+- **c. 700**: earliest written documents in Old English
+- **from 6th century**: Christianization
+  - Irish missionaries (c. 563 St. Columba to Iona)
+  - missionaries from Rome (c. 597; St. Augustine to Canterbury)
+- **from 8th century onwards**: Viking raids and Danish settlement
+  - 793: sacking of Monastery of Lindisfarne
+- **878**: establishment of the 'Danelaw'
+
+___
+
+### Germanic conquest and Viking raids
+
+::: {.notes}
+**8:42**
+:::
+
+![Germanic tribes settling in Britain](att/germanic_conquest.png){width="500"}
+
+___
+
+::: {.notes}
+**8:43**
+:::
+
+![Viking raids and the Danelaw](att/viking_raids.png){width="500"}
+
+___
+
+::: {.notes}
+**8:44**
+:::
+
+#### Linguistic characteristics
+
+- **Word order**: Relatively free.
+- **Vocabulary**: Germanic with some Latin (e.g., *wine*, *cheese*, *street*) and Scandinavian (e.g. *take*, *die*, *sky*) loanwords.
+- **Morphology**: An inflecting/synthetic language; nouns and adjectives inflect for 4 cases, 2 numbers, and 3 grammatical genders.
+
+___
+
+## Middle English (ca. 1100–1500)
+
+::: {.notes}
+**8:46**
+:::
+
+#### External history
+
+- **1066**: Norman Conquest (William the Conqueror; Battle of Hastings)
+- for more than three centuries, England was trilingual ('Triglossia'): (Anglo-)French and Latin as 'high variety' and English as 'low variety'
+- **from mid-14th century**: English slowly reestablished in various domains (1349 English as language of education, 1362 opening of Parliament, literary language) → English re-introduced as high variety
+
+___
+
+::: {.notes}
+**8:48**
+:::
+
+#### High varieties
+
+1. **Latin**: church, learning, documents
+2. **French**: upper classes, feudal aristocracy
+
+#### Low variety
+
+3. **English**: peasants, lower clergy, most people in cities
+
+___
+
+::: {.notes}
+**8:50**
+:::
+
+### Middle English linguistic characteristics
+
+- **synthetic → analytic shift**: breakdown of inflection due to weakening of final syllables ('Entsilbenabschwächung': /a/, /u/, /o/ > /ə/ > ∅)
+- **loss of grammatical gender** (c. 1200): article *the* adopts natural gender
+- **increasingly fixed word order** (less flexibility)
+- **dialect age**: no generally accepted standard
+- **mass borrowing**: war/military, administration/law, religion/church, fashion, social life → mixed Germanic/Romance vocabulary
+- huge number of **borrowings** in the field of war/military, administration/law, religion/church, fashion, social life etc. (+ influence on word formation and stress patterns) → end of Middle English: mixed Germanic/Romance vocabulary
+
+___
+
+## Early Modern English (ca. 1500–1800)
+
+::: {.notes}
+**8:52**
+:::
+
+#### External history
+
+- **1476**: William Caxton introduces printing press to England
+- **1492**: discovery of America
+- **Renaissance and Humanism**: rediscovery of classical authors and literature (e.g. translations of classical literature)
+- **1534**: Reformation
+- **1611**: King James Bible (first official English translation of the Bible for the English church)
+- growing literacy → literacy spread down the social ranks, and from the male to the female sex (→ new reading public → translations needed)
+
+___
+
+::: {.notes}
+**8:54**
+:::
+
+### Key linguistic developments
+
+- **Great Vowel Shift** (c. 1400/1500): Raising and diphthongisation of long vowels, increasing the discrepancy between spelling and pronunciation.
+- **Inflectional system**: The weakening and loss of inflections continues.
+- **Word order**: Becomes more fixed (SVO).
+- **Standardisation**: Development of the London dialect into a new standard.
+- **Orthography**: Emergence of a standardised spelling system.
+- **Learned vocabulary**: Influx of loanwords from Latin and Greek ('hard words').
+
+
+___
+
+## Late Modern English (ca. 1800–1945)
+
+::: {.notes}
+**8:56**
+:::
+
+#### External history
+
+- **from 1700s**: British Imperialism → expansion of English all over the world (Australia, India etc.)
+- **1700s/1800s**: normativism and prescriptivism (1755: Samuel Johnson *A Dictionary of the English Language* → first comprehensive dictionary of the English language)
+- **1900s**: scientific and industrial revolutions → development of technical registers
+
+___
+
+::: {.notes}
+**8:57**
+:::
+
+#### Linguistic characteristics
+
+- **`do`-periphrasis**: Becomes obligatory in interrogatives and sentential negation (from 1700).
+- **Grammaticalisation**: Beginning of the progressive aspect and present perfect (from 1800).
+- **Pronunciation**: Standard British English (RP) becomes non-rhotic.
+- **American English**: An emergent standard develops.
+- **Global borrowing**: Vocabulary expands with words from languages around the world, leading to **vocabulary expansion and global influence**.
+
+___
+
+## Present-Day English (since ca. 1945)
+
+::: {.notes}
+**8:57 - Present-Day section start (14 mins total)**
+:::
+
+#### External history
+
+- **New media**: The rise of telephone, TV, internet etc. accelerates change.
+- **American English**: Increasing importance and influence after WWI and WWII.
+- **Global English**: Established as a world language and a lingua franca.
+- **Postcolonial Englishes**: Increasing importance (e.g., Indian English), contributing to a truly **global English** shaped by **technological change**.
+
+___
+
+# Present-Day English lexicon
+
+## A unique mixture
+
+::: {.notes}
+**8:58**
+:::
+
+"Der heutige englische Wortschatz ist eine einzigartige Mischung von germanischen und romanischen Elementen; in Bezug auf das Vokabular stellt also das Englische einen Sonderfall unter den europäischen Sprachen dar." (Leisi 2008: 41)
+
+___
+
+## Most frequent words in English
+
+::: {.notes}
+**8:59**
+:::
+
+**Analysis based on COCA:**
+
+![Top frequent words showing mixed origins](att/most_frequent_words.png){width="400"}
+
+___
+
+### Languages of origin in high-frequency words
+
+::: {.notes}
+**9:00**
+:::
+
+**Scandinavian (Old Norse):**
+
+- *they*, *their*, *to get*, *to take*, *to give*, *like*, *to want*
+
+**French:**
+
+- *people*, *very*
+
+**French/Latin:**
+
+- *just*, *to use*
+
+___
+
+## Germanic core vocabulary
+
+::: {.notes}
+**9:01**
+:::
+
+Elements surviving from Old English form the basic vocabulary:
+
+- **Pronouns, conjunctions, auxiliary verbs**
+- **Fundamental concepts:**
+    - OE *mann* → *man*
+    - OE *wīf* → *wife*
+    - OE *cīld* → *child*
+    - OE *hūs* → *house*
+    - OE *drincan* → *drink*
+    - OE *libban* → *live*
+
+___
+
+## Latin influence
+
+::: {.notes}
+**9:02**
+:::
+
+#### Continental borrowings
+
+- *street*, *wine*, *kitchen*, *mile*, *butter*, *cheese*
+
+#### After settlement (post-450)
+
+- *port*, *mount*, *-chester*
+
+#### Christianisation
+
+- *martyr*, *clerk*, *creed*, *nun*, *verse*
+
+#### Renaissance and later
+
+- *humanist*, *abdomen*, *skeleton*
+
+___
+
+## Old Norse influence
+
+::: {.notes}
+**9:04**
+:::
+
+#### Viking raids and the Danelaw
+
+- Genetic resemblance between Old Norse and Old English
+- Strong influence on **basic vocabulary**
+
+#### Examples
+
+- **Function words**: *they*, *them*, *their*, *though*
+- **Verbs**: *to call*, *to die*, *to take*, *to raise*
+- **Nouns**: *law*, *husband*, *egg*, *birth*
+- **Adjectives**: *awkward*, *ill*, *weak*
+
+**Consequence**: English drifts apart from West Germanic languages
+
+___
+
+## French superstrate influence
+
+::: {.notes}
+**9:06**
+:::
+
+**Superstrate**: socially/politically superior language influences inferior position
+
+- **Government/Administration**: *authority*, *chancellor*, *council*, *court*, *crown*, *duke*, *empire*, *government*, *liberty*, *minister*, *noble*, *palace*, *parliament*, *prince*, *reign*, *royal*, *sovereign*, *treaty*
+
+- **Law**: *accuse*, *advocate*, *assault*, *attorney*, *blame*, *crime*, *evidence*, *fraud*, *jail*, *judge*, *justice*, *pardon*, *plaintiff*, *prison*, *punishment*, *verdict*
+
+- **Religion/Church**: *abbey*, *baptism*, *cathedral*, *charity*, *clergy*, *confess*, *divine*, *faith*, *immortality*, *mercy*, *religion*, *saint*, *sermon*, *temptation*, *virgin*, *virtue*
+
+- **Military/Warfare**: *ambush*, *army*, *battle*, *captain*, *combat*, *defend*, *enemy*, *guard*, *navy*, *peace*, *soldier*, *spy*
+
+- **Food**: *appetite*, *bacon*, *beef*, *cream*, *dinner*, *feast*, *fruit*, *herb*, *lemon*, *lettuce*, *mustard*, *mutton*, *olive*, *pork*, *salad*, *salmon*, *spice*, *veal*
+
+- **Fashion**: *diamond*, *dress*, *fashion*, *fur*, *garment*, *gown*, *jewel*, *lace*, *robe*, *satin*, *wardrobe*
+
+___
+
+::: {.notes}
+**9:08**
+:::
+
+## Loans from other languages
+
+- **Portuguese/Spanish**: *marmalade*, *banana*, *cannibal*, *creole*, *mosquito*, *mulatto*, *tobacco*
+
+- **Italian**: *alarm*, *million*, *balcony*, *opera*, *piazza*, *sonnet*, *stanza*
+
+- **Greek**: *bible*, *character*, *climate*, *fantasy*, *horizon*, *tragedy*
+
+- **Arabian**: *admiral*, *elixir*, *hazard*, *mosque*, *alcohol*, *alchemy*
+
+- **Persian**: *azure*, *chess*
+
+___
+
+### Global loan words
+
+::: {.notes}
+**9:09**
+:::
+
+![](att/loan_words_world_map.png){width="700"}
+
+___
+
+## Recent European loans and dialectal terms
+
+::: {.notes}
+**9:10**
+:::
+
+![Recent borrowings from European languages](att/recent_european_loans.png){width="450"}
+
+___
+
+::: {.notes}
+**9:11**
+:::
+
+![Dialectal words entering standard English](att/dialectal_words.png){width="450"}
+
+___
+
+# Types of lexical change
+
+::: {.notes}
+**9:11 - Change Types start (10 mins total)**
+:::
+
+## Consequences of borrowing
+
+### Consociation vs Dissociation
+
+:::: {.columns}
+:::: {.column}
+#### Consociation: German
+
+- *Mund* – *mündlich*
+- *Heiliger* – *heilig*
+- *Fuß* – *Fußgänger*
+- *Wort* – *wörtlich*
+- *Buch* – *Buchstabe* – *Bücherei*
+::::
+:::: {.column}
+#### Dissociation: English
+
+- *mouth* – *oral*
+- *saint* – *holy*
+- *foot* – *pedestrian*
+- *word* – *verbal*
+- *book* – *letter* – *library*
+::::
+::::
+
+::: {.notes}
+**9:13**
+:::
+
+___
+
+### Partial synonymy
+
+::: {.notes}
+**9:15**
+:::
+
+#### Register differences
+
+- *to ask* (c. 885) — neutral
+- *to question* (c. 1470) — formal
+- *to interrogate* (c. 1483) — official/legal
+
+#### Connotational differences
+
+- **solitude** vs *loneliness*
+- **freedom** vs *liberty*
+
+**Result**: Greater linguistic choice through partial synonyms
+
+___
+
+### "Hard words"
+
+::: {.notes}
+**9:17**
+:::
+
+Often etymologically unrelated → difficult to learn:
+
+#### Examples of confusion (malapropisms)
+
+- *illiterate* vs *illegitimate*
+- *missile* vs *missive*  
+- *epitaph* vs *epithet*
+
+___
+
+## Change in usage frequency
+
+::: {.notes}
+**9:18**
+:::
+
+### Lexical innovation
+
+#### The interplay of cultural and linguistic innovation
+
+- Society changes → new practices and products emerge
+- Language changes first on the **lexical level** through **neologisms**
+
+::: {.fragment}
+**Examples:**
+
+- **Formal neologisms**: *smartphone*, *iPhone*, *Covid*
+- **Semantic neologisms**: *hotspot*, *Querdenker*, *social distancing*, *spreader*
+:::
+
+___
+
+### Lexical attrition
+
+::: {.notes}
+**9:19**
+:::
+
+**Word loss through decreased frequency:**
+
+![Frequency decline of *telephone* in COCA](att/telephone_frequency_decline.png){width="400"}
+
+___
+
+![Frequency decline of *Walkman* in COHA](att/walkman_frequency_decline.png){width="300"}
+
+___
+
+## Meaning change
+
+::: {.notes}
+**9:20**
+:::
+
+**Semantic change over time:**
+
+![Types and directions of meaning change](att/change_of_meaning.png){width="700"}
+
+Common patterns: narrowing, broadening, amelioration, pejoration
+
+::: {.notes}
+**9:21 - Break time (announce 5 min break)**
+:::
+
+___
+
+# Practice: studying lexical attrition
+
+::: {.notes}
+**9:26 - Practice activity (30 mins total)**
+:::
+
+## Objective
+
+Study what types of words become obsolete using OED data and Excel analysis
+
+## Your task
+
+1. **Collect obsolete words** from the OED Advanced Search
+2. **Export data** as CSV
+3. **Analyse patterns** using Excel Pivot Tables
+
+___
+
+## Step 1: OED Advanced Search
+
+::: {.notes}
+**9:31**
+:::
+
+![Using OED Advanced Search for obsolete words](att/oed_advanced_search.png){width="600"}
+
+- Search for obsolete words
+- Apply relevant filters
+- Select representative sample
+
+___
+
+## Step 2: Export data
+
+::: {.notes}
+**9:33**
+:::
+
+![Exporting search results as CSV](att/oed_export_csv.png){width="600"}
+
+Save your results for analysis in Excel
+
+___
+
+## Step 3: Excel analysis
+
+::: {.notes}
+**9:35**
+:::
+
+![Creating a table in Excel](att/excel_create_table.png){width="600"}
+
+**Use Pivot Tables to analyse:**
+
+- Word-formation processes
+- Language of origin  
+- Subject areas
+
+**Model sheet**: <https://1drv.ms/x/s!AvkgNVl9yS6aohjiV_csX3J22GCB>
+
+::: {.notes}
+**9:36 - Work time (20 mins)**
+
+Students work individually/pairs on data collection and analysis
+:::
+
+___
+
+## Step 4: Corpus analysis
+
+- Check the frequency of the obsolete words in a suitable corpus.
+- Corpus options:
+    - english-corpora.org: COHA, COCA
+    - Sketch Engine: EEBO
+- Investigate whether the words have really declined in frequency and whether the corpus data are in line with the OED data.
+
+___
+
+# Summary
+
+::: {.notes}
+**9:56 - Summary (4 mins)**
+:::
+
+::: {.incremental}
+1. **English vocabulary is uniquely mixed**: Germanic core + extensive borrowing
+2. **Historical periods** shaped vocabulary through different contact situations
+3. **Multiple layers** create rich but complex lexical system
+4. **Lexical change** involves innovation, attrition, and meaning change
+5. **Empirical analysis** reveals patterns in vocabulary change over time
+:::

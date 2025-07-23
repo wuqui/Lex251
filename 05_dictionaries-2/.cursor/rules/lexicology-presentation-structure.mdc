@@ -1,0 +1,24 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Lexicology Seminar Presentation Structure
+
+This rule outlines the standard structure for seminar presentations in the "Lexicology" course.
+
+## Standard Sections
+
+A typical presentation should include the following sections, in this order:
+
+1.  **Outline**: A brief overview of the presentation topics.
+2.  **Warm-up**: An interactive exercise to engage students.
+3.  **Theory**: Introduction of key theoretical concepts. 
+4.  **Practical Examples**: Demonstrations using specific tools or examples (e.g., OED, Wiktionary).
+5.  **Practice Session**: A hands-on exercise for students to apply the concepts.
+6.  **Summary**: A concluding slide with key takeaways.
+
+## Formatting Conventions
+
+- Use `___` to create new slides.
+- Use `:::{.small}` to shrink the text on content-heavy slides. This class is defined in [`custom.css`](mdc:custom.css).

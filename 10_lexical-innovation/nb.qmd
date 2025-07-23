@@ -1,0 +1,65 @@
+---
+jupyter: qw
+---
+
+# Input data
+
+```{python} 
+data = """
+retweet
+hashtag
+podcast
+stan
+Covid-19
+photobomb
+upvote
+Covid
+deadname
+Bitcoin
+stablecoin
+selfie
+SARS
+open-world
+sovereign wealth fund
+vlog
+long Covid
+live blog
+vape
+vaccine passport
+"""
+```
+
+# Tokenize input string
+
+```{python}
+words = []
+for word in data.split("\n"):
+    word_toks = word.split(" ")
+    if (word != "") and (len(word_toks) < 2):
+        words.append(word_toks[0])
+
+print(f'{len(words)} words:\n')
+for word in words:
+    print(word)
+```
+
+# Format for CQL query
+
+```{python}
+words_cql = '[word="'
+for word in words:
+    words_cql += word + '|'
+
+words_cql = words_cql[:-1] 
+words_cql += '"]'
+
+words_cql
+```
+
+# Copy to clipboard:
+
+```{python}
+import pyperclip
+
+pyperclip.copy(words_cql)
+```

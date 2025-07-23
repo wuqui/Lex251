@@ -1,0 +1,437 @@
+---
+title: "Lexical Variation"
+subtitle: "Seminar 'Lexicology'"
+author: "Quirin Würschinger, LMU Munich"
+date: "2025-07-16"
+date-format: long
+bibliography: references.bib
+format: 
+  clean-revealjs:
+    slide-number: true
+    slide-level: 2
+    css: custom.css
+    height: 800
+    # min-scale: 0.2
+    # max-scale: 2.0
+    revealjs-plugins:
+      - parmsam/excalidraw
+      - quarto-ext/pointer
+      - gadenbuie/revealjs-text-resizer
+    excalidraw:
+      button: false
+      shortcut: "`"
+---
+
+# Outline
+
+- [The importance of variation in lexicology](#warm-up)
+- [Dimensions of variation](#dimensions): Types and categories of lexical variation
+- [Speaker variation](#speaker): Regional and social variation
+- [Situational variation](#situational): Register and text type variation
+- [Case study: Modal verbs](#case-study): Lexical change and variation in English modals
+- [Practice](#practice): Corpus analysis of modal verb variation
+- [Summary](#summary): Key takeaways
+
+::: {.notes}
+**8:30 - Session start**
+
+**SESSION TIMING OVERVIEW (90 mins, 8:30-10:00)**
+
+| Section | Content | Time | Format | Start Time |
+|---|---|---|---|---|
+| **Opening** | Outline & setup | 2 mins | Presentation | 8:30 |
+| **Warm-up** | Importance of variation | 8 mins | Discussion + examples | 8:32 |
+| **Dimensions** | Types of variation | 15 mins | Presentation + examples | 8:40 |
+| **Speaker variation** | Regional & social | 12 mins | Interactive presentation | 8:55 |
+| **Situational variation** | Register & text types | 10 mins | Presentation | 9:07 |
+| **BREAK** | 5-minute break | 5 mins | Announce around 9:17 | 9:17 |
+| **Case study** | Modal verbs theory | 15 mins | Presentation | 9:22 |
+| **Practice** | Corpus analysis | 20 mins | Hands-on activity | 9:37 |
+| **Summary** | Key takeaways | 3 mins | Wrap-up | 9:57 |
+
+**Key timings:** Break at 9:17 | Practice starts 9:37 | End at 10:00
+:::
+
+# The importance of variation in lexicology {.slide #warm-up}
+
+::: {.notes}
+**8:32 - Start warm-up (8 mins total)**
+
+- **8:35 - Pair discussion (3 mins)**
+- **8:38 - Group sharing (3 mins)**
+
+**Key points for discussion question:**
+
+- Variation reveals systematic patterns, not random differences
+- Shows how language adapts to social and situational contexts
+- Demonstrates that "standard" language is an abstraction
+- Connects to real-world language use and identity
+
+**Examples to mention:**
+
+- *lift* vs *elevator*: Regional variation that reflects different cultural contexts
+- *ain't* vs *am not*: Social variation that signals education level and social identity
+:::
+
+**Discussion question** (3 minutes in pairs):
+
+Why is lexical variation important for understanding language?
+
+. . .
+
+> However, it should be stressed here that lexical variation and the restriction of items to specific varieties must not be neglected in lexicology, as has so often been the case in the past. [@Lipka1992OutlineEnglish, p. 9]
+
+. . .
+
+**Today's focus**: How does variation manifest across different dimensions and what can we learn from studying it?
+
+# Dimensions of variation {.slide #dimensions}
+
+::: {.notes}
+**8:40 - Dimensions section start (15 mins total)**
+:::
+
+
+## Types of variation {.small}
+
+::: {.fragment}
+- **Diatopic**: Geographic/regional variation
+- **Diastratic**: Social variation (class, education, age)
+- **Diaphasic**: Situational variation (register, style)
+:::
+
+. . .
+
+**Language change** = language variation over time = **diachronic variation**
+
+. . .
+
+**Variation based on "user" and "language use"**
+
+![Dimensions of variation in English. [@Kortmann2020Essentials, p. 204]](att/image_1706633267124_0.png){height="400"}
+
+# Speaker variation
+
+## Regional variation {#speaker}
+
+::: {.notes}
+**8:55 - Speaker variation section start (12 mins total)**
+:::
+
+Regional variation in **lexical innovation**
+
+![Mapping lexical innovation across regions.](att/lexical-innovation_1698948545880_0.png)
+
+*Mapping lexical innovation across regions* [@Grieve2018MappingLexical]
+
+___
+
+### Differences between British and American English
+
+::: {.fragment}
+**Examples**:
+
+| British  | American  |
+|:---------|:----------|
+| autumn   | fall      |
+| lift     | elevator  |
+| lorry    | truck     |
+:::
+
+# Speaker variation: Social variation {.slide #social}
+
+::: {.notes}
+**9:00 - Social variation (5 mins)**
+:::
+
+## Sociolect
+
+**Sociolect**: Social dialect - variation depending on education and social standing.
+
+. . .
+
+**Examples of social variation**:
+
+. . .
+
+- **Education level**: *ain't* vs *am not/is not/are not*
+- **Social class**: *pardon* vs *what* vs *excuse me*
+- **Age groups**: *cool* vs *awesome* vs *lit*
+- **Professional jargon**: *Sprachwissenschaft* vs *Linguistik*
+
+. . .
+
+**Key principle**: Lexical choices often signal social identity and group membership.
+
+# Situational variation: Register {.slide #situational}
+
+::: {.notes}
+**9:07 - Situational variation section start (10 mins total)**
+:::
+
+## Register variation
+
+::: {.fragment}
+**Register**: Variation that depends on language use, not the user. Includes lexical, phonological, and grammatical features.
+:::
+
+. . .
+
+**Examples**:
+
+. . .
+
+- **Academic**: *lexical item*, *corpus analysis*, *frequency distribution*
+- **Informal**: *word*, *text study*, *how often*
+- **Technical**: *morphological process*, *phonological rule*
+- **Everyday**: *word formation*, *sound pattern*
+
+. . .
+
+**Key insight**: The same speaker uses different vocabulary in different situations.
+
+
+# Case study: Modal verbs in English {.slide #case-study}
+
+::: {.notes}
+**9:17 - Break time (announce 5 min break)**
+:::
+
+::: {.notes}
+**9:22 - Case study section start (15 mins total)**
+:::
+
+## Lexical change and variation in English modal verbs
+
+**Research foundation**: [@Hilpert2015Grammatical]
+
+. . .
+
+> "Another domain of English grammar that is currently undergoing change is the domain of modality, specifically the modal auxiliaries. In the most general of terms, the situation is that several of the core modal auxiliaries are declining in text frequency (Leech 2003; Mair 2006), while at the same time new quasi-modal elements are undergoing grammaticalization (Krug 2000)." [@Hilpert2015Grammatical, p. 185-186]
+
+. . .
+
+**Research questions**:
+
+- Why are certain forms declining while others increase?
+- Is there a relation between these developments?
+- How do we assign cause and effect roles?
+
+# Core and peripheral modals {.slide #modal-types}
+
+::: {.notes}
+**9:25 - Modal types (5 mins)**
+:::
+
+:::: {.columns}
+::::: {.column width="50%"}
+**Core modals** 
+
+::: {.fragment}
+- *will*, *would*
+- *can*, *could*
+- *may*, *might*
+- *shall*, *should*
+- *must*
+:::
+:::::
+
+::::: {.column width="50%"}
+**Peripheral modals**
+
+::: {.fragment}
+- *BE going to*
+- *have to*
+- *got to*
+- *need to*
+:::
+:::::
+::::
+
+. . .
+
+**Pattern**: Core modals show frequency decline while peripheral modals show increase.
+
+# Frequency changes over time {.slide #frequency-changes}
+
+::: {.notes}
+**9:30 - Frequency changes (5 mins)**
+:::
+
+## Corpus evidence
+
+**Brown family of corpora**: Brown (1961), LOB (1961), Frown (1992), FLOB (1992)
+
+![Brown family of corpora structure. [@Hilpert2015Grammatical]](att/image_1706635726443_0.png)
+
+___
+
+> "Parallel cross-variety declines are particularly in evidence for the modals *would*, *may*, *should*, *must*, and *shall*." [@Hilpert2015Grammatical, p. 186]
+
+**Declining core modals**:
+
+- *would*, *may*, *should*, *must*, *shall*
+
+. . .
+
+**Increasing peripheral modals**:
+
+- *BE going to*, *have to*, *got to*, *need to*
+
+. . .
+
+> "This is further corroborated by Hilpert (2008: 37), who finds that typical verbal collocates of *shall* in the British National Corpus are the explicitly metalinguistic verbs *consider*, *examine*, *discuss*, and *argue*. The decline of *shall* is thus to be seen as a retraction into a highly specific communicative genre." [@Hilpert2015Grammatical, p. 186-187]
+
+# Text type variation {.slide #text-type}
+
+::: {.notes}
+**9:35 - Text type variation (5 mins)**
+:::
+
+## Genre-specific patterns {.small}
+
+> "In a study that is based on the Time magazine corpus (Davies 2007), Millar (2009) tracks the frequency of the modal auxiliaries in American English press writing. He finds that *shall*, *must*, and *ought* are declining between the 1920s and the 2000s, but that interestingly, *can*, *could*, and *may* are undergoing substantial frequency increases and *will*, *might*, and *should* show at least small increases (Millar 2009: 205)." [@Hilpert2015Grammatical, p. 187]
+
+. . .
+
+**Time magazine corpus analysis** (Millar 2009):
+
+- *shall*, *must*, *ought* declining (1920s-2000s)
+- *can*, *could*, *may* increasing substantially
+- *will*, *might*, *should* showing small increases
+
+. . .
+
+> "One explanation for the discrepancies between the tendencies in the Brown family of corpora and in the Time corpus is the composition of the respective corpora. Whereas the Brown corpora represent a balanced set of genres, the Time corpus represents a single text type." [@Hilpert2015Grammatical, p. 187]
+
+. . .
+
+**Key finding**: Text type variation can explain frequency discrepancies across different corpora.
+
+# Practice: Corpus analysis of modal verbs {.slide #practice}
+
+::: {.notes}
+**9:37 - Practice section start (20 mins total)**
+:::
+
+## Collaborative analysis
+
+**Microsoft Excel spreadsheet**: <https://1drv.ms/x/c/9a2ec97d593520f9/EezC1WmhjPNEiVR-eERIIU8BdRV5kbqEGw-17MMMJAr2gQ>
+
+. . .
+
+**Task 1**: Study modal verb frequency changes in COHA
+
+**Search queries**:
+
+| Core | Peripheral |
+|------------------------------------|------------------------------------|
+| `would *_vv`                       | `BE going to *_vv`                 |
+| `may *_vv`                         | `HAVE to *_vv`                     |
+| `should *_vv`                      | `got to *_vv`                      |
+| `must *_vv`                        | `NEED to *_vv`                     |
+| `shall *_vv`                       |                                    |
+
+___
+
+**Time intervals**: 1850, 1900, 1950, 2000
+
+![Time interval data format.](att/image_1706638923257_0.png)
+
+# Practice: Frequency analysis {.slide #frequency-analysis}
+
+::: {.notes}
+**9:42 - Frequency analysis (8 mins)**
+:::
+
+## Individual modal analysis
+
+![Individual modal verb frequency changes over time.](att/image_1706639087914_0.png)
+
+
+. . .
+
+## Group analysis
+
+![Core vs peripheral modal verb frequency changes on aggregate.](att/image_1706639183459_0.png)
+
+
+# Practice: Text type specificity {.slide #text-specificity}
+
+::: {.notes}
+**9:50 - Text type analysis (10 mins)**
+:::
+
+## Coefficient of Variation (CV) {.small}
+
+**Definition**: Statistical measure of relative variability.
+
+$$
+\begin{align}
+CV &= \frac{\sigma}{\mu} \times 100 \\
+&= \frac{\text{Standard Deviation}}{\text{Mean}} \times 100
+\end{align}
+$$
+
+. . .
+
+**Application**: Measures variability of word frequencies across different text types.
+
+![Gathering text type data for analysis.](att/image_1706639702528_0.png)
+
+. . . 
+
+**Excel calculation**:
+
+1. Calculate mean: `=AVERAGE(A1:A10)`
+2. Calculate standard deviation: `=STDEV.S(A1:A10)`
+3. Calculate CV: `=(B2/B1)*100`
+
+# Practice: Text type results {.slide #text-results}
+
+::: {.notes}
+**9:55 - Results discussion (5 mins)**
+:::
+
+## Individual modal differences
+
+![Coefficient of Variation for individual modal verbs.](att/image_1706640463229_0.png)
+
+. . .
+
+## Group differences
+
+![Coefficient of Variation for core vs peripheral modal groups.](att/image_1706640489580_0.png)
+
+. . .
+
+**Key finding**: Core modals show higher text type specificity (higher CV) than peripheral modals.
+
+# Summary {.slide #summary}
+
+::: {.notes}
+**9:57 - Summary (3 mins)**
+:::
+
+## Key takeaways
+
+General:
+
+- **Variation is fundamental**: Lexical variation occurs across multiple dimensions
+- **Speaker variation**: Regional (dialect) and social (sociolect) differences
+- **Situational variation**: Register differences based on context and use
+
+. . .
+
+Modal verbs:
+
+- **Diachronic patterns**: Modal verbs show systematic frequency changes over time
+- **Text type specificity**: Different modals show varying degrees of genre preference
+- **Corpus methods**: Quantitative analysis reveals patterns not visible through intuition alone
+
+
+# References
+
+::: {.notes}
+**10:00 - End of session**
+:::

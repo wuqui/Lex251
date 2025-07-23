@@ -1,0 +1,12 @@
+project:
+  type: website
+  output-dir: out
+
+website:
+  title: "Using dictionaries and analysing data"
+  navbar:
+    left:
+      - href: "index.html"
+        text: "Website"
+      - href: "slides.html"
+        text: "Slides" 
