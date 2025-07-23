@@ -19,3 +19,71 @@ author: "Quirin Würschinger, LMU Munich"
 | 09 Jul. | [Lexical innovation: new words and meanings](10_lexical-innovation/10_lexical-innovation.qmd) |
 | 16 Jul. | [Lexical variation: speaker and text type variation](11_lexical-variation/11_lexical-variation.qmd) |
 | 23 Jul. | [Wrap-up](12_wrap-up/12_wrap-up.qmd) |
+
+# Requirements
+
+Assessment formats vary based on ECTS credits:
+
+- **3 ECTS**: short paper (≈ 3–5 pages)
+- **6 ECTS**: long paper (≈ 10–12 pages)
+- **9 ECTS**: 30–37 characters (MA WP 14.1, WP 15.1)
+	- **project report: 4500 chars**
+
+Check your *Studien-/Prüfungsordnung* for the exact specification.
+
+# Course description
+
+- This course provides an in-depth exploration of English lexicology and lexicography, examining key areas including 
+    - word-formation processes, 
+    - semantic analysis of word senses, 
+    - and patterns of lexical variation and change. 
+- Grounded in authentic language data from dictionaries and corpora, students will develop analytical skills for studying lexical usage 
+    - through dictionaries like Wiktionary and the Oxford English Dictionary (OED), 
+    - alongside corpora such as COCA and English Trends on the corpus platforms english-corpora.org and Sketch Engine. 
+- The programme emphasises practical experience in frequency analysis, collocation studies, Word Sketches through collaborative group projects, enabling students to apply corpus-based methodologies to lexicological research projects.
+
+# Bibliography
+
+Bandyopadhyay, Saptarashmi, Jason Xu, Neel Pawar, and David Touretzky. 2022. ‘Interactive Visualizations of Word Embeddings for K-12 Students’. *Proceedings of the AAAI Conference on Artificial Intelligence* 36 (11): 12713–20. [https://doi.org/10.1609/aaai.v36i11.21548](https://doi.org/10.1609/aaai.v36i11.21548).
+
+Bauer, Laurie. 2022. *An Introduction to English Lexicology*. Edinburgh University Press.
+
+Bühler, Karl. 1934. *Sprachtheorie*. Jena: Fischer.
+
+Grieve, Jack, Andrea Nini, and Diansheng Guo. 2018. ‘Mapping Lexical Innovation on American Social Media’. *Journal of English Linguistics* 46 (4): 293--319.
+
+Hamilton, William L., Jure Leskovec, and Dan Jurafsky. 2016. ‘Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change’. In , 1489—1501. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL). Berlin, Germany: Association for Computational Linguistics. [http://www.aclweb.org/anthology/P16-1141](http://www.aclweb.org/anthology/P16-1141).
+
+Haspelmath, Martin. 2023. ‘Defining the Word’. *WORD* 69 (3): 283–97. [https://doi.org/10.1080/00437956.2023.2237272](https://doi.org/10.1080/00437956.2023.2237272).
+
+Herbst, Thomas. 2010. *English Linguistics: A Coursebook for Students of English*. Berlin: De Gruyter Mouton.
+
+Hilpert, Martin, David Correia Saavedra, and Jennifer Rains. 2023. ‘Meaning Differences between English Clippings and Their Source Words: A Corpus-Based Study’. *ICAME Journal* 47 (1): 19–37. [https://doi.org/10.2478/icame-2023-0002](https://doi.org/10.2478/icame-2023-0002).
+
+Jackson, Howard. 2022. *An Introduction to English Lexicology*. 3rd ed. London, New York: Bloomsbury Academic.
+
+Keller, Rudi. 1994. *Sprachwandel: Von Der Unsichtbaren Hand in Der Sprache*. Tübingen: Francke.
+
+Kemmer, Suzanne. 2003. ‘Schemas and Lexical Blends’. In *Motivation in Language: Studies in Honor of Günther Radden*, edited by Günther Radden and Hubert Cuyckens, 69–97. J. Benjamins Pub. Co.
+
+Kerremans, Daphné. 2015. *A Web of New Words*. Bern: Peter Lang. [https://doi.org/10.3726/978-3-653-04788-2](https://doi.org/10.3726/978-3-653-04788-2).
+
+Kortmann, Bernd. 2020. *English Linguistics: Essentials*. J.B. Metzler.
+
+Leisi, Ernst. 2008. *Das Heutige Englisch*. 9th ed. Sprachwissenschaftliche Studienbücher. Heidelberg: Universitätsverlag Winter.
+
+Lipka, Leonhard. 1992. *An Outline of English Lexicology*. Forschung Und Studium Anglistik. Tübingen: Niemeyer.
+
+Lipka, Leonhard. 2002. *English Lexicology: Lexical Structure, Word Semantics and Word-Formation*. Tübingen: Narr.
+
+Ogden, Charles Kay, and I. A. Richards. 1923. *The Meaning of Meaning*. London: K. Paul, Trench, Trubner & Co.
+
+Sajous, Franck, Basilio Calderone, and Nabil Hathout. 2020. ‘ENGLAWI: From Human- to Machine-Readable Wiktionary’. In *Proceedings of the 12th Language Resources and Evaluation Conference*, 3016–26. Marseille, France: European Language Resources Association. [https://www.aclweb.org/anthology/2020.lrec-1.369](https://www.aclweb.org/anthology/2020.lrec-1.369).
+
+Saussure, Ferdinand de. 1916. *Cours de Linguistique Générale*. Lausanne: Payot.
+
+Schmid, Hans-Jörg. 2016. *English Morphology and Word-Formation - An Introduction*. 2nd ed. Berlin: Erich Schmidt Verlag.
+
+Stella, Massimo. 2019. ‘Modelling Early Word Acquisition through Multiplex Lexical Networks and Machine Learning’. *Big Data and Cognitive Computing* 3 (1): 10. [https://doi.org/10.3390/bdcc3010010](https://doi.org/10.3390/bdcc3010010).
+
+Stroop, J. R. 1935. ‘Studies of Interference in Serial Verbal Reactions’. *Journal of Experimental Psychology* 18 (6): 643–62. [https://doi.org/10.1037/h0054651](https://doi.org/10.1037/h0054651).
