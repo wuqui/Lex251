@@ -1,0 +1,115 @@
+---
+title: "03 Morphology and Word-Formation"
+number-sections: false
+format:
+  html:
+    toc: true
+---
+
+# Theory
+
+## Lexical innovation
+
+Types of neologisms [@Kerremans2015Web]:  
+![](att/image_1701358282980_0.png){width="600"}
+
+## Morphology vs word-formation
+
+Based on @Schmid2016Morphology:  
+![](att/Schmid2016-morphology-vs-word-formation_1698949643850_0.png){width="700"}
+
+## Inflection in Present-Day English
+
+Which inflectional morphemes exist? [@Schmid2016Morphology]  
+![](att/image_1701359043921_0.png){width="650"}
+
+`{play}` + {plural}, `{house}` + {plural}
+
+## Morphological building blocks
+
+[@Schmid2016Morphology]  
+![](att/morpheme-types_1701359224211_0.png){width="500"}
+
+*full*\(_adj_) → *fully*\(_adv_) → {ly}\(_lx.bd_)  
+*hard* → *hardly*
+
+## Morphemic word-formation processes
+
+Overview:  
+![](att/image_1698966977051_0.png){width="500"}
+
+Examples: *legal* → *legalize*; *clean*\(_adj_) → *clean*\(_v_)
+
+Types of compounds:  
+– endocentric: *washing machine*  
+– exocentric: *redneck*, *paperback*  
+– copulative: *singer-songwriter*, *blue-green*
+
+## Non-morphemic word-formation
+
+### Overview
+
+![](att/image_1698950159306_0.png){width="600"}
+
+### Zero-derivation / conversion vs derivation
+
+![](att/image_1701360305725_0.png){width="500"}
+
+*cook*\(_v_) → *cook*\(_n_)
+
+### Compounding vs blending
+
+Compounding schema:  
+![](att/image_1701360494265_0.png){width="500"}
+
+Blending examples [@Kemmer2003Blends]:  
+*swooshtika* – derogatory reference to Nike logo  
+![](att/image_1701360686986_0.png){width="400"}  
+*glitterati*  
+![](att/image_1701359909256_0.png){width="400"}
+
+## Morphemic vs non-morphemic WF – summary
+
+![](att/image_1701360349164_0.png){width="600"}
+
+## Further reading
+
+- Bauer 2022. *An Introduction to English Lexicology.*  
+- Lipka 2002. *English Lexicology.*  
+- Schmid 2016. *English Morphology and Word-Formation – An Introduction.*
+
+---
+
+# Practice
+
+## Morphological analysis
+
+Analyse the following words morphologically:
+
+1. *distasteful*
+2. *fridge*
+3. *washing machine*
+4. *sightsee*\(^v\)
+5. *friendship*
+6. *Brangelina*
+7. *lol*
+
+## Studying word-formation in the OED
+
+Shortening: Which semantic domains are most common among shortenings?  
+OED Advanced search:  
+![](att/image_1701426526094_0.png){width="600"}
+
+URL: <https://www.oed.com/search/advanced/Entries?typeOfFormation=shortening&textTermOpt0=WordPhrase&dateOfUseFirstUse=false&page=1&sortOption=DateNewFirst>
+
+Use Microsoft Excel to create a table and pivot chart:
+
+![](att/image_1701363345260_0.png){width="400"}
+
+![](att/image_1701363439435_0.png){width="400"}
+
+![](att/image_1701363473055_0.png){width="400"}
+
+![](att/image_1701363509221_0.png){width="400"}
+
+Further study: compare these findings with compounding.

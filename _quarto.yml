@@ -8,8 +8,32 @@ website:
   title: "Lexicology 251"
   navbar:
     left:
-      - href: index.qmd
-        # text: Home
+      - text: Sessions
+        menu:
+          - text: "01 Organisation & Introduction"
+            href: 01_organisation-introduction.qmd
+          - text: "02 Words, dictionaries & the lexicon"
+            href: 02_words-dictionaries-lexicon.qmd
+          - text: "03 Morphology & word-formation"
+            href: 03_morphology-word-formation.qmd
+          - text: "04 Dictionaries (fundamentals)"
+            href: 04_dictionaries-fundamentals.qmd
+          - text: "05 Using dictionaries & analysing data"
+            href: 05_dictionaries-2/slides.qmd
+          - text: "06 Corpora"
+            href: 06_corpora.qmd
+          - text: "07 Semantics"
+            href: 07_semantics_embed.qmd
+          - text: "08 Studying lexis empirically"
+            href: 08_research-projects_embed.qmd
+          - text: "09 Lexical change"
+            href: 09_change_embed.qmd
+          - text: "10 Lexical innovation"
+            href: 10_lexical-innovation_embed.qmd
+          - text: "11 Lexical variation"
+            href: 11_lexical-variation_embed.qmd
+          - text: "12 Wrap-up"
+            href: 12_wrap-up_embed.qmd
 
 format:
   html:
@@ -18,6 +42,8 @@ format:
       - brand
     css: styles.css
     toc: true
+
+bibliography: references.bib
 
 
 

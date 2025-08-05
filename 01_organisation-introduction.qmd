@@ -1,0 +1,141 @@
+---
+title: "01 Organisation and Introduction"
+number-sections: false
+format:
+  html:
+    toc: true
+---
+
+# Organisation
+
+## Course materials
+
+Website: <https://wuqui.github.io/Lex251/>
+
+## Registration
+
+Open issues?
+
+Is anyone taking this course as part of a *Modulprüfung*?
+
+## Course description
+
+{{< include includes/_course-description.md >}}
+
+## Schedule
+
+{{< include includes/_schedule.md >}}
+
+## Requirements
+
+{{< include includes/_requirements.md >}}
+
+
+# Introduction
+
+## Introduction to Lexicology and Lexicography
+
+### What is Lexicology about?
+
+#### What is a *word*?
+
+##### How many words?
+
+Consider this example:
+
+> Paul was drinking beer in his favourite bar. He enjoyed having a drink every now and then. He thought he did not drink much, but his wife thought that he drank.
+
+→ 31 running words/tokens
+
+###### How many words are there?
+
+|     | type       | token      |
+| --- | ---------- | ---------- |
+| 1   | DRINK $^v$ | *drinking* |
+|     |            | *drink*    |
+|     |            | *drunk*    |
+| 2   | DRINK $^n$ | *drink*    |
+
+- *tokens*: *he*$^1$, *he*$^2$, etc.
+- *word forms*: *drinking*, *drank* are word forms of the lexeme DRINK$^v$
+- *types/lexemes*: e.g. DRINK$^v$
+
+Other terms – e.g. *disclaimers*
+
+<!-- Diagram "stem-base-root" omitted for now -->
+
+##### Model of the linguistic sign [@Saussure1916Cours]
+
+There are three notions of *words*:
+
+- *types* / *lexemes*:
+    - lexical items as listed in the dictionary,
+    - abstract units of the lexicon: WORK $^v$
+- *word-forms*:
+    - inflectional variants of lexemes
+    - e.g. *(he) works*, *(he) worked*
+- *tokens*:
+    - concrete instantiations of types in running text,
+    - commonly delimited by whitespace
+
+![](att/linguistic-sign-model.png){width="600"}
+
+##### Types of signs [@Keller1994Sprachwandel]
+
+- indices: relation of *naturalness*
+- icons: relation of *similarity*
+- symbols: relation of *arbitrariness*
+
+##### Function of words in communication
+
+Organon model [@Buhler1934Sprachtheorie]:
+
+![](att/organon-model.png){width="600"}
+
+#### Objective of Lexicology
+
+- “What is most important, however, is that in lexicology the stock of words or lexical items is not simply regarded as a list of *isolated elements*.
+- Lexicologists try to find out *generalisations* and *regularities* and especially consider *relations* between elements.
+- Lexicology is therefore concerned with *structures*, not with a mere agglomeration of words (cf. @Jackson1988Lexicology, p. 222).”  
+  [@Lipka1992OutlineEnglish, p. 1]
+
+### What is the *lexicon*?
+
+#### Two senses of *lexicon*
+
+> “In the following, I will use *lexicon* in two senses that are not always sharply distinguished:
+>
+> 1. a) for a *metalinguistic* level, or a sub-component in a linguistic model (basically compatible with a variety of theories of language); and
+> 2. b) in the sense of *vocabulary* as seen from a *systematic, synchronic* point of view.”  
+>  [@Lipka1992OutlineEnglish, p. 11]
+
+#### Dimensions of structure in the lexicon
+
+- internal vs external:  
+  ![](att/lexicon-structure-internal-external.png){width="500"}
+
+- paradigmatic vs syntagmatic:  
+  ![](att/lexicon-structure-paradigmatic-syntagmatic.png){width="500"}
+
+#### Function of Lexicology in language
+
+![](att/function-of-lexicology.png){width="500"}
+
+## Practice: using dictionaries for studying lexis
+
+Which types of lexical information can you find in the OED?
+
+- phonology
+- word-formation
+- semantics
+- sociolinguistics
+- register
+- usage frequency
+
+## For next week …
+
+Read the first chapter of:
+
+[@Bauer2022Introduction]
+
+[Download chapter 1 (PDF)](att/Bauer2022Introduction_ch-1.pdf)

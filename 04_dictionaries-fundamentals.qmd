@@ -1,0 +1,161 @@
+---
+title: "04 Dictionaries: fundamentals, examples, use cases"
+number-sections: false
+format:
+  html:
+    toc: true
+---
+
+# The Lexicon
+
+## Two senses of *lexicon*
+
+> “In the following, I will use *lexicon* in two senses that are not always sharply distinguished:  
+> a) for a **metalinguistic level**, or a sub-component in a linguistic model; and  
+> b) in the **sense of vocabulary** as seen from a systematic, synchronic point of view.”  
+> [@Lipka1992OutlineEnglish, p. 11]
+
+## Objective of lexicology
+
+- “What is most important, however, is that in lexicology the stock of words or lexical items is not simply regarded as a **list of isolated elements**.  
+- Lexicologists try to find out **generalisations** and **regularities** and especially consider **relations** between elements (see chapters n and IV).  
+- Lexicology is therefore concerned with **structures**, not with a mere agglomeration of words (cf. [@Jackson1988Lexicology, p. 222]).”  
+  [@Lipka1992OutlineEnglish, p. 1]
+
+## Definition [@Bauer2022Introduction]
+
+- “The lexicon is what linguists call the dictionary that is assumed to be **in people's heads**, or the linguist's best approximation to that.  
+- It is fundamentally a *psychological entity*, and its contents cannot be observed directly but must be deduced from speakers' and hearers' **behaviour**.  
+- Two fundamental approaches:  
+  1. **Home of the lawless** [@DiSciulloWilliams1987] – lexicon contains whatever cannot be predicted by general rule.  
+  2. Wider approach – lexicon contains anything to do with the **structure of words**, whether lawless or not.”
+
+## The mental lexicon
+
+### A cognitive view
+
+![](att/image_1698948775221_0.png){width="500"}
+
+### Cognitive-linguistic models of the lexicon
+
+![](att/image_1698948757878_0.png){width="700"}
+
+### Word embeddings [@Bandyopadhyay2022Embeddings]
+
+![](att/image_1698966813935_0.png){width="600"}
+
+Interactive demo: <https://projector.tensorflow.org/>  
+![](att/image_1700082493780_0.png){width="500"}
+
+## Associations in the lexicon
+
+![](att/image_1699482332773_0.png){width="600"}  
+*[@Stella2019MultiplexLexicon]*
+
+### The Stroop Effect [@Stroop1935Interference]
+
+![](att/image_1699482680365_0.png){width="500"}
+
+### Freudian slip [@Bauer2022Introduction]
+
+“If you talk to someone about electricity, and then make them read the phrase *sham dock*, they might very well say *damn shock*, because of prior activation of related words; the Freudian slip depends upon a subject area being readily activated in the brain and brought out inadvertently, whether because of a word related in meaning or pronunciation.”
+
+# Dictionaries [@Bauer2022Introduction]
+
+## What is a *word*?
+
+- “A word is listed in the dictionary.” (p. 2)  
+  But:  
+  - circular reasoning – words are listed *because* they are words  
+  - dictionaries also list smaller units (e.g. prefix *un-*)
+- “[...] in general we will accept the spelling conventions of English as defining words. This may not be terribly scientific, but it has the advantage of being practical.” (p. 3)
+
+## Definition of *dictionary*
+
+- “The term *dictionary* is usually restricted to real-world dictionaries that appear in print and online.
+- Dictionaries provide a list of words of whatever language they deal with – in our case, English – and then give a certain amount of information about each of them.
+- They tend to have two functions, which may at times conflict:
+  1. **Describe** the language as it is (descriptive)  
+  2. Provide an influence for establishing and maintaining the **standard** form of the language (prescriptive)”
+
+### Descriptivism vs prescriptivism
+
+> “If we assume that one of *'kilometre* and *ki'lometre* is right (and the other therefore wrong), we assume that there is a **unique solution** to this question of English usage …” (Bauer)
+
+Language questions are more often like the *jeans* question (multiple acceptable answers) than like the *drive-on-the-right* question (single legal answer).
+
+![](att/prescriptive_1699480345055_0.jpg){width="500"}
+
+## Proof of the existence of words
+
+“First of all, dictionaries provide evidence of the existence of a word.  The fact that a word is listed in a dictionary at all is taken to prove that there is such a word.  This can be misleading in two ways:
+
+1. Dictionaries **sometimes list erroneous words** that have no existence outside the dictionary (e.g. *banket*, *sardel*).  
+2. Dictionaries more often **fail to list perfectly good words** – no dictionary can list every word of English.”
+
+### Term-paper idea
+
+- Which words are commonly used (in corpora) but **not** contained in dictionaries?  
+- Which words are contained in dictionaries but **not** commonly used in corpora?
+
+## Information provided in the OED
+
+## Information provided in the OED
+
+![](att/image_1699480538583_0.png){width="650"}
+
+## Selected dictionaries
+
+### Urban Dictionary
+
+<https://www.urbandictionary.com/>  
+![](att/urban-dictionary-neologism_1700084367030_0.png){width="500"}
+
+### Wiktionary
+
+<https://www.wiktionary.org/>  
+![](att/wiktionary_1700084621385_0.png){width="500"}
+
+#### WIND (Machine-readable Wiktionary)
+
+Sajous, Calderone & Hathout 2020. ‘ENGLAWI: From Human- to Machine-Readable Wiktionary’. *LREC* 12.  
+<http://redac.univ-tlse2.fr/lexiques/wind.html>
+
+![](att/WIND_1700084693531_0.png){width="450"}
+
+![](att/WIND-data_1700084893318_0.png){width="450"}
+
+### Oxford English Dictionary (OED)
+
+![](att/image_1700085431951_0.png){width="600"}
+
+Advanced search interface:  
+![](att/image_1700086248403_0.png){width="600"}
+
+
+# Practice: Investigating lexical innovation since 2000 using the OED
+
+### Task 1 – Advanced search
+
+Use the OED Advanced search to find all lexemes whose **first use** is **after 2000**.
+
+![](att/image_1700133799936_0.png){width="600"}
+
+Export the results to a `.csv` file.
+
+### Task 2 – Analyse in Microsoft Excel
+
+Guiding questions:
+
+- Which **word-formation processes** are most frequent?  
+- Which **word classes** are most frequent?  
+- Which **subject areas** are most frequent?
+
+Steps:
+
+1. Save the exported file as `xlsx`.  
+2. Create a **Table** containing the data (Insert → Table).  
+3. Insert a **Pivot Table** to analyse process, class, subject.  
+4. Compare findings with compounding.
+
+Model Excel file: <https://1drv.ms/x/s!AvkgNVl9yS6aoX4YgazKPYZGog54?e=C3uq5F>
