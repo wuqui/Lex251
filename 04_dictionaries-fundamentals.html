@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>04 Dictionaries: fundamentals, examples, use cases – Lexicology 251</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a986a95301e671fce2c6472dffc862a1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Lexicology 251</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sessions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sessions</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sessions">    
+        <li>
+    <a class="dropdown-item" href="./01_organisation-introduction.html">
+ <span class="dropdown-text">01 Organisation &amp; Introduction</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./02_words-dictionaries-lexicon.html">
+ <span class="dropdown-text">02 Words, dictionaries &amp; the lexicon</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./03_morphology-word-formation.html">
+ <span class="dropdown-text">03 Morphology &amp; word-formation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./04_dictionaries-fundamentals.html">
+ <span class="dropdown-text">04 Dictionaries (fundamentals)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./05_dictionaries-2/slides.html">
+ <span class="dropdown-text">05 Using dictionaries &amp; analysing data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./06_corpora.html">
+ <span class="dropdown-text">06 Corpora</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./07_semantics_embed.html">
+ <span class="dropdown-text">07 Semantics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./08_research-projects_embed.html">
+ <span class="dropdown-text">08 Studying lexis empirically</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./09_change_embed.html">
+ <span class="dropdown-text">09 Lexical change</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./10_lexical-innovation_embed.html">
+ <span class="dropdown-text">10 Lexical innovation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./11_lexical-variation_embed.html">
+ <span class="dropdown-text">11 Lexical variation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./12_wrap-up_embed.html">
+ <span class="dropdown-text">12 Wrap-up</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-lexicon" id="toc-the-lexicon" class="nav-link active" data-scroll-target="#the-lexicon">The Lexicon</a>
+  <ul class="collapse">
+  <li><a href="#two-senses-of-lexicon" id="toc-two-senses-of-lexicon" class="nav-link" data-scroll-target="#two-senses-of-lexicon">Two senses of <em>lexicon</em></a></li>
+  <li><a href="#objective-of-lexicology" id="toc-objective-of-lexicology" class="nav-link" data-scroll-target="#objective-of-lexicology">Objective of lexicology</a></li>
+  <li><a href="#definition-bauer2022introduction" id="toc-definition-bauer2022introduction" class="nav-link" data-scroll-target="#definition-bauer2022introduction">Definition <span class="citation" data-cites="Bauer2022Introduction">(Bauer 2022)</span></a></li>
+  <li><a href="#the-mental-lexicon" id="toc-the-mental-lexicon" class="nav-link" data-scroll-target="#the-mental-lexicon">The mental lexicon</a>
+  <ul class="collapse">
+  <li><a href="#a-cognitive-view" id="toc-a-cognitive-view" class="nav-link" data-scroll-target="#a-cognitive-view">A cognitive view</a></li>
+  <li><a href="#cognitive-linguistic-models-of-the-lexicon" id="toc-cognitive-linguistic-models-of-the-lexicon" class="nav-link" data-scroll-target="#cognitive-linguistic-models-of-the-lexicon">Cognitive-linguistic models of the lexicon</a></li>
+  <li><a href="#word-embeddings-bandyopadhyay2022embeddings" id="toc-word-embeddings-bandyopadhyay2022embeddings" class="nav-link" data-scroll-target="#word-embeddings-bandyopadhyay2022embeddings">Word embeddings <span class="citation" data-cites="Bandyopadhyay2022Embeddings">(Bandyopadhyay et al. 2022)</span></a></li>
+  </ul></li>
+  <li><a href="#associations-in-the-lexicon" id="toc-associations-in-the-lexicon" class="nav-link" data-scroll-target="#associations-in-the-lexicon">Associations in the lexicon</a>
+  <ul class="collapse">
+  <li><a href="#the-stroop-effect-stroop1935interference" id="toc-the-stroop-effect-stroop1935interference" class="nav-link" data-scroll-target="#the-stroop-effect-stroop1935interference">The Stroop Effect <span class="citation" data-cites="Stroop1935Interference">(Stroop 1935)</span></a></li>
+  <li><a href="#freudian-slip-bauer2022introduction" id="toc-freudian-slip-bauer2022introduction" class="nav-link" data-scroll-target="#freudian-slip-bauer2022introduction">Freudian slip <span class="citation" data-cites="Bauer2022Introduction">(Bauer 2022)</span></a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#dictionaries-bauer2022introduction" id="toc-dictionaries-bauer2022introduction" class="nav-link" data-scroll-target="#dictionaries-bauer2022introduction">Dictionaries <span class="citation" data-cites="Bauer2022Introduction">(Bauer 2022)</span></a>
+  <ul class="collapse">
+  <li><a href="#what-is-a-word" id="toc-what-is-a-word" class="nav-link" data-scroll-target="#what-is-a-word">What is a <em>word</em>?</a></li>
+  <li><a href="#definition-of-dictionary" id="toc-definition-of-dictionary" class="nav-link" data-scroll-target="#definition-of-dictionary">Definition of <em>dictionary</em></a>
+  <ul class="collapse">
+  <li><a href="#descriptivism-vs-prescriptivism" id="toc-descriptivism-vs-prescriptivism" class="nav-link" data-scroll-target="#descriptivism-vs-prescriptivism">Descriptivism vs prescriptivism</a></li>
+  </ul></li>
+  <li><a href="#proof-of-the-existence-of-words" id="toc-proof-of-the-existence-of-words" class="nav-link" data-scroll-target="#proof-of-the-existence-of-words">Proof of the existence of words</a>
+  <ul class="collapse">
+  <li><a href="#term-paper-idea" id="toc-term-paper-idea" class="nav-link" data-scroll-target="#term-paper-idea">Term-paper idea</a></li>
+  </ul></li>
+  <li><a href="#information-provided-in-the-oed" id="toc-information-provided-in-the-oed" class="nav-link" data-scroll-target="#information-provided-in-the-oed">Information provided in the OED</a></li>
+  <li><a href="#information-provided-in-the-oed-1" id="toc-information-provided-in-the-oed-1" class="nav-link" data-scroll-target="#information-provided-in-the-oed-1">Information provided in the OED</a></li>
+  <li><a href="#selected-dictionaries" id="toc-selected-dictionaries" class="nav-link" data-scroll-target="#selected-dictionaries">Selected dictionaries</a>
+  <ul class="collapse">
+  <li><a href="#urban-dictionary" id="toc-urban-dictionary" class="nav-link" data-scroll-target="#urban-dictionary">Urban Dictionary</a></li>
+  <li><a href="#wiktionary" id="toc-wiktionary" class="nav-link" data-scroll-target="#wiktionary">Wiktionary</a></li>
+  <li><a href="#oxford-english-dictionary-oed" id="toc-oxford-english-dictionary-oed" class="nav-link" data-scroll-target="#oxford-english-dictionary-oed">Oxford English Dictionary (OED)</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#practice-investigating-lexical-innovation-since-2000-using-the-oed" id="toc-practice-investigating-lexical-innovation-since-2000-using-the-oed" class="nav-link" data-scroll-target="#practice-investigating-lexical-innovation-since-2000-using-the-oed">Practice: Investigating lexical innovation since 2000 using the OED</a>
+  <ul class="collapse">
+  <li><a href="#task-1-advanced-search" id="toc-task-1-advanced-search" class="nav-link" data-scroll-target="#task-1-advanced-search">Task 1 – Advanced search</a></li>
+  <li><a href="#task-2-analyse-in-microsoft-excel" id="toc-task-2-analyse-in-microsoft-excel" class="nav-link" data-scroll-target="#task-2-analyse-in-microsoft-excel">Task 2 – Analyse in Microsoft Excel</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">04 Dictionaries: fundamentals, examples, use cases</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="the-lexicon" class="level1">
+<h1>The Lexicon</h1>
+<section id="two-senses-of-lexicon" class="level2">
+<h2 class="anchored" data-anchor-id="two-senses-of-lexicon">Two senses of <em>lexicon</em></h2>
+<blockquote class="blockquote">
+<p>“In the following, I will use <em>lexicon</em> in two senses that are not always sharply distinguished:<br>
+a) for a <strong>metalinguistic level</strong>, or a sub-component in a linguistic model; and<br>
+b) in the <strong>sense of vocabulary</strong> as seen from a systematic, synchronic point of view.”<br>
+<span class="citation" data-cites="Lipka1992OutlineEnglish">(<a href="#ref-Lipka1992OutlineEnglish" role="doc-biblioref">Lipka 1992, 11</a>)</span></p>
+</blockquote>
+</section>
+<section id="objective-of-lexicology" class="level2">
+<h2 class="anchored" data-anchor-id="objective-of-lexicology">Objective of lexicology</h2>
+<ul>
+<li>“What is most important, however, is that in lexicology the stock of words or lexical items is not simply regarded as a <strong>list of isolated elements</strong>.<br>
+</li>
+<li>Lexicologists try to find out <strong>generalisations</strong> and <strong>regularities</strong> and especially consider <strong>relations</strong> between elements (see chapters n and IV).<br>
+</li>
+<li>Lexicology is therefore concerned with <strong>structures</strong>, not with a mere agglomeration of words (cf. <span class="citation" data-cites="Jackson1988Lexicology">(<a href="#ref-Jackson1988Lexicology" role="doc-biblioref">Jackson 1988, 222</a>)</span>).”<br>
+<span class="citation" data-cites="Lipka1992OutlineEnglish">(<a href="#ref-Lipka1992OutlineEnglish" role="doc-biblioref">Lipka 1992, 1</a>)</span></li>
+</ul>
+</section>
+<section id="definition-bauer2022introduction" class="level2">
+<h2 class="anchored" data-anchor-id="definition-bauer2022introduction">Definition <span class="citation" data-cites="Bauer2022Introduction">(<a href="#ref-Bauer2022Introduction" role="doc-biblioref">Bauer 2022</a>)</span></h2>
+<ul>
+<li>“The lexicon is what linguists call the dictionary that is assumed to be <strong>in people’s heads</strong>, or the linguist’s best approximation to that.<br>
+</li>
+<li>It is fundamentally a <em>psychological entity</em>, and its contents cannot be observed directly but must be deduced from speakers’ and hearers’ <strong>behaviour</strong>.<br>
+</li>
+<li>Two fundamental approaches:
+<ol type="1">
+<li><strong>Home of the lawless</strong> <span class="citation" data-cites="DiSciulloWilliams1987">(<a href="#ref-DiSciulloWilliams1987" role="doc-biblioref">Di Sciullo and Williams 1987</a>)</span> – lexicon contains whatever cannot be predicted by general rule.<br>
+</li>
+<li>Wider approach – lexicon contains anything to do with the <strong>structure of words</strong>, whether lawless or not.”</li>
+</ol></li>
+</ul>
+</section>
+<section id="the-mental-lexicon" class="level2">
+<h2 class="anchored" data-anchor-id="the-mental-lexicon">The mental lexicon</h2>
+<section id="a-cognitive-view" class="level3">
+<h3 class="anchored" data-anchor-id="a-cognitive-view">A cognitive view</h3>
+<p><img src="att/image_1698948775221_0.png" class="img-fluid" width="500"></p>
+</section>
+<section id="cognitive-linguistic-models-of-the-lexicon" class="level3">
+<h3 class="anchored" data-anchor-id="cognitive-linguistic-models-of-the-lexicon">Cognitive-linguistic models of the lexicon</h3>
+<p><img src="att/image_1698948757878_0.png" class="img-fluid" width="700"></p>
+</section>
+<section id="word-embeddings-bandyopadhyay2022embeddings" class="level3">
+<h3 class="anchored" data-anchor-id="word-embeddings-bandyopadhyay2022embeddings">Word embeddings <span class="citation" data-cites="Bandyopadhyay2022Embeddings">(<a href="#ref-Bandyopadhyay2022Embeddings" role="doc-biblioref">Bandyopadhyay et al. 2022</a>)</span></h3>
+<p><img src="att/image_1698966813935_0.png" class="img-fluid" width="600"></p>
+<p>Interactive demo: <a href="https://projector.tensorflow.org/" class="uri">https://projector.tensorflow.org/</a><br>
+<img src="att/image_1700082493780_0.png" class="img-fluid" width="500"></p>
+</section>
+</section>
+<section id="associations-in-the-lexicon" class="level2">
+<h2 class="anchored" data-anchor-id="associations-in-the-lexicon">Associations in the lexicon</h2>
+<p><img src="att/image_1699482332773_0.png" class="img-fluid" width="600"><br>
+<em><span class="citation" data-cites="Stella2019MultiplexLexicon">(<a href="#ref-Stella2019MultiplexLexicon" role="doc-biblioref">Stella 2019</a>)</span></em></p>
+<section id="the-stroop-effect-stroop1935interference" class="level3">
+<h3 class="anchored" data-anchor-id="the-stroop-effect-stroop1935interference">The Stroop Effect <span class="citation" data-cites="Stroop1935Interference">(<a href="#ref-Stroop1935Interference" role="doc-biblioref">Stroop 1935</a>)</span></h3>
+<p><img src="att/image_1699482680365_0.png" class="img-fluid" width="500"></p>
+</section>
+<section id="freudian-slip-bauer2022introduction" class="level3">
+<h3 class="anchored" data-anchor-id="freudian-slip-bauer2022introduction">Freudian slip <span class="citation" data-cites="Bauer2022Introduction">(<a href="#ref-Bauer2022Introduction" role="doc-biblioref">Bauer 2022</a>)</span></h3>
+<p>“If you talk to someone about electricity, and then make them read the phrase <em>sham dock</em>, they might very well say <em>damn shock</em>, because of prior activation of related words; the Freudian slip depends upon a subject area being readily activated in the brain and brought out inadvertently, whether because of a word related in meaning or pronunciation.”</p>
+</section>
+</section>
+</section>
+<section id="dictionaries-bauer2022introduction" class="level1">
+<h1>Dictionaries <span class="citation" data-cites="Bauer2022Introduction">(<a href="#ref-Bauer2022Introduction" role="doc-biblioref">Bauer 2022</a>)</span></h1>
+<section id="what-is-a-word" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-word">What is a <em>word</em>?</h2>
+<ul>
+<li>“A word is listed in the dictionary.” (p.&nbsp;2)<br>
+But:
+<ul>
+<li>circular reasoning – words are listed <em>because</em> they are words<br>
+</li>
+<li>dictionaries also list smaller units (e.g.&nbsp;prefix <em>un-</em>)</li>
+</ul></li>
+<li>“[…] in general we will accept the spelling conventions of English as defining words. This may not be terribly scientific, but it has the advantage of being practical.” (p.&nbsp;3)</li>
+</ul>
+</section>
+<section id="definition-of-dictionary" class="level2">
+<h2 class="anchored" data-anchor-id="definition-of-dictionary">Definition of <em>dictionary</em></h2>
+<ul>
+<li>“The term <em>dictionary</em> is usually restricted to real-world dictionaries that appear in print and online.</li>
+<li>Dictionaries provide a list of words of whatever language they deal with – in our case, English – and then give a certain amount of information about each of them.</li>
+<li>They tend to have two functions, which may at times conflict:
+<ol type="1">
+<li><strong>Describe</strong> the language as it is (descriptive)<br>
+</li>
+<li>Provide an influence for establishing and maintaining the <strong>standard</strong> form of the language (prescriptive)”</li>
+</ol></li>
+</ul>
+<section id="descriptivism-vs-prescriptivism" class="level3">
+<h3 class="anchored" data-anchor-id="descriptivism-vs-prescriptivism">Descriptivism vs prescriptivism</h3>
+<blockquote class="blockquote">
+<p>“If we assume that one of <em>’kilometre</em> and <em>ki’lometre</em> is right (and the other therefore wrong), we assume that there is a <strong>unique solution</strong> to this question of English usage …” (Bauer)</p>
+</blockquote>
+<p>Language questions are more often like the <em>jeans</em> question (multiple acceptable answers) than like the <em>drive-on-the-right</em> question (single legal answer).</p>
+<p><img src="att/prescriptive_1699480345055_0.jpg" class="img-fluid" width="500"></p>
+</section>
+</section>
+<section id="proof-of-the-existence-of-words" class="level2">
+<h2 class="anchored" data-anchor-id="proof-of-the-existence-of-words">Proof of the existence of words</h2>
+<p>“First of all, dictionaries provide evidence of the existence of a word. The fact that a word is listed in a dictionary at all is taken to prove that there is such a word. This can be misleading in two ways:</p>
+<ol type="1">
+<li>Dictionaries <strong>sometimes list erroneous words</strong> that have no existence outside the dictionary (e.g.&nbsp;<em>banket</em>, <em>sardel</em>).<br>
+</li>
+<li>Dictionaries more often <strong>fail to list perfectly good words</strong> – no dictionary can list every word of English.”</li>
+</ol>
+<section id="term-paper-idea" class="level3">
+<h3 class="anchored" data-anchor-id="term-paper-idea">Term-paper idea</h3>
+<ul>
+<li>Which words are commonly used (in corpora) but <strong>not</strong> contained in dictionaries?<br>
+</li>
+<li>Which words are contained in dictionaries but <strong>not</strong> commonly used in corpora?</li>
+</ul>
+</section>
+</section>
+<section id="information-provided-in-the-oed" class="level2">
+<h2 class="anchored" data-anchor-id="information-provided-in-the-oed">Information provided in the OED</h2>
+</section>
+<section id="information-provided-in-the-oed-1" class="level2">
+<h2 class="anchored" data-anchor-id="information-provided-in-the-oed-1">Information provided in the OED</h2>
+<p><img src="att/image_1699480538583_0.png" class="img-fluid" width="650"></p>
+</section>
+<section id="selected-dictionaries" class="level2">
+<h2 class="anchored" data-anchor-id="selected-dictionaries">Selected dictionaries</h2>
+<section id="urban-dictionary" class="level3">
+<h3 class="anchored" data-anchor-id="urban-dictionary">Urban Dictionary</h3>
+<p><a href="https://www.urbandictionary.com/" class="uri">https://www.urbandictionary.com/</a><br>
+<img src="att/urban-dictionary-neologism_1700084367030_0.png" class="img-fluid" width="500"></p>
+</section>
+<section id="wiktionary" class="level3">
+<h3 class="anchored" data-anchor-id="wiktionary">Wiktionary</h3>
+<p><a href="https://www.wiktionary.org/" class="uri">https://www.wiktionary.org/</a><br>
+<img src="att/wiktionary_1700084621385_0.png" class="img-fluid" width="500"></p>
+<section id="wind-machine-readable-wiktionary" class="level4">
+<h4 class="anchored" data-anchor-id="wind-machine-readable-wiktionary">WIND (Machine-readable Wiktionary)</h4>
+<p>Sajous, Calderone &amp; Hathout 2020. ‘ENGLAWI: From Human- to Machine-Readable Wiktionary’. <em>LREC</em> 12.<br>
+<a href="http://redac.univ-tlse2.fr/lexiques/wind.html" class="uri">http://redac.univ-tlse2.fr/lexiques/wind.html</a></p>
+<p><img src="att/WIND_1700084693531_0.png" class="img-fluid" width="450"></p>
+<p><img src="att/WIND-data_1700084893318_0.png" class="img-fluid" width="450"></p>
+</section>
+</section>
+<section id="oxford-english-dictionary-oed" class="level3">
+<h3 class="anchored" data-anchor-id="oxford-english-dictionary-oed">Oxford English Dictionary (OED)</h3>
+<p><img src="att/image_1700085431951_0.png" class="img-fluid" width="600"></p>
+<p>Advanced search interface:<br>
+<img src="att/image_1700086248403_0.png" class="img-fluid" width="600"></p>
+</section>
+</section>
+</section>
+<section id="practice-investigating-lexical-innovation-since-2000-using-the-oed" class="level1">
+<h1>Practice: Investigating lexical innovation since 2000 using the OED</h1>
+<section id="task-1-advanced-search" class="level3">
+<h3 class="anchored" data-anchor-id="task-1-advanced-search">Task 1 – Advanced search</h3>
+<p>Use the OED Advanced search to find all lexemes whose <strong>first use</strong> is <strong>after 2000</strong>.</p>
+<p><img src="att/image_1700133799936_0.png" class="img-fluid" width="600"></p>
+<p>Export the results to a <code>.csv</code> file.</p>
+</section>
+<section id="task-2-analyse-in-microsoft-excel" class="level3">
+<h3 class="anchored" data-anchor-id="task-2-analyse-in-microsoft-excel">Task 2 – Analyse in Microsoft Excel</h3>
+<p>Guiding questions:</p>
+<ul>
+<li>Which <strong>word-formation processes</strong> are most frequent?<br>
+</li>
+<li>Which <strong>word classes</strong> are most frequent?<br>
+</li>
+<li>Which <strong>subject areas</strong> are most frequent?</li>
+</ul>
+<p>Steps:</p>
+<ol type="1">
+<li>Save the exported file as <code>xlsx</code>.<br>
+</li>
+<li>Create a <strong>Table</strong> containing the data (Insert → Table).<br>
+</li>
+<li>Insert a <strong>Pivot Table</strong> to analyse process, class, subject.<br>
+</li>
+<li>Compare findings with compounding.</li>
+</ol>
+<p>Model Excel file: <a href="https://1drv.ms/x/s!AvkgNVl9yS6aoX4YgazKPYZGog54?e=C3uq5F" class="uri">https://1drv.ms/x/s!AvkgNVl9yS6aoX4YgazKPYZGog54?e=C3uq5F</a></p>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Bandyopadhyay2022Embeddings" class="csl-entry" role="listitem">
+Bandyopadhyay, Saptarashmi, Jason Xu, Neel Pawar, and David Touretzky. 2022. <span>“Interactive Visualizations of Word Embeddings for k-12 Students.”</span> In <em>Proceedings of the AAAI Conference on Artificial Intelligence</em>, 36:12713–20. 11. <a href="https://doi.org/10.1609/aaai.v36i11.21548">https://doi.org/10.1609/aaai.v36i11.21548</a>.
+</div>
+<div id="ref-Bauer2022Introduction" class="csl-entry" role="listitem">
+Bauer, Laurie. 2022. <em>An Introduction to English Lexicology</em>. Edinburgh University Press.
+</div>
+<div id="ref-DiSciulloWilliams1987" class="csl-entry" role="listitem">
+Di Sciullo, Anna Maria, and Edwin Williams. 1987. <em>On the Definition of Word</em>. MIT Press.
+</div>
+<div id="ref-Jackson1988Lexicology" class="csl-entry" role="listitem">
+Jackson, Howard. 1988. <em>Words and Their Meaning</em>. Longman.
+</div>
+<div id="ref-Lipka1992OutlineEnglish" class="csl-entry" role="listitem">
+Lipka, Leonhard. 1992. <em>An Outline of English Lexicology</em>. Tübingen: Niemeyer.
+</div>
+<div id="ref-Stella2019MultiplexLexicon" class="csl-entry" role="listitem">
+Stella, Massimo. 2019. <span>“Modelling Early Word Acquisition Through Multiplex Lexical Networks and Machine Learning.”</span> <em>Big Data and Cognitive Computing</em> 3 (1): 10.
+</div>
+<div id="ref-Stroop1935Interference" class="csl-entry" role="listitem">
+Stroop, J. R. 1935. <span>“Studies of Interference in Serial Verbal Reactions.”</span> <em>Journal of Experimental Psychology</em> 18 (6): 643–62. <a href="https://doi.org/10.1037/h0054651">https://doi.org/10.1037/h0054651</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/wuqui\.github\.io\/Lex251\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

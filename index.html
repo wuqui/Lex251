@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -90,10 +110,61 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Word for Word: Studying words in use with corpora and dictionaries</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sessions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sessions</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sessions">    
+        <li>
+    <a class="dropdown-item" href="./01_organisation-introduction.html">
+ <span class="dropdown-text">01 Organisation &amp; Introduction</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./02_words-dictionaries-lexicon.html">
+ <span class="dropdown-text">02 Words, dictionaries &amp; the lexicon</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./03_morphology-word-formation.html">
+ <span class="dropdown-text">03 Morphology &amp; word-formation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./04_dictionaries-fundamentals.html">
+ <span class="dropdown-text">04 Dictionaries (fundamentals)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./05_dictionaries-2/slides.html">
+ <span class="dropdown-text">05 Using dictionaries &amp; analysing data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./06_corpora.html">
+ <span class="dropdown-text">06 Corpora</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./07_semantics_embed.html">
+ <span class="dropdown-text">07 Semantics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./08_research-projects_embed.html">
+ <span class="dropdown-text">08 Studying lexis empirically</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./09_change_embed.html">
+ <span class="dropdown-text">09 Lexical change</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./10_lexical-innovation_embed.html">
+ <span class="dropdown-text">10 Lexical innovation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./11_lexical-variation_embed.html">
+ <span class="dropdown-text">11 Lexical variation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./12_wrap-up_embed.html">
+ <span class="dropdown-text">12 Wrap-up</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -111,9 +182,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#course-schedule" id="toc-course-schedule" class="nav-link active" data-scroll-target="#course-schedule">Course schedule</a></li>
-  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
   <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course description</a></li>
-  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a></li>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -157,19 +228,19 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>23 Apr.</td>
-<td>Organisation and introduction</td>
+<td><a href="./01_organisation-introduction.html">Organisation and introduction</a></td>
 </tr>
 <tr class="even">
 <td>14 May</td>
-<td>Words, dictionaries, and the lexicon</td>
+<td><a href="./02_words-dictionaries-lexicon.html">Words, dictionaries, and the lexicon</a></td>
 </tr>
 <tr class="odd">
 <td>21 May</td>
-<td>Morphology and word-formation: theory and analysis</td>
+<td><a href="./03_morphology-word-formation.html">Morphology and word-formation: theory and analysis</a></td>
 </tr>
 <tr class="even">
 <td>28 May</td>
-<td>Dictionaries: fundamentals, examples, use cases</td>
+<td><a href="./04_dictionaries-fundamentals.html">Dictionaries: fundamentals, examples, use cases</a></td>
 </tr>
 <tr class="odd">
 <td>04 Jun.</td>
@@ -177,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>11 Jun.</td>
-<td>Corpora: theories, methods, and applications</td>
+<td><a href="./06_corpora.html">Corpora: theories, methods, and applications</a></td>
 </tr>
 <tr class="odd">
 <td>18 Jun.</td>
@@ -206,19 +277,6 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="requirements" class="level1">
-<h1>Requirements</h1>
-<p>Assessment formats vary based on ECTS credits:</p>
-<ul>
-<li><strong>3 ECTS</strong>: short paper (≈ 3–5 pages)</li>
-<li><strong>6 ECTS</strong>: long paper (≈ 10–12 pages)</li>
-<li><strong>9 ECTS</strong>: 30–37 characters (MA WP 14.1, WP 15.1)
-<ul>
-<li><strong>project report: 4500 chars</strong></li>
-</ul></li>
-</ul>
-<p>Check your <em>Studien-/Prüfungsordnung</em> for the exact specification.</p>
-</section>
 <section id="course-description" class="level1">
 <h1>Course description</h1>
 <ul>
@@ -236,35 +294,73 @@ ul.task-list li input[type="checkbox"] {
 <li>The programme emphasises practical experience in frequency analysis, collocation studies, Word Sketches through collaborative group projects, enabling students to apply corpus-based methodologies to lexicological research projects.</li>
 </ul>
 </section>
-<section id="bibliography" class="level1">
-<h1>Bibliography</h1>
-<p>Bandyopadhyay, Saptarashmi, Jason Xu, Neel Pawar, and David Touretzky. 2022. ‘Interactive Visualizations of Word Embeddings for K-12 Students’. <em>Proceedings of the AAAI Conference on Artificial Intelligence</em> 36 (11): 12713–20. <a href="https://doi.org/10.1609/aaai.v36i11.21548">https://doi.org/10.1609/aaai.v36i11.21548</a>.</p>
-<p>Bauer, Laurie. 2022. <em>An Introduction to English Lexicology</em>. Edinburgh University Press.</p>
-<p>Bühler, Karl. 1934. <em>Sprachtheorie</em>. Jena: Fischer.</p>
-<p>Grieve, Jack, Andrea Nini, and Diansheng Guo. 2018. ‘Mapping Lexical Innovation on American Social Media’. <em>Journal of English Linguistics</em> 46 (4): 293–319.</p>
-<p>Hamilton, William L., Jure Leskovec, and Dan Jurafsky. 2016. ‘Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change’. In , 1489—1501. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL). Berlin, Germany: Association for Computational Linguistics. <a href="http://www.aclweb.org/anthology/P16-1141">http://www.aclweb.org/anthology/P16-1141</a>.</p>
-<p>Haspelmath, Martin. 2023. ‘Defining the Word’. <em>WORD</em> 69 (3): 283–97. <a href="https://doi.org/10.1080/00437956.2023.2237272">https://doi.org/10.1080/00437956.2023.2237272</a>.</p>
-<p>Herbst, Thomas. 2010. <em>English Linguistics: A Coursebook for Students of English</em>. Berlin: De Gruyter Mouton.</p>
-<p>Hilpert, Martin, David Correia Saavedra, and Jennifer Rains. 2023. ‘Meaning Differences between English Clippings and Their Source Words: A Corpus-Based Study’. <em>ICAME Journal</em> 47 (1): 19–37. <a href="https://doi.org/10.2478/icame-2023-0002">https://doi.org/10.2478/icame-2023-0002</a>.</p>
-<p>Jackson, Howard. 2022. <em>An Introduction to English Lexicology</em>. 3rd ed.&nbsp;London, New York: Bloomsbury Academic.</p>
-<p>Keller, Rudi. 1994. <em>Sprachwandel: Von Der Unsichtbaren Hand in Der Sprache</em>. Tübingen: Francke.</p>
-<p>Kemmer, Suzanne. 2003. ‘Schemas and Lexical Blends’. In <em>Motivation in Language: Studies in Honor of Günther Radden</em>, edited by Günther Radden and Hubert Cuyckens, 69–97. J. Benjamins Pub. Co.</p>
-<p>Kerremans, Daphné. 2015. <em>A Web of New Words</em>. Bern: Peter Lang. <a href="https://doi.org/10.3726/978-3-653-04788-2">https://doi.org/10.3726/978-3-653-04788-2</a>.</p>
-<p>Kortmann, Bernd. 2020. <em>English Linguistics: Essentials</em>. J.B. Metzler.</p>
-<p>Leisi, Ernst. 2008. <em>Das Heutige Englisch</em>. 9th ed.&nbsp;Sprachwissenschaftliche Studienbücher. Heidelberg: Universitätsverlag Winter.</p>
-<p>Lipka, Leonhard. 1992. <em>An Outline of English Lexicology</em>. Forschung Und Studium Anglistik. Tübingen: Niemeyer.</p>
-<p>Lipka, Leonhard. 2002. <em>English Lexicology: Lexical Structure, Word Semantics and Word-Formation</em>. Tübingen: Narr.</p>
-<p>Ogden, Charles Kay, and I. A. Richards. 1923. <em>The Meaning of Meaning</em>. London: K. Paul, Trench, Trubner &amp; Co.</p>
-<p>Sajous, Franck, Basilio Calderone, and Nabil Hathout. 2020. ‘ENGLAWI: From Human- to Machine-Readable Wiktionary’. In <em>Proceedings of the 12th Language Resources and Evaluation Conference</em>, 3016–26. Marseille, France: European Language Resources Association. <a href="https://www.aclweb.org/anthology/2020.lrec-1.369">https://www.aclweb.org/anthology/2020.lrec-1.369</a>.</p>
-<p>Saussure, Ferdinand de. 1916. <em>Cours de Linguistique Générale</em>. Lausanne: Payot.</p>
-<p>Schmid, Hans-Jörg. 2016. <em>English Morphology and Word-Formation - An Introduction</em>. 2nd ed.&nbsp;Berlin: Erich Schmidt Verlag.</p>
-<p>Stella, Massimo. 2019. ‘Modelling Early Word Acquisition through Multiplex Lexical Networks and Machine Learning’. <em>Big Data and Cognitive Computing</em> 3 (1): 10. <a href="https://doi.org/10.3390/bdcc3010010">https://doi.org/10.3390/bdcc3010010</a>.</p>
-<p>Stroop, J. R. 1935. ‘Studies of Interference in Serial Verbal Reactions’. <em>Journal of Experimental Psychology</em> 18 (6): 643–62. <a href="https://doi.org/10.1037/h0054651">https://doi.org/10.1037/h0054651</a>.</p>
+<section id="requirements" class="level1">
+<h1>Requirements</h1>
+<p>Assessment formats vary based on ECTS credits:</p>
+<ul>
+<li><strong>3 ECTS</strong>: short paper (≈ 3–5 pages)</li>
+<li><strong>6 ECTS</strong>: long paper (≈ 10–12 pages)</li>
+<li><strong>9 ECTS</strong>: project report: 4500 chars. (MA WP 14.1, WP 15.1)</li>
+</ul>
+<p>Check your <em>Studien-/Prüfungsordnung</em> for the exact specification.</p>
+</section>
+<section id="references" class="level1">
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Bandyopadhyay2022Embeddings" class="csl-entry" role="listitem">
+Bandyopadhyay, Saptarashmi, Jason Xu, Neel Pawar, and David Touretzky. 2022. <span>“Interactive Visualizations of Word Embeddings for k-12 Students.”</span> In <em>Proceedings of the AAAI Conference on Artificial Intelligence</em>, 36:12713–20. 11. <a href="https://doi.org/10.1609/aaai.v36i11.21548">https://doi.org/10.1609/aaai.v36i11.21548</a>.
+</div>
+<div id="ref-Bauer2022Introduction" class="csl-entry" role="listitem">
+Bauer, Laurie. 2022. <em>An Introduction to English Lexicology</em>. Edinburgh University Press.
+</div>
+<div id="ref-Buhler1934Sprachtheorie" class="csl-entry" role="listitem">
+Bühler, Karl. 1934. <em>Sprachtheorie</em>. Jena: Gustav Fischer.
+</div>
+<div id="ref-Davies2008COCA" class="csl-entry" role="listitem">
+Davies, Mark. 2008. <em>The Corpus of Contemporary American English (COCA): 560 Million Words, 1990-Present</em>. BYU. <a href="https://www.english-corpora.org/coca/">https://www.english-corpora.org/coca/</a>.
+</div>
+<div id="ref-DiSciulloWilliams1987" class="csl-entry" role="listitem">
+Di Sciullo, Anna Maria, and Edwin Williams. 1987. <em>On the Definition of Word</em>. MIT Press.
+</div>
+<div id="ref-Hilpert2023Meaning" class="csl-entry" role="listitem">
+Hilpert, Martin, David Correia Saavedra, and Jennifer Rains. 2023. <span>“Meaning Differences Between English Clippings and Their Source Words: A Corpus-Based Study.”</span> <em>ICAME Journal</em> 47 (1): 19–37. <a href="https://doi.org/10.2478/icame-2023-0002">https://doi.org/10.2478/icame-2023-0002</a>.
+</div>
+<div id="ref-Jackson1988Lexicology" class="csl-entry" role="listitem">
+Jackson, Howard. 1988. <em>Words and Their Meaning</em>. Longman.
+</div>
+<div id="ref-Keller1994Sprachwandel" class="csl-entry" role="listitem">
+Keller, Rudi. 1994. <em>Sprachwandel: Von Der Unsichtbaren Hand in Der Sprache</em>. Francke.
+</div>
+<div id="ref-Kemmer2003Blends" class="csl-entry" role="listitem">
+Kemmer, Suzanne. 2003. <span>“Schemas and Lexical Blends.”</span> In <em>Motivation in Language: Studies in Honor of Günther Radden</em>, edited by Günther Radden and Hubert Cuyckens, 69–97. John Benjamins.
+</div>
+<div id="ref-Kerremans2015Web" class="csl-entry" role="listitem">
+Kerremans, Daphné. 2015. <em>A Web of New Words</em>. Bern: Peter Lang. <a href="https://doi.org/10.3726/978-3-653-04788-2">https://doi.org/10.3726/978-3-653-04788-2</a>.
+</div>
+<div id="ref-Lipka1992OutlineEnglish" class="csl-entry" role="listitem">
+Lipka, Leonhard. 1992. <em>An Outline of English Lexicology</em>. Tübingen: Niemeyer.
+</div>
+<div id="ref-Ogden1923Meaning" class="csl-entry" role="listitem">
+Ogden, Charles Kay, and I. A. Richards. 1923. <em>The Meaning of Meaning</em>. K. Paul, Trench, Trubner.
+</div>
+<div id="ref-Saussure1916Cours" class="csl-entry" role="listitem">
+Saussure, Ferdinand de. 1916. <em>Cours de Linguistique Générale</em>. Lausanne: Payot.
+</div>
+<div id="ref-Schmid2016Morphology" class="csl-entry" role="listitem">
+Schmid, Hans-Jörg. 2016. <em>English Morphology and Word-Formation: An Introduction</em>. 2nd ed. Erich Schmidt Verlag.
+</div>
+<div id="ref-Stella2019MultiplexLexicon" class="csl-entry" role="listitem">
+Stella, Massimo. 2019. <span>“Modelling Early Word Acquisition Through Multiplex Lexical Networks and Machine Learning.”</span> <em>Big Data and Cognitive Computing</em> 3 (1): 10.
+</div>
+<div id="ref-Stroop1935Interference" class="csl-entry" role="listitem">
+Stroop, J. R. 1935. <span>“Studies of Interference in Serial Verbal Reactions.”</span> <em>Journal of Experimental Psychology</em> 18 (6): 643–62. <a href="https://doi.org/10.1037/h0054651">https://doi.org/10.1037/h0054651</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -4,14 +4,546 @@
     "href": "index.html",
     "title": "Word for Word: Studying words in use with corpora and dictionaries",
     "section": "",
-    "text": "Course schedule\n\n\n\nDate\nTopic\n\n\n\n\n23 Apr.\nOrganisation and introduction\n\n\n14 May\nWords, dictionaries, and the lexicon\n\n\n21 May\nMorphology and word-formation: theory and analysis\n\n\n28 May\nDictionaries: fundamentals, examples, use cases\n\n\n04 Jun.\nUsing dictionaries and analysing data\n\n\n11 Jun.\nCorpora: theories, methods, and applications\n\n\n18 Jun.\nSemantics: studying meanings and functions of words\n\n\n25 Jun.\nStudying lexis empirically\n\n\n02 Jul.\nLexical change: history and recent developments in the English lexicon\n\n\n09 Jul.\nLexical innovation: new words and meanings\n\n\n16 Jul.\nLexical variation: speaker and text type variation\n\n\n23 Jul.\nWrap-up\n\n\n\n\n\nRequirements\nAssessment formats vary based on ECTS credits:\n\n3 ECTS: short paper (≈ 3–5 pages)\n6 ECTS: long paper (≈ 10–12 pages)\n9 ECTS: 30–37 characters (MA WP 14.1, WP 15.1)\n\nproject report: 4500 chars\n\n\nCheck your Studien-/Prüfungsordnung for the exact specification.\n\n\nCourse description\n\nThis course provides an in-depth exploration of English lexicology and lexicography, examining key areas including\n\nword-formation processes,\nsemantic analysis of word senses,\nand patterns of lexical variation and change.\n\nGrounded in authentic language data from dictionaries and corpora, students will develop analytical skills for studying lexical usage\n\nthrough dictionaries like Wiktionary and the Oxford English Dictionary (OED),\nalongside corpora such as COCA and English Trends on the corpus platforms english-corpora.org and Sketch Engine.\n\nThe programme emphasises practical experience in frequency analysis, collocation studies, Word Sketches through collaborative group projects, enabling students to apply corpus-based methodologies to lexicological research projects.\n\n\n\nBibliography\nBandyopadhyay, Saptarashmi, Jason Xu, Neel Pawar, and David Touretzky. 2022. ‘Interactive Visualizations of Word Embeddings for K-12 Students’. Proceedings of the AAAI Conference on Artificial Intelligence 36 (11): 12713–20. https://doi.org/10.1609/aaai.v36i11.21548.\nBauer, Laurie. 2022. An Introduction to English Lexicology. Edinburgh University Press.\nBühler, Karl. 1934. Sprachtheorie. Jena: Fischer.\nGrieve, Jack, Andrea Nini, and Diansheng Guo. 2018. ‘Mapping Lexical Innovation on American Social Media’. Journal of English Linguistics 46 (4): 293–319.\nHamilton, William L., Jure Leskovec, and Dan Jurafsky. 2016. ‘Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change’. In , 1489—1501. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL). Berlin, Germany: Association for Computational Linguistics. http://www.aclweb.org/anthology/P16-1141.\nHaspelmath, Martin. 2023. ‘Defining the Word’. WORD 69 (3): 283–97. https://doi.org/10.1080/00437956.2023.2237272.\nHerbst, Thomas. 2010. English Linguistics: A Coursebook for Students of English. Berlin: De Gruyter Mouton.\nHilpert, Martin, David Correia Saavedra, and Jennifer Rains. 2023. ‘Meaning Differences between English Clippings and Their Source Words: A Corpus-Based Study’. ICAME Journal 47 (1): 19–37. https://doi.org/10.2478/icame-2023-0002.\nJackson, Howard. 2022. An Introduction to English Lexicology. 3rd ed. London, New York: Bloomsbury Academic.\nKeller, Rudi. 1994. Sprachwandel: Von Der Unsichtbaren Hand in Der Sprache. Tübingen: Francke.\nKemmer, Suzanne. 2003. ‘Schemas and Lexical Blends’. In Motivation in Language: Studies in Honor of Günther Radden, edited by Günther Radden and Hubert Cuyckens, 69–97. J. Benjamins Pub. Co.\nKerremans, Daphné. 2015. A Web of New Words. Bern: Peter Lang. https://doi.org/10.3726/978-3-653-04788-2.\nKortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.\nLeisi, Ernst. 2008. Das Heutige Englisch. 9th ed. Sprachwissenschaftliche Studienbücher. Heidelberg: Universitätsverlag Winter.\nLipka, Leonhard. 1992. An Outline of English Lexicology. Forschung Und Studium Anglistik. Tübingen: Niemeyer.\nLipka, Leonhard. 2002. English Lexicology: Lexical Structure, Word Semantics and Word-Formation. Tübingen: Narr.\nOgden, Charles Kay, and I. A. Richards. 1923. The Meaning of Meaning. London: K. Paul, Trench, Trubner & Co.\nSajous, Franck, Basilio Calderone, and Nabil Hathout. 2020. ‘ENGLAWI: From Human- to Machine-Readable Wiktionary’. In Proceedings of the 12th Language Resources and Evaluation Conference, 3016–26. Marseille, France: European Language Resources Association. https://www.aclweb.org/anthology/2020.lrec-1.369.\nSaussure, Ferdinand de. 1916. Cours de Linguistique Générale. Lausanne: Payot.\nSchmid, Hans-Jörg. 2016. English Morphology and Word-Formation - An Introduction. 2nd ed. Berlin: Erich Schmidt Verlag.\nStella, Massimo. 2019. ‘Modelling Early Word Acquisition through Multiplex Lexical Networks and Machine Learning’. Big Data and Cognitive Computing 3 (1): 10. https://doi.org/10.3390/bdcc3010010.\nStroop, J. R. 1935. ‘Studies of Interference in Serial Verbal Reactions’. Journal of Experimental Psychology 18 (6): 643–62. https://doi.org/10.1037/h0054651."
+    "text": "Course schedule\n\n\n\nDate\nTopic\n\n\n\n\n23 Apr.\nOrganisation and introduction\n\n\n14 May\nWords, dictionaries, and the lexicon\n\n\n21 May\nMorphology and word-formation: theory and analysis\n\n\n28 May\nDictionaries: fundamentals, examples, use cases\n\n\n04 Jun.\nUsing dictionaries and analysing data\n\n\n11 Jun.\nCorpora: theories, methods, and applications\n\n\n18 Jun.\nSemantics: studying meanings and functions of words\n\n\n25 Jun.\nStudying lexis empirically\n\n\n02 Jul.\nLexical change: history and recent developments in the English lexicon\n\n\n09 Jul.\nLexical innovation: new words and meanings\n\n\n16 Jul.\nLexical variation: speaker and text type variation\n\n\n23 Jul.\nWrap-up\n\n\n\n\n\nCourse description\n\nThis course provides an in-depth exploration of English lexicology and lexicography, examining key areas including\n\nword-formation processes,\nsemantic analysis of word senses,\nand patterns of lexical variation and change.\n\nGrounded in authentic language data from dictionaries and corpora, students will develop analytical skills for studying lexical usage\n\nthrough dictionaries like Wiktionary and the Oxford English Dictionary (OED),\nalongside corpora such as COCA and English Trends on the corpus platforms english-corpora.org and Sketch Engine.\n\nThe programme emphasises practical experience in frequency analysis, collocation studies, Word Sketches through collaborative group projects, enabling students to apply corpus-based methodologies to lexicological research projects.\n\n\n\nRequirements\nAssessment formats vary based on ECTS credits:\n\n3 ECTS: short paper (≈ 3–5 pages)\n6 ECTS: long paper (≈ 10–12 pages)\n9 ECTS: project report: 4500 chars. (MA WP 14.1, WP 15.1)\n\nCheck your Studien-/Prüfungsordnung for the exact specification.\n\n\n\n\n\n\n\n\nReferences\n\nBandyopadhyay, Saptarashmi, Jason Xu, Neel Pawar, and David Touretzky. 2022. “Interactive Visualizations of Word Embeddings for k-12 Students.” In Proceedings of the AAAI Conference on Artificial Intelligence, 36:12713–20. 11. https://doi.org/10.1609/aaai.v36i11.21548.\n\n\nBauer, Laurie. 2022. An Introduction to English Lexicology. Edinburgh University Press.\n\n\nBühler, Karl. 1934. Sprachtheorie. Jena: Gustav Fischer.\n\n\nDavies, Mark. 2008. The Corpus of Contemporary American English (COCA): 560 Million Words, 1990-Present. BYU. https://www.english-corpora.org/coca/.\n\n\nDi Sciullo, Anna Maria, and Edwin Williams. 1987. On the Definition of Word. MIT Press.\n\n\nHilpert, Martin, David Correia Saavedra, and Jennifer Rains. 2023. “Meaning Differences Between English Clippings and Their Source Words: A Corpus-Based Study.” ICAME Journal 47 (1): 19–37. https://doi.org/10.2478/icame-2023-0002.\n\n\nJackson, Howard. 1988. Words and Their Meaning. Longman.\n\n\nKeller, Rudi. 1994. Sprachwandel: Von Der Unsichtbaren Hand in Der Sprache. Francke.\n\n\nKemmer, Suzanne. 2003. “Schemas and Lexical Blends.” In Motivation in Language: Studies in Honor of Günther Radden, edited by Günther Radden and Hubert Cuyckens, 69–97. John Benjamins.\n\n\nKerremans, Daphné. 2015. A Web of New Words. Bern: Peter Lang. https://doi.org/10.3726/978-3-653-04788-2.\n\n\nLipka, Leonhard. 1992. An Outline of English Lexicology. Tübingen: Niemeyer.\n\n\nOgden, Charles Kay, and I. A. Richards. 1923. The Meaning of Meaning. K. Paul, Trench, Trubner.\n\n\nSaussure, Ferdinand de. 1916. Cours de Linguistique Générale. Lausanne: Payot.\n\n\nSchmid, Hans-Jörg. 2016. English Morphology and Word-Formation: An Introduction. 2nd ed. Erich Schmidt Verlag.\n\n\nStella, Massimo. 2019. “Modelling Early Word Acquisition Through Multiplex Lexical Networks and Machine Learning.” Big Data and Cognitive Computing 3 (1): 10.\n\n\nStroop, J. R. 1935. “Studies of Interference in Serial Verbal Reactions.” Journal of Experimental Psychology 18 (6): 643–62. https://doi.org/10.1037/h0054651."
   },
   {
-    "objectID": "12_wrap-up/12-wrap-up.html",
-    "href": "12_wrap-up/12-wrap-up.html",
-    "title": "Lexicology 251",
+    "objectID": "12_wrap-up/12_wrap-up.html#from-dictionaries-to-dynamic-systems",
+    "href": "12_wrap-up/12_wrap-up.html#from-dictionaries-to-dynamic-systems",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "From dictionaries to dynamic systems",
+    "text": "From dictionaries to dynamic systems\n\nStarted with: What is a word? Dictionary entries and static definitions\n\ne.g. OED analysis of bro, spelling conventions defining words, Urban Dictionary vs Wiktionary approaches\n\nExplored: Morphological processes creating new words\n\ne.g. disclaimers morphological analysis, Brangelina blending, selfie clipping, word-formation productivity in OED\n\nDiscovered: Words carry meaning through context and collocation\n\ne.g. cardiovascular vs cardio distributional differences, bro vs brother collocational patterns, Principle of No Synonymy\n\nExamined: How vocabulary changes across time and varies across users\n\ne.g. telephone → phone frequency decline, autumn vs fall regional variation, modal verb changes in COHA\n\nConcluded: The lexicon as a living, adaptive system\n\ne.g. S-curve model of smartphone diffusion, EC-Model of entrenchment and conventionalisation, social network effects\n\n\n\n8:30 - Session start\nSESSION TIMING OVERVIEW (90 mins, 8:30-10:00)\n\n\n\n\n\n\n\n\n\n\nSection\nContent\nTime\nFormat\nStart Time\n\n\n\n\nJourney\nCourse overview\n6 mins\nReflection\n8:30\n\n\nIntegration\nTheoretical synthesis\n15 mins\nInteractive presentation\n8:36\n\n\nMethods\nMethodological toolkit\n10 mins\nSkills review\n8:51\n\n\nExamples\nConcrete case studies\n15 mins\nImage-based review\n9:01\n\n\nBREAK\n5-minute break\n5 mins\n\n9:16\n\n\nApplications\nResearch connections\n15 mins\nDiscussion\n9:21\n\n\nDirections\nFuture pathways\n12 mins\nPresentation\n9:36\n\n\nReflection\nCourse wrap-up\n12 mins\nStudent feedback\n9:48"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#the-lexicon-as-a-dynamic-system",
+    "href": "12_wrap-up/12_wrap-up.html#the-lexicon-as-a-dynamic-system",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "The lexicon as a dynamic system",
+    "text": "The lexicon as a dynamic system\n\n\n\n\n\n\n\n\nTraditional view\nDynamic view\nExamples from our course\n\n\n\n\nWords as discrete units\nWords as usage patterns\nbro vs brother collocational differences\n\n\nMeaning as fixed definitions\nMeaning through distributional patterns\ncardiovascular vs cardio semantic profiles\n\n\nVocabulary as inventory\nVocabulary as adaptive system\nS-curve model of smartphone diffusion\n\n\nChange as exceptional\nChange as inherent property\ntelephone → phone frequency decline"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#core-principles-weve-discovered",
+    "href": "12_wrap-up/12_wrap-up.html#core-principles-weve-discovered",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Core principles we’ve discovered",
+    "text": "Core principles we’ve discovered\n\nNo synonymy principle: Formal differences signal meaning differences\n\ncardiovascular vs cardio have different semantic profiles despite similar denotation\n\nUsage-based dynamics: Frequency patterns reveal entrenchment\n\nsmartphone shows S-curve diffusion pattern from innovation to conventionalisation\n\nDistributional meaning: Context shapes and constrains interpretation\n\nbro vs brother have different collocational patterns reflecting distinct social functions\n\nSystematic variation: Social and situational factors drive patterned differences\n\nautumn vs fall show regional variation, modal verbs show register differences\n\nHistorical layering: Contemporary vocabulary reflects cultural contact and change\n\nEnglish lexicon shows Germanic core + French/Latin borrowings + global loanwords"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#our-analytical-toolkit",
+    "href": "12_wrap-up/12_wrap-up.html#our-analytical-toolkit",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Our analytical toolkit",
+    "text": "Our analytical toolkit\n\n\nDictionary methods\n\nOED etymological analysis\nHistorical attestation patterns\nCross-linguistic comparison\n\nCorpus linguistics\n\nFrequency analysis (raw, normalized)\nCollocations and word sketches\nTemporal variation tracking\nRegister/genre differences\n\n\nQuantitative analysis\n\nTables and Pivot Tables\nVisualization techniques\nDescriptive statistics\nCoefficient of Variation\n\nQualitative interpretation\n\nContext-sensitive analysis\nTheory-data integration\nHypothesis testing"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#multi-method-triangulation",
+    "href": "12_wrap-up/12_wrap-up.html#multi-method-triangulation",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Multi-method triangulation",
+    "text": "Multi-method triangulation\n\nExample: Modal verb change\n\nDictionary: Semantic evolution of must vs have to\nCorpus: COHA frequency patterns 1850-2000\n\nStatistics: Variation coefficients across text types\nTheory: Grammaticalization and register specialization\n\n\n\nResult: Converging evidence for systematic functional differentiation"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#example-1-tracking-lexical-obsolescence",
+    "href": "12_wrap-up/12_wrap-up.html#example-1-tracking-lexical-obsolescence",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Example 1: Tracking lexical obsolescence",
+    "text": "Example 1: Tracking lexical obsolescence\n\n\n\nThe case of telephone\n\nOED: First attested 1844\nCOCA analysis: Peak usage 1990s\nCurrent trend: Replaced by phone\nMethod: Frequency tracking over time\n\n\n\nThe case of walkman\n\nTechnology-specific term\nClear rise and fall pattern\nCultural obsolescence → lexical obsolescence\nMethod: Historical corpus analysis"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#example-2-semantic-innovation-with-bro",
+    "href": "12_wrap-up/12_wrap-up.html#example-2-semantic-innovation-with-bro",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Example 2: Semantic innovation with bro",
+    "text": "Example 2: Semantic innovation with bro\n\nFrom kinship to solidarity marker\n\nOriginal meaning: ‘brother’ (family relation)\nNew meaning: ‘close male friend’ (social relation)\nCorpus evidence:\n\nText type specialization\nDifferent collocational patterns\n\nMethod: Distributional semantic analysis"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#example-3-innovation-diffusion-patterns",
+    "href": "12_wrap-up/12_wrap-up.html#example-3-innovation-diffusion-patterns",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Example 3: Innovation diffusion patterns",
+    "text": "Example 3: Innovation diffusion patterns\n\nThe S-curve model in practice\n\nSlow start: Few early adopters\nRapid growth: Social network effects\n\nPlateau: Market saturation\nApplications: smartphone, Covid-19, selfie"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#example-4-corpus-analysis-methods",
+    "href": "12_wrap-up/12_wrap-up.html#example-4-corpus-analysis-methods",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Example 4: Corpus analysis methods",
+    "text": "Example 4: Corpus analysis methods\n\nSketch Engine frequency analysis\n\nCreating your own corpora\nQuerying corpora\nFrequency analysis: linguistic patterns, change, and variation\nCollocations and word sketches"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#beyond-lexicology",
+    "href": "12_wrap-up/12_wrap-up.html#beyond-lexicology",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Beyond lexicology",
+    "text": "Beyond lexicology\nWhere these skills apply:\n\nSociolinguistics: Variation patterns in any linguistic feature\n\nain’t vs am not across education levels\n\nHistorical linguistics: Change mechanisms across language levels\n\nCOHA collocates of gay showing semantic shift over time\n\nCorpus linguistics: Empirical validation of theoretical claims\n\nword sketch comparison of bro vs brother in Sketch Engine\n\nApplied linguistics: Language teaching and lexicography\n\ndesigning vocabulary lists and exercises based on corpus data\n\nDigital humanities: Text mining and cultural analytics\n\nsocial network analysis of hashtag diffusion on Twitter\n\nDiscourse analysis: Context-meaning relationships\n\ncollocation analysis of problem across text types"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#research-questions-we-can-now-tackle",
+    "href": "12_wrap-up/12_wrap-up.html#research-questions-we-can-now-tackle",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Research questions we can now tackle",
+    "text": "Research questions we can now tackle\n\nHow do semantic neologisms spread through online communities?\nWhat social factors drive lexical innovation in specific domains?\nHow does register variation interact with historical change?\nWhat cognitive mechanisms underlie entrenchment processes?\nHow do contact situations shape borrowing patterns?"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#case-studies-your-term-papers",
+    "href": "12_wrap-up/12_wrap-up.html#case-studies-your-term-papers",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Case studies: Your term papers",
+    "text": "Case studies: Your term papers\n\n\nWhat you investigated:\n\nRegional lexical variation\nSemantic change in social media\nWord-formation productivity\nGenre-specific vocabularies\nBorrowing patterns\n\n\nHow you could do it:\n\nApply corpus methods to your own data\nIntegrate multiple data sources\n\nUse appropriate statistical measures\nConnect findings to theory\nCritically interpret results"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#emerging-research-areas",
+    "href": "12_wrap-up/12_wrap-up.html#emerging-research-areas",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Emerging research areas",
+    "text": "Emerging research areas\nDigital lexicology\n\nSocial media as innovation hub\nReal-time tracking of semantic change\nLarge-scale diachronic analysis\nDomain-specific dictionaries and corpora\n\nCognitive approaches\n\nPsycholinguistic validation of corpus patterns\nIntra-individual and inter-individual variation\nCommunity-level variation"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#continuing-your-lexicological-journey",
+    "href": "12_wrap-up/12_wrap-up.html#continuing-your-lexicological-journey",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Continuing your lexicological journey",
+    "text": "Continuing your lexicological journey\nAdvanced courses\n\nCorpus Linguistics: Methodological deepening\nHistorical Linguistics: Change mechanisms\n\nSociolinguistics: Variation theory\nCognitive Linguistics: Usage-based approaches"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#tools-for-continued-learning",
+    "href": "12_wrap-up/12_wrap-up.html#tools-for-continued-learning",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Tools for continued learning",
+    "text": "Tools for continued learning\n\nCorpus platforms: Sketch Engine, COCA, Google Books Ngrams\nDictionaries: OED, Wiktionary, Merriam-Webster\nReference works: Oxford Handbook of Lexicology, Handbook of Word-Formation\nJournals: Applied Linguistics, English Language and Linguistics, Corpus Linguistics and Linguistic Theory"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#course-evaluation",
+    "href": "12_wrap-up/12_wrap-up.html#course-evaluation",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Course evaluation",
+    "text": "Course evaluation\n\nWhat worked well?\nWhat could be improved?\nSuggestions for future iterations?"
+  },
+  {
+    "objectID": "12_wrap-up/12_wrap-up.html#final-thoughts",
+    "href": "12_wrap-up/12_wrap-up.html#final-thoughts",
+    "title": "Lexicology: Synthesis and Wrap-up",
+    "section": "Final thoughts",
+    "text": "Final thoughts\n\nThe vocabulary of a language is not simply a list of words, but a structured system that reflects the history, culture, and cognitive patterns of its speakers.\n\nYou now have the tools to:\n\nAnalyze lexical patterns systematically\n\nApply empirical methods rigorously\nInterpret variation and change theoretically\nConnect linguistic data to broader questions\n\n\nThank you for participating in my course!\n\nEnd with practical information about:\n\nFinal paper deadlines\nOffice hours for consultation\n\nCourse certificates/grades\nFollow-up course recommendations"
+  },
+  {
+    "objectID": "06_corpora.html",
+    "href": "06_corpora.html",
+    "title": "06 Corpora: theories, methods, and applications",
     "section": "",
-    "text": "Sociolinguistics: Variation patterns in any linguistic feature\n\nain’t vs am not across education levels\n\nHistorical linguistics: Change mechanisms across language levels\n\nCOHA collocates of gay showing semantic shift over time\n\nCorpus linguistics: Empirical validation of theoretical claims\n\nword sketch comparison of bro vs brother in Sketch Engine\n\nApplied linguistics: Language teaching and lexicography\n\ndesigning vocabulary lessons using learner’s dictionary entries for house, algorithm, and selfie, comparing definitions and usage examples\n\nDigital humanities: Text mining and cultural analytics\n\nsocial network analysis of hashtag diffusion on Twitter\n\nDiscourse analysis: Context-meaning relationships\n\ncollocation analysis of problem across academic vs social media registers"
+    "text": "Corpus linguistics is a research methodology within the field of linguistics that focuses on the systematic study of language using large and diverse collections of authentic texts, known as corpora.\nThese collections of language data, either written or spoken, provide a comprehensive and empirical basis for the analysis of\n\nlanguage use (e.g. collocational patterns such as pretty woman)\nlinguistic variation across different text types or communities (e.g. neologisms such as smash)\nlanguage change (e.g. going to future)\n\nThe primary goal of corpus linguistics is to investigate linguistic phenomena and patterns by examining real-world language usage.\n\nThis approach contrasts with more traditional linguistic methods that rely heavily on introspection and theoretical speculation (e.g. Chomsky).\n\nCorpus linguistics has gained significant momentum in recent years, thanks to advances\n\nin data (e.g. social-media and web corpora) and\nmethods (e.g. social-network analysis, machine learning).\n\n\n\n\n\n\n\nCorpus linguistics is highly valuable from a usage-based approach to linguistics, as it emphasises the importance of actual language use in shaping linguistic knowledge and structure.\nThe usage-based perspective posits that linguistic structure and knowledge emerge from the patterns and regularities that speakers encounter in their experience with language.\nIn this context, corpus linguistics provides a powerful toolset for investigating these patterns and regularities, offering several advantages:\n\nAuthentic language data\n\ncorpus linguistics relies on large and diverse collections of authentic texts, which represent real-world language use. This ensures that the patterns and structures uncovered through corpus analysis are grounded in genuine linguistic behaviour, rather than relying on idealised or artificial examples.\n\nQuantitative approach\n\ncorpus linguistics allows for the quantitative analysis of linguistic phenomena, such as frequency counts and statistical measures. This enables researchers to identify and describe patterns and regularities that emerge from language use, supporting the usage-based claim that linguistic structure is shaped by frequency and distributional patterns in the input.\n\nCollocations and constructions\n\nthe usage-based approach posits that language is composed of form-meaning pairings, known as constructions, which range from morphemes and words to idiomatic expressions and complex syntactic structures. Corpus linguistics offers tools for identifying and analysing collocations and constructions in large datasets, contributing to our understanding of the relationships between form, meaning, and use.\n\nVariability and context sensitivity\n\ncorpus linguistics enables the examination of language use across different contexts, genres, and registers. This allows researchers to investigate how linguistic features and structures vary and adapt to different situations, providing insights into the dynamic nature of language and its sensitivity to context, which is a key aspect of the usage-based approach.\n\nLanguage change and development\n\ncorpus linguistics can be applied to diachronic and synchronic data, allowing researchers to track language change over time and compare different stages of language development. This helps to shed light on the emergence and evolution of linguistic structures, which is of particular interest to usage-based theorists who seek to explain language change as a result of cumulative changes in usage patterns.\n\nData-driven language teaching and language learning\n\nthe usage-based approach emphasises the importance of exposure to authentic language input in the acquisition process. Corpus linguistics can inform the development of language teaching materials and methods, by providing insights into the most frequent and relevant structures, vocabulary, and collocations that learners need to acquire.\n\n\n\n\n\n\n\n\nA corpus is a large, structured collection of texts that serves as the basis for linguistic analysis. Corpora can be general, representing a wide variety of language use, or specialised, focusing on specific genres, registers, or domains.\n\n\n\nAnnotation refers to the process of adding metadata or linguistic information to a corpus, such as part-of-speech tags, syntactic structure, or semantic roles. This additional information can facilitate more in-depth and accurate analyses.\n\nmetadata: data about language use on several levels:\n\ncorpus\n\ntexts: author, text type, register, topic\n\nparagraphs or utterances\n\nrunning words (tokens): word class, lemmatisation\n\ntokens\n\nwalk\nwalks\nwalked\n\ntype, lexeme, lemma\n\nWALK \\(^v\\)\n\n\n\n\n\n\n\n\n\n\nA concordance is a tool that allows researchers to search for specific words, phrases, or patterns in a corpus and display the results in context. This helps researchers to examine language patterns and identify trends across various texts.\n\n\n\nCollocation refers to the co-occurrence of words within a specific context or proximity. Studying collocations can reveal important information about word usage, meaning, and associations.\n\n\n\nFrequency analysis involves counting the occurrences of linguistic features, such as words or structures, within a corpus. This helps researchers identify patterns and trends, as well as compare language use across different corpora.\n\n\n\nN-grams are sequences of n contiguous words or linguistic units within a text. They can be used to study word combinations, patterns, and structures in a corpus.\n\nExample: The cat sat on the mat.\n\nbigrams (2-grams)\n\nThe cat\ncat sat\nsat on\n…\n\n\nExample corpus: Google Books Ngram Viewer – a web-based tool that allows users to search and visualise word frequencies across millions of books from 1500-2019.\n\n\n\n\nRegister refers to the language variety used in specific contexts or situations, characterised by particular linguistic features, such as vocabulary, grammar, and style. Examining registers can help researchers understand language variation and adaptation."
+  },
+  {
+    "objectID": "06_corpora.html#what-is-corpus-linguistics-about",
+    "href": "06_corpora.html#what-is-corpus-linguistics-about",
+    "title": "06 Corpora: theories, methods, and applications",
+    "section": "",
+    "text": "Corpus linguistics is a research methodology within the field of linguistics that focuses on the systematic study of language using large and diverse collections of authentic texts, known as corpora.\nThese collections of language data, either written or spoken, provide a comprehensive and empirical basis for the analysis of\n\nlanguage use (e.g. collocational patterns such as pretty woman)\nlinguistic variation across different text types or communities (e.g. neologisms such as smash)\nlanguage change (e.g. going to future)\n\nThe primary goal of corpus linguistics is to investigate linguistic phenomena and patterns by examining real-world language usage.\n\nThis approach contrasts with more traditional linguistic methods that rely heavily on introspection and theoretical speculation (e.g. Chomsky).\n\nCorpus linguistics has gained significant momentum in recent years, thanks to advances\n\nin data (e.g. social-media and web corpora) and\nmethods (e.g. social-network analysis, machine learning)."
+  },
+  {
+    "objectID": "06_corpora.html#what-is-corpus-linguistics-good-for",
+    "href": "06_corpora.html#what-is-corpus-linguistics-good-for",
+    "title": "06 Corpora: theories, methods, and applications",
+    "section": "",
+    "text": "Corpus linguistics is highly valuable from a usage-based approach to linguistics, as it emphasises the importance of actual language use in shaping linguistic knowledge and structure.\nThe usage-based perspective posits that linguistic structure and knowledge emerge from the patterns and regularities that speakers encounter in their experience with language.\nIn this context, corpus linguistics provides a powerful toolset for investigating these patterns and regularities, offering several advantages:\n\nAuthentic language data\n\ncorpus linguistics relies on large and diverse collections of authentic texts, which represent real-world language use. This ensures that the patterns and structures uncovered through corpus analysis are grounded in genuine linguistic behaviour, rather than relying on idealised or artificial examples.\n\nQuantitative approach\n\ncorpus linguistics allows for the quantitative analysis of linguistic phenomena, such as frequency counts and statistical measures. This enables researchers to identify and describe patterns and regularities that emerge from language use, supporting the usage-based claim that linguistic structure is shaped by frequency and distributional patterns in the input.\n\nCollocations and constructions\n\nthe usage-based approach posits that language is composed of form-meaning pairings, known as constructions, which range from morphemes and words to idiomatic expressions and complex syntactic structures. Corpus linguistics offers tools for identifying and analysing collocations and constructions in large datasets, contributing to our understanding of the relationships between form, meaning, and use.\n\nVariability and context sensitivity\n\ncorpus linguistics enables the examination of language use across different contexts, genres, and registers. This allows researchers to investigate how linguistic features and structures vary and adapt to different situations, providing insights into the dynamic nature of language and its sensitivity to context, which is a key aspect of the usage-based approach.\n\nLanguage change and development\n\ncorpus linguistics can be applied to diachronic and synchronic data, allowing researchers to track language change over time and compare different stages of language development. This helps to shed light on the emergence and evolution of linguistic structures, which is of particular interest to usage-based theorists who seek to explain language change as a result of cumulative changes in usage patterns.\n\nData-driven language teaching and language learning\n\nthe usage-based approach emphasises the importance of exposure to authentic language input in the acquisition process. Corpus linguistics can inform the development of language teaching materials and methods, by providing insights into the most frequent and relevant structures, vocabulary, and collocations that learners need to acquire."
+  },
+  {
+    "objectID": "06_corpora.html#key-concepts",
+    "href": "06_corpora.html#key-concepts",
+    "title": "06 Corpora: theories, methods, and applications",
+    "section": "",
+    "text": "A corpus is a large, structured collection of texts that serves as the basis for linguistic analysis. Corpora can be general, representing a wide variety of language use, or specialised, focusing on specific genres, registers, or domains.\n\n\n\nAnnotation refers to the process of adding metadata or linguistic information to a corpus, such as part-of-speech tags, syntactic structure, or semantic roles. This additional information can facilitate more in-depth and accurate analyses.\n\nmetadata: data about language use on several levels:\n\ncorpus\n\ntexts: author, text type, register, topic\n\nparagraphs or utterances\n\nrunning words (tokens): word class, lemmatisation\n\ntokens\n\nwalk\nwalks\nwalked\n\ntype, lexeme, lemma\n\nWALK \\(^v\\)\n\n\n\n\n\n\n\n\n\n\nA concordance is a tool that allows researchers to search for specific words, phrases, or patterns in a corpus and display the results in context. This helps researchers to examine language patterns and identify trends across various texts.\n\n\n\nCollocation refers to the co-occurrence of words within a specific context or proximity. Studying collocations can reveal important information about word usage, meaning, and associations.\n\n\n\nFrequency analysis involves counting the occurrences of linguistic features, such as words or structures, within a corpus. This helps researchers identify patterns and trends, as well as compare language use across different corpora.\n\n\n\nN-grams are sequences of n contiguous words or linguistic units within a text. They can be used to study word combinations, patterns, and structures in a corpus.\n\nExample: The cat sat on the mat.\n\nbigrams (2-grams)\n\nThe cat\ncat sat\nsat on\n…\n\n\nExample corpus: Google Books Ngram Viewer – a web-based tool that allows users to search and visualise word frequencies across millions of books from 1500-2019.\n\n\n\n\nRegister refers to the language variety used in specific contexts or situations, characterised by particular linguistic features, such as vocabulary, grammar, and style. Examining registers can help researchers understand language variation and adaptation."
+  },
+  {
+    "objectID": "06_corpora.html#research-questions",
+    "href": "06_corpora.html#research-questions",
+    "title": "06 Corpora: theories, methods, and applications",
+    "section": "Research questions",
+    "text": "Research questions\n“This paper uses corpus data in order to study English clippings such as dorm (&lt; dormitory), memo (&lt; memorandum), or quake (&lt; earthquake). More specifically, we investigate meaning differences between clippings and their source words. Are there semantic or pragmatic differences between pairs such as dorm and dormitory, and if so, what are they? Is it possible to formulate generalisations that capture how clippings and their source words relate to one another with regard to meaning? How should these relations be described?” (Hilpert et al. 2023: 19)"
+  },
+  {
+    "objectID": "06_corpora.html#abstract",
+    "href": "06_corpora.html#abstract",
+    "title": "06 Corpora: theories, methods, and applications",
+    "section": "Abstract",
+    "text": "Abstract\n“This paper uses corpus data and methods of distributional semantics in order to study English clippings such as dorm (&lt; dormitory), memo (&lt; memorandum), or quake (&lt; earthquake).\nWe investigate whether systematic meaning differences between clippings and their source words can be detected.\nThe analysis is based on a sample of 50 English clippings.\nEach clipping is represented by a concordance of 100 examples in context that were gathered from the Corpus of Contemporary American English (COCA).\nWe compare clippings and their source words both at the aggregate level and in terms of comparisons between individual clippings and their source words.\nThe data show that clippings tend to be used in contexts that represent involved text production, which aligns with the idea that clipped words signal familiarity with their referents.\nIt is further observed that individual clippings and their source words partly diverge in their distributional profiles, reflecting both overlap and differences with regard to their meanings.\nWe interpret these findings against the theoretical background of Construction Grammar and specifically the Principle of No Synonymy.”"
+  },
+  {
+    "objectID": "06_corpora.html#frequency-analysis-of-clippings",
+    "href": "06_corpora.html#frequency-analysis-of-clippings",
+    "title": "06 Corpora: theories, methods, and applications",
+    "section": "Frequency analysis of clippings",
+    "text": "Frequency analysis of clippings\n\nUsing Sketch Engine\nSketch Engine tutorial: https://wuqui.github.io/SkEtut/\n\nopen the BNC 2014 Spoken corpus\ndetermine frequency for source words and clipped forms (e.g. [word=\"brother\" & tag=\"N.*\"])\nrecord absolute and relative frequencies\n\n\n\nData analysis and visualisation in Excel\n\ncollect results in our collaborative spreadsheet\ninsert Table for the data range\n\ninsert Pivot Table\n\nset Rows, Values, Columns\n\nremove Grand Total\ninsert Pivot Chart\n\n\n\n\nPotential further analyses\n\nfrequency over time in the English Trends (2014–today) corpus\nfrequency by text type in enTenTen21 or COCA\nlong-term diachronic trends via english-corpora.org: NOW, COCA"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/slides.html#general-purpose-dictionaries",
+    "href": "05_dictionaries-2/out/slides.html#general-purpose-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "General Purpose Dictionaries",
+    "text": "General Purpose Dictionaries\n\n\nProvide comprehensive linguistic information about words in a single language\n\nSpelling, pronunciation, and grammatical classification\nMultiple meanings and contextual usage examples\nEtymology and historical development notes\n\n\n\n\n\nTypically monolingual and organised alphabetically for easy reference\n\n\n\n\nValuable for morphological research because they:\n\nDocument detailed word origins and development\nShow common usage patterns and variations\nProvide historical context for word formation"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/slides.html#bilingual-and-multilingual-dictionaries",
+    "href": "05_dictionaries-2/out/slides.html#bilingual-and-multilingual-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "Bilingual and Multilingual Dictionaries",
+    "text": "Bilingual and Multilingual Dictionaries\n\nFacilitate translation between two or more languages\nKey features and functions:\n\nSupport language learning and translation work\nHelp decode meanings across different languages\nIllustrate cultural and linguistic nuances\n\nImportant for morphological research by:\n\nEnabling cross-linguistic word formation studies\nRevealing patterns in comparative linguistics\nShowing how concepts transfer between languages"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/slides.html#specialized-dictionaries",
+    "href": "05_dictionaries-2/out/slides.html#specialized-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "Specialized Dictionaries",
+    "text": "Specialized Dictionaries\n\nFocus on specific aspects of language or technical fields:\n\nEtymology and word origins\nPrecise pronunciation guides\nTechnical and discipline-specific terminology\nSlang and colloquial expressions\n\nParticularly valuable for:\n\nDetailed academic research in specific fields\nUnderstanding technical vocabulary development\nTracing specialised word formation patterns"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/slides.html#diachronic-and-synchronic-dictionaries",
+    "href": "05_dictionaries-2/out/slides.html#diachronic-and-synchronic-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "Diachronic and Synchronic Dictionaries",
+    "text": "Diachronic and Synchronic Dictionaries\n\nDiachronic dictionaries:\n\nTrack how words change through history\nDocument evolution of meanings and forms\nShow historical usage patterns and variations\n\nSynchronic dictionaries:\n\nFocus on language at specific points in time\nPresent contemporary usage and meanings\nDocument current word formation patterns\n\nEssential tools for:\n\nHistorical linguistic research\nUnderstanding language evolution\nTracking word formation changes over time"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/slides.html#learners-dictionaries",
+    "href": "05_dictionaries-2/out/slides.html#learners-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "Learner’s Dictionaries",
+    "text": "Learner’s Dictionaries\n\nSpecifically designed for language acquisition:\n\nClear, simplified definitions\nPractical, everyday usage examples\nWord frequency information\nCommon collocations and phrases\n\nAdditional features often include:\n\nGrammar notes and usage guidelines\nCultural context explanations\nLearning exercises and examples\n\nUseful for research into:\n\nCommon word usage patterns\nLanguage acquisition processes\nBasic word formation principles"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/slides.html#oxford-english-dictionary-oed",
+    "href": "05_dictionaries-2/out/slides.html#oxford-english-dictionary-oed",
+    "title": "Using dictionaries and analysing data",
+    "section": "Oxford English Dictionary (OED)",
+    "text": "Oxford English Dictionary (OED)\n\nOfficial website: https://www.oed.com/\nComprehensive historical dictionary of English by Oxford University Press\nConsidered the authoritative source on English language\nKey features:\n\nHistorical approach: traces word development chronologically\nExtensive quotations: over 3 million citations from wide-ranging sources\nComprehensive coverage: 600,000+ words and phrases across 20 volumes\nOnline since 2000; third edition in progress (electronic-only)\n\nValue for research:\n\nTraces detailed development of word forms and meanings\nProvides extensive historical context and usage patterns\nEnables in-depth morphological analysis\nDocuments linguistic patterns and changes over time"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/slides.html#wiktionary",
+    "href": "05_dictionaries-2/out/slides.html#wiktionary",
+    "title": "Using dictionaries and analysing data",
+    "section": "Wiktionary",
+    "text": "Wiktionary\n\nOfficial website: https://www.wiktionary.org/\nMultilingual, web-based collaborative dictionary\nKey features:\n\nCrowdsourced content with rapid updates\nComprehensive and flexible entries for new words\nMultiple language support with cross-references\nDetailed etymological information where available\n\nResearch applications:\n\nNeologism and language evolution studies\nCross-linguistic research opportunities\nContemporary usage patterns\nEducational tool for language learning and research"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/slides.html#urban-dictionary",
+    "href": "05_dictionaries-2/out/slides.html#urban-dictionary",
+    "title": "Using dictionaries and analysing data",
+    "section": "Urban Dictionary",
+    "text": "Urban Dictionary\n\nOfficial website: https://www.urbandictionary.com/\nCrowdsourced dictionary focusing on slang and colloquial language\nKey features:\n\nUser-generated content reflecting varied interpretations\nDynamic tracking of language evolution\nRich cultural context and references\nMultiple definitions showing usage variations\n\nResearch value:\n\nSociolinguistic studies of contemporary language\nTracking emergence and spread of new slang\nCultural analysis through language use\nUnderstanding informal word formation processes"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/slides.html#other-major-dictionaries",
+    "href": "05_dictionaries-2/out/slides.html#other-major-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "Other Major Dictionaries",
+    "text": "Other Major Dictionaries\nMerriam-Webster Dictionary (https://www.merriam-webster.com/)\n\nAmerican English focus\nStrong etymology coverage\nRegular updates for contemporary usage\nValuable for understanding American English word formation\n\nCollins English Dictionary (https://www.collinsdictionary.com/)\n\nComprehensive vocabulary coverage\nStrong British English focus\nDetailed word formation information\nIncludes frequency information and usage trends"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/index.html",
+    "href": "05_dictionaries-2/out/index.html",
+    "title": "Using dictionaries and analysing data",
+    "section": "",
+    "text": "Provide comprehensive linguistic information about words in a single language\n\nSpelling, pronunciation, and grammatical classification\nMultiple meanings and contextual usage examples\nEtymology and historical development notes\n\n\n\n\n\nTypically monolingual and organised alphabetically for easy reference\n\n\n\n\nValuable for morphological research because they:\n\nDocument detailed word origins and development\nShow common usage patterns and variations\nProvide historical context for word formation\n\n\n\n\n\n\n\nFacilitate translation between two or more languages\nKey features and functions:\n\nSupport language learning and translation work\nHelp decode meanings across different languages\nIllustrate cultural and linguistic nuances\n\nImportant for morphological research by:\n\nEnabling cross-linguistic word formation studies\nRevealing patterns in comparative linguistics\nShowing how concepts transfer between languages\n\n\n\n\n\n\nFocus on specific aspects of language or technical fields:\n\nEtymology and word origins\nPrecise pronunciation guides\nTechnical and discipline-specific terminology\nSlang and colloquial expressions\n\nParticularly valuable for:\n\nDetailed academic research in specific fields\nUnderstanding technical vocabulary development\nTracing specialised word formation patterns\n\n\n\n\n\n\nDiachronic dictionaries:\n\nTrack how words change through history\nDocument evolution of meanings and forms\nShow historical usage patterns and variations\n\nSynchronic dictionaries:\n\nFocus on language at specific points in time\nPresent contemporary usage and meanings\nDocument current word formation patterns\n\nEssential tools for:\n\nHistorical linguistic research\nUnderstanding language evolution\nTracking word formation changes over time\n\n\n\n\n\n\nSpecifically designed for language acquisition:\n\nClear, simplified definitions\nPractical, everyday usage examples\nWord frequency information\nCommon collocations and phrases\n\nAdditional features often include:\n\nGrammar notes and usage guidelines\nCultural context explanations\nLearning exercises and examples\n\nUseful for research into:\n\nCommon word usage patterns\nLanguage acquisition processes\nBasic word formation principles"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/index.html#general-purpose-dictionaries",
+    "href": "05_dictionaries-2/out/index.html#general-purpose-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "",
+    "text": "Provide comprehensive linguistic information about words in a single language\n\nSpelling, pronunciation, and grammatical classification\nMultiple meanings and contextual usage examples\nEtymology and historical development notes\n\n\n\n\n\nTypically monolingual and organised alphabetically for easy reference\n\n\n\n\nValuable for morphological research because they:\n\nDocument detailed word origins and development\nShow common usage patterns and variations\nProvide historical context for word formation"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/index.html#bilingual-and-multilingual-dictionaries",
+    "href": "05_dictionaries-2/out/index.html#bilingual-and-multilingual-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "",
+    "text": "Facilitate translation between two or more languages\nKey features and functions:\n\nSupport language learning and translation work\nHelp decode meanings across different languages\nIllustrate cultural and linguistic nuances\n\nImportant for morphological research by:\n\nEnabling cross-linguistic word formation studies\nRevealing patterns in comparative linguistics\nShowing how concepts transfer between languages"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/index.html#specialized-dictionaries",
+    "href": "05_dictionaries-2/out/index.html#specialized-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "",
+    "text": "Focus on specific aspects of language or technical fields:\n\nEtymology and word origins\nPrecise pronunciation guides\nTechnical and discipline-specific terminology\nSlang and colloquial expressions\n\nParticularly valuable for:\n\nDetailed academic research in specific fields\nUnderstanding technical vocabulary development\nTracing specialised word formation patterns"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/index.html#diachronic-and-synchronic-dictionaries",
+    "href": "05_dictionaries-2/out/index.html#diachronic-and-synchronic-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "",
+    "text": "Diachronic dictionaries:\n\nTrack how words change through history\nDocument evolution of meanings and forms\nShow historical usage patterns and variations\n\nSynchronic dictionaries:\n\nFocus on language at specific points in time\nPresent contemporary usage and meanings\nDocument current word formation patterns\n\nEssential tools for:\n\nHistorical linguistic research\nUnderstanding language evolution\nTracking word formation changes over time"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/index.html#learners-dictionaries",
+    "href": "05_dictionaries-2/out/index.html#learners-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "",
+    "text": "Specifically designed for language acquisition:\n\nClear, simplified definitions\nPractical, everyday usage examples\nWord frequency information\nCommon collocations and phrases\n\nAdditional features often include:\n\nGrammar notes and usage guidelines\nCultural context explanations\nLearning exercises and examples\n\nUseful for research into:\n\nCommon word usage patterns\nLanguage acquisition processes\nBasic word formation principles"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/index.html#oxford-english-dictionary-oed",
+    "href": "05_dictionaries-2/out/index.html#oxford-english-dictionary-oed",
+    "title": "Using dictionaries and analysing data",
+    "section": "2.1 Oxford English Dictionary (OED)",
+    "text": "2.1 Oxford English Dictionary (OED)\n\nOfficial website: https://www.oed.com/\nComprehensive historical dictionary of English by Oxford University Press\nConsidered the authoritative source on English language\nKey features:\n\nHistorical approach: traces word development chronologically\nExtensive quotations: over 3 million citations from wide-ranging sources\nComprehensive coverage: 600,000+ words and phrases across 20 volumes\nOnline since 2000; third edition in progress (electronic-only)\n\nValue for research:\n\nTraces detailed development of word forms and meanings\nProvides extensive historical context and usage patterns\nEnables in-depth morphological analysis\nDocuments linguistic patterns and changes over time"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/index.html#wiktionary",
+    "href": "05_dictionaries-2/out/index.html#wiktionary",
+    "title": "Using dictionaries and analysing data",
+    "section": "2.2 Wiktionary",
+    "text": "2.2 Wiktionary\n\nOfficial website: https://www.wiktionary.org/\nMultilingual, web-based collaborative dictionary\nKey features:\n\nCrowdsourced content with rapid updates\nComprehensive and flexible entries for new words\nMultiple language support with cross-references\nDetailed etymological information where available\n\nResearch applications:\n\nNeologism and language evolution studies\nCross-linguistic research opportunities\nContemporary usage patterns\nEducational tool for language learning and research"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/index.html#urban-dictionary",
+    "href": "05_dictionaries-2/out/index.html#urban-dictionary",
+    "title": "Using dictionaries and analysing data",
+    "section": "2.3 Urban Dictionary",
+    "text": "2.3 Urban Dictionary\n\nOfficial website: https://www.urbandictionary.com/\nCrowdsourced dictionary focusing on slang and colloquial language\nKey features:\n\nUser-generated content reflecting varied interpretations\nDynamic tracking of language evolution\nRich cultural context and references\nMultiple definitions showing usage variations\n\nResearch value:\n\nSociolinguistic studies of contemporary language\nTracking emergence and spread of new slang\nCultural analysis through language use\nUnderstanding informal word formation processes"
+  },
+  {
+    "objectID": "05_dictionaries-2/out/index.html#other-major-dictionaries",
+    "href": "05_dictionaries-2/out/index.html#other-major-dictionaries",
+    "title": "Using dictionaries and analysing data",
+    "section": "2.4 Other Major Dictionaries",
+    "text": "2.4 Other Major Dictionaries\nMerriam-Webster Dictionary (https://www.merriam-webster.com/)\n\nAmerican English focus\nStrong etymology coverage\nRegular updates for contemporary usage\nValuable for understanding American English word formation\n\nCollins English Dictionary (https://www.collinsdictionary.com/)\n\nComprehensive vocabulary coverage\nStrong British English focus\nDetailed word formation information\nIncludes frequency information and usage trends\n\n\nCambridge English Dictionary (https://dictionary.cambridge.org/)\n\nClear definitions and examples\nStrong learner focus\nBritish English emphasis\nExcellent grammatical information and usage notes\n\nOnline Etymology Dictionary (https://www.etymonline.com/)\n\nDetailed word history tracking\nEtymology focus\nHistorical development emphasis\nTraces morphological changes over time"
+  },
+  {
+    "objectID": "03_morphology-word-formation.html",
+    "href": "03_morphology-word-formation.html",
+    "title": "03 Morphology and Word-Formation",
+    "section": "",
+    "text": "Types of neologisms (Kerremans 2015):\n\n\n\n\nBased on Schmid (2016):\n\n\n\n\nWhich inflectional morphemes exist? (Schmid 2016)\n\n{play} + {plural}, {house} + {plural}\n\n\n\n(Schmid 2016)\n\nfull(adj) → fully(adv) → {ly}(lx.bd)\nhard → hardly\n\n\n\nOverview:\n\nExamples: legal → legalize; clean(adj) → clean(v)\nTypes of compounds:\n– endocentric: washing machine\n– exocentric: redneck, paperback\n– copulative: singer-songwriter, blue-green\n\n\n\n\n\n\n\n\n\n\ncook(v) → cook(n)\n\n\n\nCompounding schema:\n\nBlending examples (Kemmer 2003):\nswooshtika – derogatory reference to Nike logo\n\nglitterati\n\n\n\n\n\n\n\n\n\n\nBauer 2022. An Introduction to English Lexicology.\n\nLipka 2002. English Lexicology.\n\nSchmid 2016. English Morphology and Word-Formation – An Introduction."
+  },
+  {
+    "objectID": "03_morphology-word-formation.html#lexical-innovation",
+    "href": "03_morphology-word-formation.html#lexical-innovation",
+    "title": "03 Morphology and Word-Formation",
+    "section": "",
+    "text": "Types of neologisms (Kerremans 2015):"
+  },
+  {
+    "objectID": "03_morphology-word-formation.html#morphology-vs-word-formation",
+    "href": "03_morphology-word-formation.html#morphology-vs-word-formation",
+    "title": "03 Morphology and Word-Formation",
+    "section": "",
+    "text": "Based on Schmid (2016):"
+  },
+  {
+    "objectID": "03_morphology-word-formation.html#inflection-in-present-day-english",
+    "href": "03_morphology-word-formation.html#inflection-in-present-day-english",
+    "title": "03 Morphology and Word-Formation",
+    "section": "",
+    "text": "Which inflectional morphemes exist? (Schmid 2016)\n\n{play} + {plural}, {house} + {plural}"
+  },
+  {
+    "objectID": "03_morphology-word-formation.html#morphological-building-blocks",
+    "href": "03_morphology-word-formation.html#morphological-building-blocks",
+    "title": "03 Morphology and Word-Formation",
+    "section": "",
+    "text": "(Schmid 2016)\n\nfull(adj) → fully(adv) → {ly}(lx.bd)\nhard → hardly"
+  },
+  {
+    "objectID": "03_morphology-word-formation.html#morphemic-word-formation-processes",
+    "href": "03_morphology-word-formation.html#morphemic-word-formation-processes",
+    "title": "03 Morphology and Word-Formation",
+    "section": "",
+    "text": "Overview:\n\nExamples: legal → legalize; clean(adj) → clean(v)\nTypes of compounds:\n– endocentric: washing machine\n– exocentric: redneck, paperback\n– copulative: singer-songwriter, blue-green"
+  },
+  {
+    "objectID": "03_morphology-word-formation.html#non-morphemic-word-formation",
+    "href": "03_morphology-word-formation.html#non-morphemic-word-formation",
+    "title": "03 Morphology and Word-Formation",
+    "section": "",
+    "text": "cook(v) → cook(n)\n\n\n\nCompounding schema:\n\nBlending examples (Kemmer 2003):\nswooshtika – derogatory reference to Nike logo\n\nglitterati"
+  },
+  {
+    "objectID": "03_morphology-word-formation.html#further-reading",
+    "href": "03_morphology-word-formation.html#further-reading",
+    "title": "03 Morphology and Word-Formation",
+    "section": "",
+    "text": "Bauer 2022. An Introduction to English Lexicology.\n\nLipka 2002. English Lexicology.\n\nSchmid 2016. English Morphology and Word-Formation – An Introduction."
+  },
+  {
+    "objectID": "03_morphology-word-formation.html#morphological-analysis",
+    "href": "03_morphology-word-formation.html#morphological-analysis",
+    "title": "03 Morphology and Word-Formation",
+    "section": "Morphological analysis",
+    "text": "Morphological analysis\nAnalyse the following words morphologically:\n\ndistasteful\nfridge\nwashing machine\nsightsee(^v)\nfriendship\nBrangelina\nlol"
+  },
+  {
+    "objectID": "03_morphology-word-formation.html#studying-word-formation-in-the-oed",
+    "href": "03_morphology-word-formation.html#studying-word-formation-in-the-oed",
+    "title": "03 Morphology and Word-Formation",
+    "section": "Studying word-formation in the OED",
+    "text": "Studying word-formation in the OED\nShortening: Which semantic domains are most common among shortenings?\nOED Advanced search:\n\nURL: https://www.oed.com/search/advanced/Entries?typeOfFormation=shortening&textTermOpt0=WordPhrase&dateOfUseFirstUse=false&page=1&sortOption=DateNewFirst\nUse Microsoft Excel to create a table and pivot chart:\n\n\n\n\nFurther study: compare these findings with compounding."
+  },
+  {
+    "objectID": "01_organisation-introduction.html",
+    "href": "01_organisation-introduction.html",
+    "title": "01 Organisation and Introduction",
+    "section": "",
+    "text": "Website: https://wuqui.github.io/Lex251/\n\n\n\nOpen issues?\nIs anyone taking this course as part of a Modulprüfung?\n\n\n\n\nThis course provides an in-depth exploration of English lexicology and lexicography, examining key areas including\n\nword-formation processes,\nsemantic analysis of word senses,\nand patterns of lexical variation and change.\n\nGrounded in authentic language data from dictionaries and corpora, students will develop analytical skills for studying lexical usage\n\nthrough dictionaries like Wiktionary and the Oxford English Dictionary (OED),\nalongside corpora such as COCA and English Trends on the corpus platforms english-corpora.org and Sketch Engine.\n\nThe programme emphasises practical experience in frequency analysis, collocation studies, Word Sketches through collaborative group projects, enabling students to apply corpus-based methodologies to lexicological research projects.\n\n\n\n\n\n\n\nDate\nTopic\n\n\n\n\n23 Apr.\nOrganisation and introduction\n\n\n14 May\nWords, dictionaries, and the lexicon\n\n\n21 May\nMorphology and word-formation: theory and analysis\n\n\n28 May\nDictionaries: fundamentals, examples, use cases\n\n\n04 Jun.\nUsing dictionaries and analysing data\n\n\n11 Jun.\nCorpora: theories, methods, and applications\n\n\n18 Jun.\nSemantics: studying meanings and functions of words\n\n\n25 Jun.\nStudying lexis empirically\n\n\n02 Jul.\nLexical change: history and recent developments in the English lexicon\n\n\n09 Jul.\nLexical innovation: new words and meanings\n\n\n16 Jul.\nLexical variation: speaker and text type variation\n\n\n23 Jul.\nWrap-up\n\n\n\n\n\n\nAssessment formats vary based on ECTS credits:\n\n3 ECTS: short paper (≈ 3–5 pages)\n6 ECTS: long paper (≈ 10–12 pages)\n9 ECTS: 30–37 characters (MA WP 14.1, WP 15.1)\n\nproject report: 4500 chars\n\n\nCheck your Studien-/Prüfungsordnung for the exact specification."
+  },
+  {
+    "objectID": "01_organisation-introduction.html#course-materials",
+    "href": "01_organisation-introduction.html#course-materials",
+    "title": "01 Organisation and Introduction",
+    "section": "",
+    "text": "Website: https://wuqui.github.io/Lex251/"
+  },
+  {
+    "objectID": "01_organisation-introduction.html#registration",
+    "href": "01_organisation-introduction.html#registration",
+    "title": "01 Organisation and Introduction",
+    "section": "",
+    "text": "Open issues?\nIs anyone taking this course as part of a Modulprüfung?"
+  },
+  {
+    "objectID": "01_organisation-introduction.html#course-description",
+    "href": "01_organisation-introduction.html#course-description",
+    "title": "01 Organisation and Introduction",
+    "section": "",
+    "text": "This course provides an in-depth exploration of English lexicology and lexicography, examining key areas including\n\nword-formation processes,\nsemantic analysis of word senses,\nand patterns of lexical variation and change.\n\nGrounded in authentic language data from dictionaries and corpora, students will develop analytical skills for studying lexical usage\n\nthrough dictionaries like Wiktionary and the Oxford English Dictionary (OED),\nalongside corpora such as COCA and English Trends on the corpus platforms english-corpora.org and Sketch Engine.\n\nThe programme emphasises practical experience in frequency analysis, collocation studies, Word Sketches through collaborative group projects, enabling students to apply corpus-based methodologies to lexicological research projects."
+  },
+  {
+    "objectID": "01_organisation-introduction.html#schedule",
+    "href": "01_organisation-introduction.html#schedule",
+    "title": "01 Organisation and Introduction",
+    "section": "",
+    "text": "Date\nTopic\n\n\n\n\n23 Apr.\nOrganisation and introduction\n\n\n14 May\nWords, dictionaries, and the lexicon\n\n\n21 May\nMorphology and word-formation: theory and analysis\n\n\n28 May\nDictionaries: fundamentals, examples, use cases\n\n\n04 Jun.\nUsing dictionaries and analysing data\n\n\n11 Jun.\nCorpora: theories, methods, and applications\n\n\n18 Jun.\nSemantics: studying meanings and functions of words\n\n\n25 Jun.\nStudying lexis empirically\n\n\n02 Jul.\nLexical change: history and recent developments in the English lexicon\n\n\n09 Jul.\nLexical innovation: new words and meanings\n\n\n16 Jul.\nLexical variation: speaker and text type variation\n\n\n23 Jul.\nWrap-up"
+  },
+  {
+    "objectID": "01_organisation-introduction.html#requirements",
+    "href": "01_organisation-introduction.html#requirements",
+    "title": "01 Organisation and Introduction",
+    "section": "",
+    "text": "Assessment formats vary based on ECTS credits:\n\n3 ECTS: short paper (≈ 3–5 pages)\n6 ECTS: long paper (≈ 10–12 pages)\n9 ECTS: 30–37 characters (MA WP 14.1, WP 15.1)\n\nproject report: 4500 chars\n\n\nCheck your Studien-/Prüfungsordnung for the exact specification."
+  },
+  {
+    "objectID": "01_organisation-introduction.html#introduction-to-lexicology-and-lexicography",
+    "href": "01_organisation-introduction.html#introduction-to-lexicology-and-lexicography",
+    "title": "01 Organisation and Introduction",
+    "section": "Introduction to Lexicology and Lexicography",
+    "text": "Introduction to Lexicology and Lexicography\n\nWhat is Lexicology about?\n\nWhat is a word?\n\nHow many words?\nConsider this example:\n\nPaul was drinking beer in his favourite bar. He enjoyed having a drink every now and then. He thought he did not drink much, but his wife thought that he drank.\n\n→ 31 running words/tokens\n\nHow many words are there?\n\n\n\n\ntype\ntoken\n\n\n\n\n1\nDRINK \\(^v\\)\ndrinking\n\n\n\n\ndrink\n\n\n\n\ndrunk\n\n\n2\nDRINK \\(^n\\)\ndrink\n\n\n\n\ntokens: he\\(^1\\), he\\(^2\\), etc.\nword forms: drinking, drank are word forms of the lexeme DRINK\\(^v\\)\ntypes/lexemes: e.g. DRINK\\(^v\\)\n\nOther terms – e.g. disclaimers\n\n\n\n\nModel of the linguistic sign (Saussure 1916)\nThere are three notions of words:\n\ntypes / lexemes:\n\nlexical items as listed in the dictionary,\nabstract units of the lexicon: WORK \\(^v\\)\n\nword-forms:\n\ninflectional variants of lexemes\ne.g. (he) works, (he) worked\n\ntokens:\n\nconcrete instantiations of types in running text,\ncommonly delimited by whitespace\n\n\n\n\n\nTypes of signs (Keller 1994)\n\nindices: relation of naturalness\nicons: relation of similarity\nsymbols: relation of arbitrariness\n\n\n\nFunction of words in communication\nOrganon model (Bühler 1934):\n\n\n\n\nObjective of Lexicology\n\n“What is most important, however, is that in lexicology the stock of words or lexical items is not simply regarded as a list of isolated elements.\nLexicologists try to find out generalisations and regularities and especially consider relations between elements.\nLexicology is therefore concerned with structures, not with a mere agglomeration of words (cf. Jackson (1988), p. 222).”\n(Lipka 1992, 1)\n\n\n\n\nWhat is the lexicon?\n\nTwo senses of lexicon\n\n“In the following, I will use lexicon in two senses that are not always sharply distinguished:\n\n\nfor a metalinguistic level, or a sub-component in a linguistic model (basically compatible with a variety of theories of language); and\n\n\nin the sense of vocabulary as seen from a systematic, synchronic point of view.”\n(Lipka 1992, 11)\n\n\n\n\n\nDimensions of structure in the lexicon\n\ninternal vs external:\n\nparadigmatic vs syntagmatic:\n\n\n\n\nFunction of Lexicology in language"
+  },
+  {
+    "objectID": "01_organisation-introduction.html#practice-using-dictionaries-for-studying-lexis",
+    "href": "01_organisation-introduction.html#practice-using-dictionaries-for-studying-lexis",
+    "title": "01 Organisation and Introduction",
+    "section": "Practice: using dictionaries for studying lexis",
+    "text": "Practice: using dictionaries for studying lexis\nWhich types of lexical information can you find in the OED?\n\nphonology\nword-formation\nsemantics\nsociolinguistics\nregister\nusage frequency"
+  },
+  {
+    "objectID": "01_organisation-introduction.html#for-next-week",
+    "href": "01_organisation-introduction.html#for-next-week",
+    "title": "01 Organisation and Introduction",
+    "section": "For next week …",
+    "text": "For next week …\nRead the first chapter of:\n(Bauer 2022)\nDownload chapter 1 (PDF)"
+  },
+  {
+    "objectID": "02_words-dictionaries-lexicon.html",
+    "href": "02_words-dictionaries-lexicon.html",
+    "title": "02 Words, Dictionaries, and the Lexicon",
+    "section": "",
+    "text": "utterance\n\n“A word is the smallest unit which can stand on its own as an utterance.” (p. 1)\n\nbut:\n\nmentioning\n\nA: Is it ‘inadvisable’ or ‘unadvisable’?\n\nB: Un.\n\n\ngrammatical words: e.g. the\n\n\nphonology\n\n“A word is a unit which, when pronounced in isolation, has a single intonational focus point, or movement of pitch.” (p. 2)\n\nbut:\n\nin the beginning vs first vs forever vs for ever\n\n\nmeaning\n\n“A word has a single, unitary meaning.” (p. 2)\n\nbut:\n\nfinally vs in the end\n\n\nspelling\n\n“words are unitary orthographic units” (p. 2)\n\nbut:\n\ncoffee pot vs coffee-pot\n\nin so far as vs in-so-far-as\n\ndiachronic change: all right vs alright\n\n\ndictionary entry\n\n“A word is listed in the dictionary.” (p. 2)\n\nbut:\n\ncircular reasoning: words are listed because they are words\n\ndictionaries also list smaller units (e.g. prefix un-)\n\n\npractical definition\n\n“[…] in general we will accept the spelling conventions of English as defining words. This might not be terribly scientific, but it has the advantage of being practical.” (p. 3)\n\n\nFurther reading: Haspelmath 2023 ‘Defining the Word’. WORD 69 (3): 283–97. https://doi.org/10.1080/00437956.2023.2237272\n\n\n\n\n\n\n“A word is a linguistic item which helps us discuss the world around us.\nIt is a unit which not only has form (a phonological structure or an orthographic one), but also meaning.\nIn this sense, names are words. But names are different from other words in a number of ways. They have unique reference: Samantha refers to one particular person in a given context, tree refers to a set of items, one or more of which is relevant in the given context.”\nSemiotic Triangle (Ogden and Richards 1923):\n\n\n\ndefinite reference examples:\n\nthe Samantha\n– This is not the Paris I used to know. (use as common noun)\n\nroles as noun phrases – no modifiers:\nthe former Argentine\n\n\n\n\n\n\n\npassion flower\n\nsunflower\n\nwall-flower\nonomasiological competition between formal variants:\n– honey bee\n– honeybee\n\n\n\n\n\nHe passed out.\n\nHe fainted.\n\n\n\n\n\ncollocation continuum\n\nstrong collocations: kith and kin\n\nintermediate\n– all things considered\n– as a matter of fact\n– excuse me\n– good afternoon\n– I’m sorry to say\n– in other words\n– in the long run\n\nweak collocations: in the\n\n\n\n\n\n\nHe kicked the bucket.\n\nHe died.\n\n\n\n\n\nToo many cooks spoil the broth.\n\n*The broth has been spoilt by too many cooks.\n\n\n\n\n\n\n\n\n“The term ‘paradigm’ is in general usage, but its usage is often limited. Although paradigm can justifiably be used of any substitution class, it is most often used of substitution classes within the word. Thus the normal use for the term paradigm is the kind of substitution class illustrated in the following example.” (Bauer)\n\n\n\n\n\nwalk\n\nwalks\n\nwalked\n\nwalking\n\nThis paradigm illustrates two different kinds of word: there is a sense in which all the items are different word-forms, and a contrasting sense in which the paradigm illustrates different uses of the same word, the lexeme.”\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndeceive\nemploy\nproceed\ntheorise\n\n\n\n\nVerb\ndeceive\nemploy\nproceed\ntheorise\n\n\nNoun\ndeception\nemployer\nprocess\ntheory\n\n\nAdjective\ndeceptive\nemployable\nprocessual\ntheoretical\n\n\n\nAlthough these examples show individual word families, these series are often generalised over several word families (e.g. theory/theorist/theorise parallels fantasy/fantasist/fantasise)."
+  },
+  {
+    "objectID": "02_words-dictionaries-lexicon.html#criteria",
+    "href": "02_words-dictionaries-lexicon.html#criteria",
+    "title": "02 Words, Dictionaries, and the Lexicon",
+    "section": "",
+    "text": "utterance\n\n“A word is the smallest unit which can stand on its own as an utterance.” (p. 1)\n\nbut:\n\nmentioning\n\nA: Is it ‘inadvisable’ or ‘unadvisable’?\n\nB: Un.\n\n\ngrammatical words: e.g. the\n\n\nphonology\n\n“A word is a unit which, when pronounced in isolation, has a single intonational focus point, or movement of pitch.” (p. 2)\n\nbut:\n\nin the beginning vs first vs forever vs for ever\n\n\nmeaning\n\n“A word has a single, unitary meaning.” (p. 2)\n\nbut:\n\nfinally vs in the end\n\n\nspelling\n\n“words are unitary orthographic units” (p. 2)\n\nbut:\n\ncoffee pot vs coffee-pot\n\nin so far as vs in-so-far-as\n\ndiachronic change: all right vs alright\n\n\ndictionary entry\n\n“A word is listed in the dictionary.” (p. 2)\n\nbut:\n\ncircular reasoning: words are listed because they are words\n\ndictionaries also list smaller units (e.g. prefix un-)\n\n\npractical definition\n\n“[…] in general we will accept the spelling conventions of English as defining words. This might not be terribly scientific, but it has the advantage of being practical.” (p. 3)\n\n\nFurther reading: Haspelmath 2023 ‘Defining the Word’. WORD 69 (3): 283–97. https://doi.org/10.1080/00437956.2023.2237272"
+  },
+  {
+    "objectID": "02_words-dictionaries-lexicon.html#problems-in-delineating-the-term-word",
+    "href": "02_words-dictionaries-lexicon.html#problems-in-delineating-the-term-word",
+    "title": "02 Words, Dictionaries, and the Lexicon",
+    "section": "",
+    "text": "“A word is a linguistic item which helps us discuss the world around us.\nIt is a unit which not only has form (a phonological structure or an orthographic one), but also meaning.\nIn this sense, names are words. But names are different from other words in a number of ways. They have unique reference: Samantha refers to one particular person in a given context, tree refers to a set of items, one or more of which is relevant in the given context.”\nSemiotic Triangle (Ogden and Richards 1923):\n\n\n\ndefinite reference examples:\n\nthe Samantha\n– This is not the Paris I used to know. (use as common noun)\n\nroles as noun phrases – no modifiers:\nthe former Argentine\n\n\n\n\n\n\n\npassion flower\n\nsunflower\n\nwall-flower\nonomasiological competition between formal variants:\n– honey bee\n– honeybee\n\n\n\n\n\nHe passed out.\n\nHe fainted.\n\n\n\n\n\ncollocation continuum\n\nstrong collocations: kith and kin\n\nintermediate\n– all things considered\n– as a matter of fact\n– excuse me\n– good afternoon\n– I’m sorry to say\n– in other words\n– in the long run\n\nweak collocations: in the\n\n\n\n\n\n\nHe kicked the bucket.\n\nHe died.\n\n\n\n\n\nToo many cooks spoil the broth.\n\n*The broth has been spoilt by too many cooks.\n\n\n\n\n\n\n\n\n“The term ‘paradigm’ is in general usage, but its usage is often limited. Although paradigm can justifiably be used of any substitution class, it is most often used of substitution classes within the word. Thus the normal use for the term paradigm is the kind of substitution class illustrated in the following example.” (Bauer)\n\n\n\n\n\nwalk\n\nwalks\n\nwalked\n\nwalking\n\nThis paradigm illustrates two different kinds of word: there is a sense in which all the items are different word-forms, and a contrasting sense in which the paradigm illustrates different uses of the same word, the lexeme.”\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndeceive\nemploy\nproceed\ntheorise\n\n\n\n\nVerb\ndeceive\nemploy\nproceed\ntheorise\n\n\nNoun\ndeception\nemployer\nprocess\ntheory\n\n\nAdjective\ndeceptive\nemployable\nprocessual\ntheoretical\n\n\n\nAlthough these examples show individual word families, these series are often generalised over several word families (e.g. theory/theorist/theorise parallels fantasy/fantasist/fantasise)."
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html",
+    "href": "04_dictionaries-fundamentals.html",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "",
+    "text": "“In the following, I will use lexicon in two senses that are not always sharply distinguished:\na) for a metalinguistic level, or a sub-component in a linguistic model; and\nb) in the sense of vocabulary as seen from a systematic, synchronic point of view.”\n(Lipka 1992, 11)\n\n\n\n\n\n“What is most important, however, is that in lexicology the stock of words or lexical items is not simply regarded as a list of isolated elements.\n\nLexicologists try to find out generalisations and regularities and especially consider relations between elements (see chapters n and IV).\n\nLexicology is therefore concerned with structures, not with a mere agglomeration of words (cf. (Jackson 1988, 222)).”\n(Lipka 1992, 1)\n\n\n\n\n\n“The lexicon is what linguists call the dictionary that is assumed to be in people’s heads, or the linguist’s best approximation to that.\n\nIt is fundamentally a psychological entity, and its contents cannot be observed directly but must be deduced from speakers’ and hearers’ behaviour.\n\nTwo fundamental approaches:\n\nHome of the lawless (Di Sciullo and Williams 1987) – lexicon contains whatever cannot be predicted by general rule.\n\nWider approach – lexicon contains anything to do with the structure of words, whether lawless or not.”\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive demo: https://projector.tensorflow.org/\n\n\n\n\n\n\n(Stella 2019)\n\n\n\n\n\n\n“If you talk to someone about electricity, and then make them read the phrase sham dock, they might very well say damn shock, because of prior activation of related words; the Freudian slip depends upon a subject area being readily activated in the brain and brought out inadvertently, whether because of a word related in meaning or pronunciation.”"
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#two-senses-of-lexicon",
+    "href": "04_dictionaries-fundamentals.html#two-senses-of-lexicon",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "",
+    "text": "“In the following, I will use lexicon in two senses that are not always sharply distinguished:\na) for a metalinguistic level, or a sub-component in a linguistic model; and\nb) in the sense of vocabulary as seen from a systematic, synchronic point of view.”\n(Lipka 1992, 11)"
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#objective-of-lexicology",
+    "href": "04_dictionaries-fundamentals.html#objective-of-lexicology",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "",
+    "text": "“What is most important, however, is that in lexicology the stock of words or lexical items is not simply regarded as a list of isolated elements.\n\nLexicologists try to find out generalisations and regularities and especially consider relations between elements (see chapters n and IV).\n\nLexicology is therefore concerned with structures, not with a mere agglomeration of words (cf. (Jackson 1988, 222)).”\n(Lipka 1992, 1)"
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#definition-bauer2022introduction",
+    "href": "04_dictionaries-fundamentals.html#definition-bauer2022introduction",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "",
+    "text": "“The lexicon is what linguists call the dictionary that is assumed to be in people’s heads, or the linguist’s best approximation to that.\n\nIt is fundamentally a psychological entity, and its contents cannot be observed directly but must be deduced from speakers’ and hearers’ behaviour.\n\nTwo fundamental approaches:\n\nHome of the lawless (Di Sciullo and Williams 1987) – lexicon contains whatever cannot be predicted by general rule.\n\nWider approach – lexicon contains anything to do with the structure of words, whether lawless or not.”"
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#the-mental-lexicon",
+    "href": "04_dictionaries-fundamentals.html#the-mental-lexicon",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "",
+    "text": "Interactive demo: https://projector.tensorflow.org/"
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#associations-in-the-lexicon",
+    "href": "04_dictionaries-fundamentals.html#associations-in-the-lexicon",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "",
+    "text": "(Stella 2019)\n\n\n\n\n\n\n“If you talk to someone about electricity, and then make them read the phrase sham dock, they might very well say damn shock, because of prior activation of related words; the Freudian slip depends upon a subject area being readily activated in the brain and brought out inadvertently, whether because of a word related in meaning or pronunciation.”"
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#what-is-a-word",
+    "href": "04_dictionaries-fundamentals.html#what-is-a-word",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "What is a word?",
+    "text": "What is a word?\n\n“A word is listed in the dictionary.” (p. 2)\nBut:\n\ncircular reasoning – words are listed because they are words\n\ndictionaries also list smaller units (e.g. prefix un-)\n\n“[…] in general we will accept the spelling conventions of English as defining words. This may not be terribly scientific, but it has the advantage of being practical.” (p. 3)"
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#definition-of-dictionary",
+    "href": "04_dictionaries-fundamentals.html#definition-of-dictionary",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "Definition of dictionary",
+    "text": "Definition of dictionary\n\n“The term dictionary is usually restricted to real-world dictionaries that appear in print and online.\nDictionaries provide a list of words of whatever language they deal with – in our case, English – and then give a certain amount of information about each of them.\nThey tend to have two functions, which may at times conflict:\n\nDescribe the language as it is (descriptive)\n\nProvide an influence for establishing and maintaining the standard form of the language (prescriptive)”\n\n\n\nDescriptivism vs prescriptivism\n\n“If we assume that one of ’kilometre and ki’lometre is right (and the other therefore wrong), we assume that there is a unique solution to this question of English usage …” (Bauer)\n\nLanguage questions are more often like the jeans question (multiple acceptable answers) than like the drive-on-the-right question (single legal answer)."
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#proof-of-the-existence-of-words",
+    "href": "04_dictionaries-fundamentals.html#proof-of-the-existence-of-words",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "Proof of the existence of words",
+    "text": "Proof of the existence of words\n“First of all, dictionaries provide evidence of the existence of a word. The fact that a word is listed in a dictionary at all is taken to prove that there is such a word. This can be misleading in two ways:\n\nDictionaries sometimes list erroneous words that have no existence outside the dictionary (e.g. banket, sardel).\n\nDictionaries more often fail to list perfectly good words – no dictionary can list every word of English.”\n\n\nTerm-paper idea\n\nWhich words are commonly used (in corpora) but not contained in dictionaries?\n\nWhich words are contained in dictionaries but not commonly used in corpora?"
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#information-provided-in-the-oed",
+    "href": "04_dictionaries-fundamentals.html#information-provided-in-the-oed",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "Information provided in the OED",
+    "text": "Information provided in the OED"
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#information-provided-in-the-oed-1",
+    "href": "04_dictionaries-fundamentals.html#information-provided-in-the-oed-1",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "Information provided in the OED",
+    "text": "Information provided in the OED"
+  },
+  {
+    "objectID": "04_dictionaries-fundamentals.html#selected-dictionaries",
+    "href": "04_dictionaries-fundamentals.html#selected-dictionaries",
+    "title": "04 Dictionaries: fundamentals, examples, use cases",
+    "section": "Selected dictionaries",
+    "text": "Selected dictionaries\n\nUrban Dictionary\nhttps://www.urbandictionary.com/\n\n\n\nWiktionary\nhttps://www.wiktionary.org/\n\n\nWIND (Machine-readable Wiktionary)\nSajous, Calderone & Hathout 2020. ‘ENGLAWI: From Human- to Machine-Readable Wiktionary’. LREC 12.\nhttp://redac.univ-tlse2.fr/lexiques/wind.html\n\n\n\n\n\nOxford English Dictionary (OED)\n\nAdvanced search interface:"
   },
   {
     "objectID": "10_lexical-innovation/10_lexical-innovation.html#social-networks-of-lexical-innovation",
@@ -140,139 +672,6 @@
     "text": "Sketch Engine analysis\nUse Sketch Engine and the BNC 2014 Spoken to analyse the frequency and distribution of the target neologisms.\n\nIn Excel, selected a sample (e.g. n=20) of the target neologisms based on frequency (column Frequency Band Number).\nIn Sketch Engine, search for all of these neologisms in one go by concatenating them in a single CQL query. For example:\n\n[word=\"retweet|hashtag|podcast|stan|Covid-19|photobomb|upvote|Covid|deadname|Bitcoin|stablecoin|selfie|SARS|open-world|vlog|vape\"]"
   },
   {
-    "objectID": "05_dictionaries-2/out/index.html",
-    "href": "05_dictionaries-2/out/index.html",
-    "title": "Using dictionaries and analysing data",
-    "section": "",
-    "text": "Provide comprehensive linguistic information about words in a single language\n\nSpelling, pronunciation, and grammatical classification\nMultiple meanings and contextual usage examples\nEtymology and historical development notes\n\n\n\n\n\nTypically monolingual and organised alphabetically for easy reference\n\n\n\n\nValuable for morphological research because they:\n\nDocument detailed word origins and development\nShow common usage patterns and variations\nProvide historical context for word formation\n\n\n\n\n\n\n\nFacilitate translation between two or more languages\nKey features and functions:\n\nSupport language learning and translation work\nHelp decode meanings across different languages\nIllustrate cultural and linguistic nuances\n\nImportant for morphological research by:\n\nEnabling cross-linguistic word formation studies\nRevealing patterns in comparative linguistics\nShowing how concepts transfer between languages\n\n\n\n\n\n\nFocus on specific aspects of language or technical fields:\n\nEtymology and word origins\nPrecise pronunciation guides\nTechnical and discipline-specific terminology\nSlang and colloquial expressions\n\nParticularly valuable for:\n\nDetailed academic research in specific fields\nUnderstanding technical vocabulary development\nTracing specialised word formation patterns\n\n\n\n\n\n\nDiachronic dictionaries:\n\nTrack how words change through history\nDocument evolution of meanings and forms\nShow historical usage patterns and variations\n\nSynchronic dictionaries:\n\nFocus on language at specific points in time\nPresent contemporary usage and meanings\nDocument current word formation patterns\n\nEssential tools for:\n\nHistorical linguistic research\nUnderstanding language evolution\nTracking word formation changes over time\n\n\n\n\n\n\nSpecifically designed for language acquisition:\n\nClear, simplified definitions\nPractical, everyday usage examples\nWord frequency information\nCommon collocations and phrases\n\nAdditional features often include:\n\nGrammar notes and usage guidelines\nCultural context explanations\nLearning exercises and examples\n\nUseful for research into:\n\nCommon word usage patterns\nLanguage acquisition processes\nBasic word formation principles"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/index.html#general-purpose-dictionaries",
-    "href": "05_dictionaries-2/out/index.html#general-purpose-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "",
-    "text": "Provide comprehensive linguistic information about words in a single language\n\nSpelling, pronunciation, and grammatical classification\nMultiple meanings and contextual usage examples\nEtymology and historical development notes\n\n\n\n\n\nTypically monolingual and organised alphabetically for easy reference\n\n\n\n\nValuable for morphological research because they:\n\nDocument detailed word origins and development\nShow common usage patterns and variations\nProvide historical context for word formation"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/index.html#bilingual-and-multilingual-dictionaries",
-    "href": "05_dictionaries-2/out/index.html#bilingual-and-multilingual-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "",
-    "text": "Facilitate translation between two or more languages\nKey features and functions:\n\nSupport language learning and translation work\nHelp decode meanings across different languages\nIllustrate cultural and linguistic nuances\n\nImportant for morphological research by:\n\nEnabling cross-linguistic word formation studies\nRevealing patterns in comparative linguistics\nShowing how concepts transfer between languages"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/index.html#specialized-dictionaries",
-    "href": "05_dictionaries-2/out/index.html#specialized-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "",
-    "text": "Focus on specific aspects of language or technical fields:\n\nEtymology and word origins\nPrecise pronunciation guides\nTechnical and discipline-specific terminology\nSlang and colloquial expressions\n\nParticularly valuable for:\n\nDetailed academic research in specific fields\nUnderstanding technical vocabulary development\nTracing specialised word formation patterns"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/index.html#diachronic-and-synchronic-dictionaries",
-    "href": "05_dictionaries-2/out/index.html#diachronic-and-synchronic-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "",
-    "text": "Diachronic dictionaries:\n\nTrack how words change through history\nDocument evolution of meanings and forms\nShow historical usage patterns and variations\n\nSynchronic dictionaries:\n\nFocus on language at specific points in time\nPresent contemporary usage and meanings\nDocument current word formation patterns\n\nEssential tools for:\n\nHistorical linguistic research\nUnderstanding language evolution\nTracking word formation changes over time"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/index.html#learners-dictionaries",
-    "href": "05_dictionaries-2/out/index.html#learners-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "",
-    "text": "Specifically designed for language acquisition:\n\nClear, simplified definitions\nPractical, everyday usage examples\nWord frequency information\nCommon collocations and phrases\n\nAdditional features often include:\n\nGrammar notes and usage guidelines\nCultural context explanations\nLearning exercises and examples\n\nUseful for research into:\n\nCommon word usage patterns\nLanguage acquisition processes\nBasic word formation principles"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/index.html#oxford-english-dictionary-oed",
-    "href": "05_dictionaries-2/out/index.html#oxford-english-dictionary-oed",
-    "title": "Using dictionaries and analysing data",
-    "section": "2.1 Oxford English Dictionary (OED)",
-    "text": "2.1 Oxford English Dictionary (OED)\n\nOfficial website: https://www.oed.com/\nComprehensive historical dictionary of English by Oxford University Press\nConsidered the authoritative source on English language\nKey features:\n\nHistorical approach: traces word development chronologically\nExtensive quotations: over 3 million citations from wide-ranging sources\nComprehensive coverage: 600,000+ words and phrases across 20 volumes\nOnline since 2000; third edition in progress (electronic-only)\n\nValue for research:\n\nTraces detailed development of word forms and meanings\nProvides extensive historical context and usage patterns\nEnables in-depth morphological analysis\nDocuments linguistic patterns and changes over time"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/index.html#wiktionary",
-    "href": "05_dictionaries-2/out/index.html#wiktionary",
-    "title": "Using dictionaries and analysing data",
-    "section": "2.2 Wiktionary",
-    "text": "2.2 Wiktionary\n\nOfficial website: https://www.wiktionary.org/\nMultilingual, web-based collaborative dictionary\nKey features:\n\nCrowdsourced content with rapid updates\nComprehensive and flexible entries for new words\nMultiple language support with cross-references\nDetailed etymological information where available\n\nResearch applications:\n\nNeologism and language evolution studies\nCross-linguistic research opportunities\nContemporary usage patterns\nEducational tool for language learning and research"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/index.html#urban-dictionary",
-    "href": "05_dictionaries-2/out/index.html#urban-dictionary",
-    "title": "Using dictionaries and analysing data",
-    "section": "2.3 Urban Dictionary",
-    "text": "2.3 Urban Dictionary\n\nOfficial website: https://www.urbandictionary.com/\nCrowdsourced dictionary focusing on slang and colloquial language\nKey features:\n\nUser-generated content reflecting varied interpretations\nDynamic tracking of language evolution\nRich cultural context and references\nMultiple definitions showing usage variations\n\nResearch value:\n\nSociolinguistic studies of contemporary language\nTracking emergence and spread of new slang\nCultural analysis through language use\nUnderstanding informal word formation processes"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/index.html#other-major-dictionaries",
-    "href": "05_dictionaries-2/out/index.html#other-major-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "2.4 Other Major Dictionaries",
-    "text": "2.4 Other Major Dictionaries\nMerriam-Webster Dictionary (https://www.merriam-webster.com/)\n\nAmerican English focus\nStrong etymology coverage\nRegular updates for contemporary usage\nValuable for understanding American English word formation\n\nCollins English Dictionary (https://www.collinsdictionary.com/)\n\nComprehensive vocabulary coverage\nStrong British English focus\nDetailed word formation information\nIncludes frequency information and usage trends\n\n\nCambridge English Dictionary (https://dictionary.cambridge.org/)\n\nClear definitions and examples\nStrong learner focus\nBritish English emphasis\nExcellent grammatical information and usage notes\n\nOnline Etymology Dictionary (https://www.etymonline.com/)\n\nDetailed word history tracking\nEtymology focus\nHistorical development emphasis\nTraces morphological changes over time"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/slides.html#general-purpose-dictionaries",
-    "href": "05_dictionaries-2/out/slides.html#general-purpose-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "General Purpose Dictionaries",
-    "text": "General Purpose Dictionaries\n\n\nProvide comprehensive linguistic information about words in a single language\n\nSpelling, pronunciation, and grammatical classification\nMultiple meanings and contextual usage examples\nEtymology and historical development notes\n\n\n\n\n\nTypically monolingual and organised alphabetically for easy reference\n\n\n\n\nValuable for morphological research because they:\n\nDocument detailed word origins and development\nShow common usage patterns and variations\nProvide historical context for word formation"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/slides.html#bilingual-and-multilingual-dictionaries",
-    "href": "05_dictionaries-2/out/slides.html#bilingual-and-multilingual-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "Bilingual and Multilingual Dictionaries",
-    "text": "Bilingual and Multilingual Dictionaries\n\nFacilitate translation between two or more languages\nKey features and functions:\n\nSupport language learning and translation work\nHelp decode meanings across different languages\nIllustrate cultural and linguistic nuances\n\nImportant for morphological research by:\n\nEnabling cross-linguistic word formation studies\nRevealing patterns in comparative linguistics\nShowing how concepts transfer between languages"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/slides.html#specialized-dictionaries",
-    "href": "05_dictionaries-2/out/slides.html#specialized-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "Specialized Dictionaries",
-    "text": "Specialized Dictionaries\n\nFocus on specific aspects of language or technical fields:\n\nEtymology and word origins\nPrecise pronunciation guides\nTechnical and discipline-specific terminology\nSlang and colloquial expressions\n\nParticularly valuable for:\n\nDetailed academic research in specific fields\nUnderstanding technical vocabulary development\nTracing specialised word formation patterns"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/slides.html#diachronic-and-synchronic-dictionaries",
-    "href": "05_dictionaries-2/out/slides.html#diachronic-and-synchronic-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "Diachronic and Synchronic Dictionaries",
-    "text": "Diachronic and Synchronic Dictionaries\n\nDiachronic dictionaries:\n\nTrack how words change through history\nDocument evolution of meanings and forms\nShow historical usage patterns and variations\n\nSynchronic dictionaries:\n\nFocus on language at specific points in time\nPresent contemporary usage and meanings\nDocument current word formation patterns\n\nEssential tools for:\n\nHistorical linguistic research\nUnderstanding language evolution\nTracking word formation changes over time"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/slides.html#learners-dictionaries",
-    "href": "05_dictionaries-2/out/slides.html#learners-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "Learner’s Dictionaries",
-    "text": "Learner’s Dictionaries\n\nSpecifically designed for language acquisition:\n\nClear, simplified definitions\nPractical, everyday usage examples\nWord frequency information\nCommon collocations and phrases\n\nAdditional features often include:\n\nGrammar notes and usage guidelines\nCultural context explanations\nLearning exercises and examples\n\nUseful for research into:\n\nCommon word usage patterns\nLanguage acquisition processes\nBasic word formation principles"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/slides.html#oxford-english-dictionary-oed",
-    "href": "05_dictionaries-2/out/slides.html#oxford-english-dictionary-oed",
-    "title": "Using dictionaries and analysing data",
-    "section": "Oxford English Dictionary (OED)",
-    "text": "Oxford English Dictionary (OED)\n\nOfficial website: https://www.oed.com/\nComprehensive historical dictionary of English by Oxford University Press\nConsidered the authoritative source on English language\nKey features:\n\nHistorical approach: traces word development chronologically\nExtensive quotations: over 3 million citations from wide-ranging sources\nComprehensive coverage: 600,000+ words and phrases across 20 volumes\nOnline since 2000; third edition in progress (electronic-only)\n\nValue for research:\n\nTraces detailed development of word forms and meanings\nProvides extensive historical context and usage patterns\nEnables in-depth morphological analysis\nDocuments linguistic patterns and changes over time"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/slides.html#wiktionary",
-    "href": "05_dictionaries-2/out/slides.html#wiktionary",
-    "title": "Using dictionaries and analysing data",
-    "section": "Wiktionary",
-    "text": "Wiktionary\n\nOfficial website: https://www.wiktionary.org/\nMultilingual, web-based collaborative dictionary\nKey features:\n\nCrowdsourced content with rapid updates\nComprehensive and flexible entries for new words\nMultiple language support with cross-references\nDetailed etymological information where available\n\nResearch applications:\n\nNeologism and language evolution studies\nCross-linguistic research opportunities\nContemporary usage patterns\nEducational tool for language learning and research"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/slides.html#urban-dictionary",
-    "href": "05_dictionaries-2/out/slides.html#urban-dictionary",
-    "title": "Using dictionaries and analysing data",
-    "section": "Urban Dictionary",
-    "text": "Urban Dictionary\n\nOfficial website: https://www.urbandictionary.com/\nCrowdsourced dictionary focusing on slang and colloquial language\nKey features:\n\nUser-generated content reflecting varied interpretations\nDynamic tracking of language evolution\nRich cultural context and references\nMultiple definitions showing usage variations\n\nResearch value:\n\nSociolinguistic studies of contemporary language\nTracking emergence and spread of new slang\nCultural analysis through language use\nUnderstanding informal word formation processes"
-  },
-  {
-    "objectID": "05_dictionaries-2/out/slides.html#other-major-dictionaries",
-    "href": "05_dictionaries-2/out/slides.html#other-major-dictionaries",
-    "title": "Using dictionaries and analysing data",
-    "section": "Other Major Dictionaries",
-    "text": "Other Major Dictionaries\nMerriam-Webster Dictionary (https://www.merriam-webster.com/)\n\nAmerican English focus\nStrong etymology coverage\nRegular updates for contemporary usage\nValuable for understanding American English word formation\n\nCollins English Dictionary (https://www.collinsdictionary.com/)\n\nComprehensive vocabulary coverage\nStrong British English focus\nDetailed word formation information\nIncludes frequency information and usage trends"
-  },
-  {
     "objectID": "11_lexical-variation/11_lexical-variation.html#types-of-variation",
     "href": "11_lexical-variation/11_lexical-variation.html#types-of-variation",
     "title": "Lexical Variation",
@@ -371,122 +770,10 @@
     "text": "Key takeaways\nGeneral:\n\nVariation is fundamental: Lexical variation occurs across multiple dimensions\nSpeaker variation: Regional (dialect) and social (sociolect) differences\nSituational variation: Register differences based on context and use\n\n\nModal verbs:\n\nDiachronic patterns: Modal verbs show systematic frequency changes over time\nText type specificity: Different modals show varying degrees of genre preference\nCorpus methods: Quantitative analysis reveals patterns not visible through intuition alone"
   },
   {
-    "objectID": "12_wrap-up/12_wrap-up.html#from-dictionaries-to-dynamic-systems",
-    "href": "12_wrap-up/12_wrap-up.html#from-dictionaries-to-dynamic-systems",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "From dictionaries to dynamic systems",
-    "text": "From dictionaries to dynamic systems\n\nStarted with: What is a word? Dictionary entries and static definitions\n\ne.g. OED analysis of bro, spelling conventions defining words, Urban Dictionary vs Wiktionary approaches\n\nExplored: Morphological processes creating new words\n\ne.g. disclaimers morphological analysis, Brangelina blending, selfie clipping, word-formation productivity in OED\n\nDiscovered: Words carry meaning through context and collocation\n\ne.g. cardiovascular vs cardio distributional differences, bro vs brother collocational patterns, Principle of No Synonymy\n\nExamined: How vocabulary changes across time and varies across users\n\ne.g. telephone → phone frequency decline, autumn vs fall regional variation, modal verb changes in COHA\n\nConcluded: The lexicon as a living, adaptive system\n\ne.g. S-curve model of smartphone diffusion, EC-Model of entrenchment and conventionalisation, social network effects\n\n\n\n8:30 - Session start\nSESSION TIMING OVERVIEW (90 mins, 8:30-10:00)\n\n\n\n\n\n\n\n\n\n\nSection\nContent\nTime\nFormat\nStart Time\n\n\n\n\nJourney\nCourse overview\n6 mins\nReflection\n8:30\n\n\nIntegration\nTheoretical synthesis\n15 mins\nInteractive presentation\n8:36\n\n\nMethods\nMethodological toolkit\n10 mins\nSkills review\n8:51\n\n\nExamples\nConcrete case studies\n15 mins\nImage-based review\n9:01\n\n\nBREAK\n5-minute break\n5 mins\n\n9:16\n\n\nApplications\nResearch connections\n15 mins\nDiscussion\n9:21\n\n\nDirections\nFuture pathways\n12 mins\nPresentation\n9:36\n\n\nReflection\nCourse wrap-up\n12 mins\nStudent feedback\n9:48"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#the-lexicon-as-a-dynamic-system",
-    "href": "12_wrap-up/12_wrap-up.html#the-lexicon-as-a-dynamic-system",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "The lexicon as a dynamic system",
-    "text": "The lexicon as a dynamic system\n\n\n\n\n\n\n\n\nTraditional view\nDynamic view\nExamples from our course\n\n\n\n\nWords as discrete units\nWords as usage patterns\nbro vs brother collocational differences\n\n\nMeaning as fixed definitions\nMeaning through distributional patterns\ncardiovascular vs cardio semantic profiles\n\n\nVocabulary as inventory\nVocabulary as adaptive system\nS-curve model of smartphone diffusion\n\n\nChange as exceptional\nChange as inherent property\ntelephone → phone frequency decline"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#core-principles-weve-discovered",
-    "href": "12_wrap-up/12_wrap-up.html#core-principles-weve-discovered",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Core principles we’ve discovered",
-    "text": "Core principles we’ve discovered\n\nNo synonymy principle: Formal differences signal meaning differences\n\ncardiovascular vs cardio have different semantic profiles despite similar denotation\n\nUsage-based dynamics: Frequency patterns reveal entrenchment\n\nsmartphone shows S-curve diffusion pattern from innovation to conventionalisation\n\nDistributional meaning: Context shapes and constrains interpretation\n\nbro vs brother have different collocational patterns reflecting distinct social functions\n\nSystematic variation: Social and situational factors drive patterned differences\n\nautumn vs fall show regional variation, modal verbs show register differences\n\nHistorical layering: Contemporary vocabulary reflects cultural contact and change\n\nEnglish lexicon shows Germanic core + French/Latin borrowings + global loanwords"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#our-analytical-toolkit",
-    "href": "12_wrap-up/12_wrap-up.html#our-analytical-toolkit",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Our analytical toolkit",
-    "text": "Our analytical toolkit\n\n\nDictionary methods\n\nOED etymological analysis\nHistorical attestation patterns\nCross-linguistic comparison\n\nCorpus linguistics\n\nFrequency analysis (raw, normalized)\nCollocations and word sketches\nTemporal variation tracking\nRegister/genre differences\n\n\nQuantitative analysis\n\nTables and Pivot Tables\nVisualization techniques\nDescriptive statistics\nCoefficient of Variation\n\nQualitative interpretation\n\nContext-sensitive analysis\nTheory-data integration\nHypothesis testing"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#multi-method-triangulation",
-    "href": "12_wrap-up/12_wrap-up.html#multi-method-triangulation",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Multi-method triangulation",
-    "text": "Multi-method triangulation\n\nExample: Modal verb change\n\nDictionary: Semantic evolution of must vs have to\nCorpus: COHA frequency patterns 1850-2000\n\nStatistics: Variation coefficients across text types\nTheory: Grammaticalization and register specialization\n\n\n\nResult: Converging evidence for systematic functional differentiation"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#example-1-tracking-lexical-obsolescence",
-    "href": "12_wrap-up/12_wrap-up.html#example-1-tracking-lexical-obsolescence",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Example 1: Tracking lexical obsolescence",
-    "text": "Example 1: Tracking lexical obsolescence\n\n\n\nThe case of telephone\n\nOED: First attested 1844\nCOCA analysis: Peak usage 1990s\nCurrent trend: Replaced by phone\nMethod: Frequency tracking over time\n\n\n\nThe case of walkman\n\nTechnology-specific term\nClear rise and fall pattern\nCultural obsolescence → lexical obsolescence\nMethod: Historical corpus analysis"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#example-2-semantic-innovation-with-bro",
-    "href": "12_wrap-up/12_wrap-up.html#example-2-semantic-innovation-with-bro",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Example 2: Semantic innovation with bro",
-    "text": "Example 2: Semantic innovation with bro\n\nFrom kinship to solidarity marker\n\nOriginal meaning: ‘brother’ (family relation)\nNew meaning: ‘close male friend’ (social relation)\nCorpus evidence:\n\nText type specialization\nDifferent collocational patterns\n\nMethod: Distributional semantic analysis"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#example-3-innovation-diffusion-patterns",
-    "href": "12_wrap-up/12_wrap-up.html#example-3-innovation-diffusion-patterns",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Example 3: Innovation diffusion patterns",
-    "text": "Example 3: Innovation diffusion patterns\n\nThe S-curve model in practice\n\nSlow start: Few early adopters\nRapid growth: Social network effects\n\nPlateau: Market saturation\nApplications: smartphone, Covid-19, selfie"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#example-4-corpus-analysis-methods",
-    "href": "12_wrap-up/12_wrap-up.html#example-4-corpus-analysis-methods",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Example 4: Corpus analysis methods",
-    "text": "Example 4: Corpus analysis methods\n\nSketch Engine frequency analysis\n\nCreating your own corpora\nQuerying corpora\nFrequency analysis: linguistic patterns, change, and variation\nCollocations and word sketches"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#beyond-lexicology",
-    "href": "12_wrap-up/12_wrap-up.html#beyond-lexicology",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Beyond lexicology",
-    "text": "Beyond lexicology\nWhere these skills apply:\n\nSociolinguistics: Variation patterns in any linguistic feature\n\nain’t vs am not across education levels\n\nHistorical linguistics: Change mechanisms across language levels\n\nCOHA collocates of gay showing semantic shift over time\n\nCorpus linguistics: Empirical validation of theoretical claims\n\nword sketch comparison of bro vs brother in Sketch Engine\n\nApplied linguistics: Language teaching and lexicography\n\ndesigning vocabulary lists and exercises based on corpus data\n\nDigital humanities: Text mining and cultural analytics\n\nsocial network analysis of hashtag diffusion on Twitter\n\nDiscourse analysis: Context-meaning relationships\n\ncollocation analysis of problem across text types"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#research-questions-we-can-now-tackle",
-    "href": "12_wrap-up/12_wrap-up.html#research-questions-we-can-now-tackle",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Research questions we can now tackle",
-    "text": "Research questions we can now tackle\n\nHow do semantic neologisms spread through online communities?\nWhat social factors drive lexical innovation in specific domains?\nHow does register variation interact with historical change?\nWhat cognitive mechanisms underlie entrenchment processes?\nHow do contact situations shape borrowing patterns?"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#case-studies-your-term-papers",
-    "href": "12_wrap-up/12_wrap-up.html#case-studies-your-term-papers",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Case studies: Your term papers",
-    "text": "Case studies: Your term papers\n\n\nWhat you investigated:\n\nRegional lexical variation\nSemantic change in social media\nWord-formation productivity\nGenre-specific vocabularies\nBorrowing patterns\n\n\nHow you could do it:\n\nApply corpus methods to your own data\nIntegrate multiple data sources\n\nUse appropriate statistical measures\nConnect findings to theory\nCritically interpret results"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#emerging-research-areas",
-    "href": "12_wrap-up/12_wrap-up.html#emerging-research-areas",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Emerging research areas",
-    "text": "Emerging research areas\nDigital lexicology\n\nSocial media as innovation hub\nReal-time tracking of semantic change\nLarge-scale diachronic analysis\nDomain-specific dictionaries and corpora\n\nCognitive approaches\n\nPsycholinguistic validation of corpus patterns\nIntra-individual and inter-individual variation\nCommunity-level variation"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#continuing-your-lexicological-journey",
-    "href": "12_wrap-up/12_wrap-up.html#continuing-your-lexicological-journey",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Continuing your lexicological journey",
-    "text": "Continuing your lexicological journey\nAdvanced courses\n\nCorpus Linguistics: Methodological deepening\nHistorical Linguistics: Change mechanisms\n\nSociolinguistics: Variation theory\nCognitive Linguistics: Usage-based approaches"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#tools-for-continued-learning",
-    "href": "12_wrap-up/12_wrap-up.html#tools-for-continued-learning",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Tools for continued learning",
-    "text": "Tools for continued learning\n\nCorpus platforms: Sketch Engine, COCA, Google Books Ngrams\nDictionaries: OED, Wiktionary, Merriam-Webster\nReference works: Oxford Handbook of Lexicology, Handbook of Word-Formation\nJournals: Applied Linguistics, English Language and Linguistics, Corpus Linguistics and Linguistic Theory"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#course-evaluation",
-    "href": "12_wrap-up/12_wrap-up.html#course-evaluation",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Course evaluation",
-    "text": "Course evaluation\n\nWhat worked well?\nWhat could be improved?\nSuggestions for future iterations?"
-  },
-  {
-    "objectID": "12_wrap-up/12_wrap-up.html#final-thoughts",
-    "href": "12_wrap-up/12_wrap-up.html#final-thoughts",
-    "title": "Lexicology: Synthesis and Wrap-up",
-    "section": "Final thoughts",
-    "text": "Final thoughts\n\nThe vocabulary of a language is not simply a list of words, but a structured system that reflects the history, culture, and cognitive patterns of its speakers.\n\nYou now have the tools to:\n\nAnalyze lexical patterns systematically\n\nApply empirical methods rigorously\nInterpret variation and change theoretically\nConnect linguistic data to broader questions\n\n\nThank you for participating in my course!\n\nEnd with practical information about:\n\nFinal paper deadlines\nOffice hours for consultation\n\nCourse certificates/grades\nFollow-up course recommendations"
+    "objectID": "12_wrap-up/12-wrap-up.html",
+    "href": "12_wrap-up/12-wrap-up.html",
+    "title": "Lexicology 251",
+    "section": "",
+    "text": "Sociolinguistics: Variation patterns in any linguistic feature\n\nain’t vs am not across education levels\n\nHistorical linguistics: Change mechanisms across language levels\n\nCOHA collocates of gay showing semantic shift over time\n\nCorpus linguistics: Empirical validation of theoretical claims\n\nword sketch comparison of bro vs brother in Sketch Engine\n\nApplied linguistics: Language teaching and lexicography\n\ndesigning vocabulary lessons using learner’s dictionary entries for house, algorithm, and selfie, comparing definitions and usage examples\n\nDigital humanities: Text mining and cultural analytics\n\nsocial network analysis of hashtag diffusion on Twitter\n\nDiscourse analysis: Context-meaning relationships\n\ncollocation analysis of problem across academic vs social media registers"
   }
 ]
